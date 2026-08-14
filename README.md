@@ -4,10 +4,11 @@ A benchmark framework for evaluating language models fine-tuned for Persian
 (built on top of `gpt-oss-20b`), with special focus on the quality and
 stability of Persian chain-of-thought (CoT) reasoning.
 
-## Current status: infrastructure + Math + BBH-lite + Jalali calendar tasks
+## Current status: infrastructure + Math + BBH-lite + Jalali calendar + IFEval-lite tasks
 
 This version includes the **shared infrastructure** of the project plus
-three **Phase 1 tasks**: Math, BBH-lite (logic), and Jalali calendar.
+four **Phase 1 tasks**: Math, BBH-lite (logic), Jalali calendar, and
+IFEval-lite.
 
 ### Math task
 - 199 problems from OpenMathReasoning, translated to Persian (1 sample was
@@ -52,6 +53,26 @@ methodology.
 See `docs/tasks/jalali_calendar_task.md` for full details on data format
 and scoring methodology.
 
+### IFEval-lite task
+- 120 fully synthetic samples: 40 hand-picked Persian topics × 3
+  rule-verifiable instruction constraints each (`length_constraint`,
+  `keyword_constraint`, `position_constraint`).
+- Samples have **no `gold_answer`**. Instead, each carries a structured
+  constraint spec under `extra.constraint`, checked by a rule-based
+  verifier (`src/utils/instruction_utils.py`) — no judge model involved.
+  `persian_stability` is still applied; `verifiable_reasoning` is not.
+- `scripts/generate_ifeval_lite_data.py` produces the raw source file;
+  `scripts/prepare_ifeval_task.py` converts it into the executable
+  `data/tasks/ifeval_lite_fa.jsonl` format.
+- This is the only task so far that required a small addition to
+  `src/pipeline/runner.py` (one `elif` branch in `score_sample()`), since
+  rule-based constraint checking is a genuinely different scoring path
+  from exact-match or judge rubrics. See `docs/tasks/ifeval_task.md` for
+  details.
+
+See `docs/tasks/ifeval_task.md` for full details on data format and
+scoring methodology.
+
 ## Project structure
 
 ```
@@ -70,7 +91,8 @@ FARMA/
 │   │   ├── rubric_judge.py             # Judge for the verifiable_reasoning rubric
 │   │   └── persian_stability_judge.py  # Judge for the persian_stability rubric
 │   ├── utils/
-│   │   └── text_utils.py           # Rule-based helpers: code-switching, answer extraction, normalization
+│   │   ├── text_utils.py           # Rule-based helpers: code-switching, answer extraction, normalization
+│   │   └── instruction_utils.py    # Rule-based IFEval-lite constraint checkers
 │   └── pipeline/
 │       ├── schemas.py              # Data models (TaskSample, ModelGeneration, ScoredResult)
 │       ├── runner.py               # Generic runner: generates model output + applies rubrics
@@ -79,7 +101,9 @@ FARMA/
 │   ├── prepare_math_task.py                # Converts raw math data into task-ready jsonl
 │   ├── prepare_bbh_task.py                 # Converts raw BBH-lite data into task-ready jsonl
 │   ├── generate_jalali_calendar_data.py    # Generates the raw Jalali calendar data
-│   └── prepare_jalali_task.py              # Converts raw Jalali calendar data into task-ready jsonl
+│   ├── prepare_jalali_task.py              # Converts raw Jalali calendar data into task-ready jsonl
+│   ├── generate_ifeval_lite_data.py        # Generates the raw IFEval-lite data
+│   └── prepare_ifeval_task.py              # Converts raw IFEval-lite data into task-ready jsonl
 ├── data/
 │   ├── raw_sources/      # Raw, unprocessed source data per task
 │   ├── tasks/            # Task-ready jsonl files (input to the runner)
@@ -88,7 +112,8 @@ FARMA/
 ├── docs/
 │   └── tasks/             # One methodology doc per task
 ├── tests/
-│   └── test_text_utils.py
+│   ├── test_text_utils.py
+│   └── test_instruction_utils.py
 ├── requirements.txt
 ├── .env.example
 └── .gitignore
@@ -154,7 +179,8 @@ pytest tests/ -v
 - [x] Phase 1 — Math (done)
 - [x] Phase 1 — BBH-lite (logic) (done)
 - [x] Phase 1 — Jalali calendar (done)
-- [ ] Phase 1 — IFEval-lite, Aroozi (meter)
+- [x] Phase 1 — IFEval-lite (done)
+- [ ] Phase 1 — Aroozi (meter)
 - [ ] Phase 2 — MMLU-lite, script disambiguation, proverbs, wordplay (ieham)
 - [ ] Phase 3 — Minimal pairs, contradiction & consistency, abstention, paraphrase robustness, multi-constraint
 - [ ] Phase 4 — Persian controllability, deep brainstorm

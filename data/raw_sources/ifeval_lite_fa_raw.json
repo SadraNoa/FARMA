@@ -1,0 +1,1149 @@
+[
+  {
+    "category": "length_constraint",
+    "topic": "تغییرات آب‌وهوا",
+    "question": "درباره‌ی «تغییرات آب‌وهوا» بنویس. پاسخ باید دقیقاً ۵ جمله داشته باشد؛ نه بیشتر و نه کمتر.",
+    "constraint": {
+      "type": "sentence_count",
+      "mode": "exact",
+      "value": 5
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "تغییرات آب‌وهوا",
+    "question": "درباره‌ی «تغییرات آب‌وهوا» بنویس. پاسخ باید حتماً حاوی کلمه‌ی «پرنده» باشد.",
+    "constraint": {
+      "type": "must_include",
+      "word": "پرنده",
+      "count": 1
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "تغییرات آب‌وهوا",
+    "question": "درباره‌ی «تغییرات آب‌وهوا» بنویس. پاسخ باید دقیقاً با کلمه‌ی «امروز» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "امروز"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "اهمیت خواب کافی",
+    "question": "درباره‌ی «اهمیت خواب کافی» بنویس. پاسخ باید حداقل ۴۹ کلمه داشته باشد.",
+    "constraint": {
+      "type": "word_count",
+      "mode": "at_least",
+      "value": 49
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "اهمیت خواب کافی",
+    "question": "درباره‌ی «اهمیت خواب کافی» بنویس. کلمه‌ی «باران» باید دقیقاً ۳ بار در پاسخ تکرار شود.",
+    "constraint": {
+      "type": "must_include_exact_count",
+      "word": "باران",
+      "count": 3
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "اهمیت خواب کافی",
+    "question": "درباره‌ی «اهمیت خواب کافی» بنویس. پاسخ باید دقیقاً با کلمه‌ی «است» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "است"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "مزایای مطالعه‌ی کتاب",
+    "question": "درباره‌ی «مزایای مطالعه‌ی کتاب» بنویس. پاسخ باید دقیقاً در ۴ پاراگراف نوشته شود؛ هر پاراگراف را با یک خط خالی از پاراگراف بعدی جدا کن.",
+    "constraint": {
+      "type": "paragraph_count",
+      "mode": "exact",
+      "value": 4
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "مزایای مطالعه‌ی کتاب",
+    "question": "درباره‌ی «مزایای مطالعه‌ی کتاب» بنویس. در پاسخ خود هرگز از کلمه‌ی «درواقع» استفاده نکن.",
+    "constraint": {
+      "type": "must_exclude",
+      "word": "درواقع"
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "مزایای مطالعه‌ی کتاب",
+    "question": "درباره‌ی «مزایای مطالعه‌ی کتاب» بنویس. پاسخ باید دقیقاً با کلمه‌ی «واقعیت» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "واقعیت"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "تاریخچه‌ی جاده ابریشم",
+    "question": "درباره‌ی «تاریخچه‌ی جاده ابریشم» بنویس. پاسخ باید دقیقاً ۳ جمله داشته باشد؛ نه بیشتر و نه کمتر.",
+    "constraint": {
+      "type": "sentence_count",
+      "mode": "exact",
+      "value": 3
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "تاریخچه‌ی جاده ابریشم",
+    "question": "درباره‌ی «تاریخچه‌ی جاده ابریشم» بنویس. پاسخ باید حتماً حاوی کلمه‌ی «کتاب» باشد.",
+    "constraint": {
+      "type": "must_include",
+      "word": "کتاب",
+      "count": 1
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "تاریخچه‌ی جاده ابریشم",
+    "question": "درباره‌ی «تاریخچه‌ی جاده ابریشم» بنویس. پاسخ باید دقیقاً با کلمه‌ی «می‌شود» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "می‌شود"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "زندگی در شهرهای بزرگ در مقابل روستا",
+    "question": "درباره‌ی «زندگی در شهرهای بزرگ در مقابل روستا» بنویس. پاسخ باید حداقل ۴۴ کلمه داشته باشد.",
+    "constraint": {
+      "type": "word_count",
+      "mode": "at_least",
+      "value": 44
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "زندگی در شهرهای بزرگ در مقابل روستا",
+    "question": "درباره‌ی «زندگی در شهرهای بزرگ در مقابل روستا» بنویس. کلمه‌ی «باغ» باید دقیقاً ۲ بار در پاسخ تکرار شود.",
+    "constraint": {
+      "type": "must_include_exact_count",
+      "word": "باغ",
+      "count": 2
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "زندگی در شهرهای بزرگ در مقابل روستا",
+    "question": "درباره‌ی «زندگی در شهرهای بزرگ در مقابل روستا» بنویس. پاسخ باید دقیقاً با کلمه‌ی «نخست» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "نخست"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "اهمیت یادگیری زبان دوم",
+    "question": "درباره‌ی «اهمیت یادگیری زبان دوم» بنویس. پاسخ باید دقیقاً در ۳ پاراگراف نوشته شود؛ هر پاراگراف را با یک خط خالی از پاراگراف بعدی جدا کن.",
+    "constraint": {
+      "type": "paragraph_count",
+      "mode": "exact",
+      "value": 3
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "اهمیت یادگیری زبان دوم",
+    "question": "درباره‌ی «اهمیت یادگیری زبان دوم» بنویس. در پاسخ خود هرگز از کلمه‌ی «قطعاً» استفاده نکن.",
+    "constraint": {
+      "type": "must_exclude",
+      "word": "قطعاً"
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "اهمیت یادگیری زبان دوم",
+    "question": "درباره‌ی «اهمیت یادگیری زبان دوم» بنویس. پاسخ باید دقیقاً با کلمه‌ی «خواهدشد» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "خواهدشد"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "تأثیر شبکه‌های اجتماعی بر جوانان",
+    "question": "درباره‌ی «تأثیر شبکه‌های اجتماعی بر جوانان» بنویس. پاسخ باید دقیقاً ۳ جمله داشته باشد؛ نه بیشتر و نه کمتر.",
+    "constraint": {
+      "type": "sentence_count",
+      "mode": "exact",
+      "value": 3
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "تأثیر شبکه‌های اجتماعی بر جوانان",
+    "question": "درباره‌ی «تأثیر شبکه‌های اجتماعی بر جوانان» بنویس. پاسخ باید حتماً حاوی کلمه‌ی «باران» باشد.",
+    "constraint": {
+      "type": "must_include",
+      "word": "باران",
+      "count": 1
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "تأثیر شبکه‌های اجتماعی بر جوانان",
+    "question": "درباره‌ی «تأثیر شبکه‌های اجتماعی بر جوانان» بنویس. پاسخ باید دقیقاً با کلمه‌ی «زندگی» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "زندگی"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "فواید ورزش منظم",
+    "question": "درباره‌ی «فواید ورزش منظم» بنویس. پاسخ باید حداقل ۷۲ کلمه داشته باشد.",
+    "constraint": {
+      "type": "word_count",
+      "mode": "at_least",
+      "value": 72
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "فواید ورزش منظم",
+    "question": "درباره‌ی «فواید ورزش منظم» بنویس. کلمه‌ی «کلید» باید دقیقاً ۲ بار در پاسخ تکرار شود.",
+    "constraint": {
+      "type": "must_include_exact_count",
+      "word": "کلید",
+      "count": 2
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "فواید ورزش منظم",
+    "question": "درباره‌ی «فواید ورزش منظم» بنویس. پاسخ باید دقیقاً با کلمه‌ی «می‌کند» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "می‌کند"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "آینده‌ی خودروهای برقی",
+    "question": "درباره‌ی «آینده‌ی خودروهای برقی» بنویس. پاسخ باید دقیقاً در ۲ پاراگراف نوشته شود؛ هر پاراگراف را با یک خط خالی از پاراگراف بعدی جدا کن.",
+    "constraint": {
+      "type": "paragraph_count",
+      "mode": "exact",
+      "value": 2
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "آینده‌ی خودروهای برقی",
+    "question": "درباره‌ی «آینده‌ی خودروهای برقی» بنویس. در پاسخ خود هرگز از کلمه‌ی «طبیعتاً» استفاده نکن.",
+    "constraint": {
+      "type": "must_exclude",
+      "word": "طبیعتاً"
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "آینده‌ی خودروهای برقی",
+    "question": "درباره‌ی «آینده‌ی خودروهای برقی» بنویس. پاسخ باید دقیقاً با کلمه‌ی «معمولاً» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "معمولاً"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "اهمیت بازیافت زباله",
+    "question": "درباره‌ی «اهمیت بازیافت زباله» بنویس. پاسخ باید دقیقاً ۳ جمله داشته باشد؛ نه بیشتر و نه کمتر.",
+    "constraint": {
+      "type": "sentence_count",
+      "mode": "exact",
+      "value": 3
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "اهمیت بازیافت زباله",
+    "question": "درباره‌ی «اهمیت بازیافت زباله» بنویس. پاسخ باید حتماً حاوی کلمه‌ی «باغ» باشد.",
+    "constraint": {
+      "type": "must_include",
+      "word": "باغ",
+      "count": 1
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "اهمیت بازیافت زباله",
+    "question": "درباره‌ی «اهمیت بازیافت زباله» بنویس. پاسخ باید دقیقاً با کلمه‌ی «تمام» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "تمام"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "غذاهای سنتی ایرانی",
+    "question": "درباره‌ی «غذاهای سنتی ایرانی» بنویس. پاسخ باید حداقل ۶۷ کلمه داشته باشد.",
+    "constraint": {
+      "type": "word_count",
+      "mode": "at_least",
+      "value": 67
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "غذاهای سنتی ایرانی",
+    "question": "درباره‌ی «غذاهای سنتی ایرانی» بنویس. کلمه‌ی «جاده» باید دقیقاً ۳ بار در پاسخ تکرار شود.",
+    "constraint": {
+      "type": "must_include_exact_count",
+      "word": "جاده",
+      "count": 3
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "غذاهای سنتی ایرانی",
+    "question": "درباره‌ی «غذاهای سنتی ایرانی» بنویس. پاسخ باید دقیقاً با کلمه‌ی «امروز» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "امروز"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "سفر به اصفهان",
+    "question": "درباره‌ی «سفر به اصفهان» بنویس. پاسخ باید دقیقاً در ۲ پاراگراف نوشته شود؛ هر پاراگراف را با یک خط خالی از پاراگراف بعدی جدا کن.",
+    "constraint": {
+      "type": "paragraph_count",
+      "mode": "exact",
+      "value": 2
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "سفر به اصفهان",
+    "question": "درباره‌ی «سفر به اصفهان» بنویس. در پاسخ خود هرگز از کلمه‌ی «احتمالاً» استفاده نکن.",
+    "constraint": {
+      "type": "must_exclude",
+      "word": "احتمالاً"
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "سفر به اصفهان",
+    "question": "درباره‌ی «سفر به اصفهان» بنویس. پاسخ باید دقیقاً با کلمه‌ی «است» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "است"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "تأثیر هوش مصنوعی بر بازار کار",
+    "question": "درباره‌ی «تأثیر هوش مصنوعی بر بازار کار» بنویس. پاسخ باید دقیقاً ۴ جمله داشته باشد؛ نه بیشتر و نه کمتر.",
+    "constraint": {
+      "type": "sentence_count",
+      "mode": "exact",
+      "value": 4
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "تأثیر هوش مصنوعی بر بازار کار",
+    "question": "درباره‌ی «تأثیر هوش مصنوعی بر بازار کار» بنویس. پاسخ باید حتماً حاوی کلمه‌ی «کلید» باشد.",
+    "constraint": {
+      "type": "must_include",
+      "word": "کلید",
+      "count": 1
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "تأثیر هوش مصنوعی بر بازار کار",
+    "question": "درباره‌ی «تأثیر هوش مصنوعی بر بازار کار» بنویس. پاسخ باید دقیقاً با کلمه‌ی «واقعیت» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "واقعیت"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "اهمیت صرفه‌جویی در مصرف آب",
+    "question": "درباره‌ی «اهمیت صرفه‌جویی در مصرف آب» بنویس. پاسخ باید حداقل ۴۵ کلمه داشته باشد.",
+    "constraint": {
+      "type": "word_count",
+      "mode": "at_least",
+      "value": 45
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "اهمیت صرفه‌جویی در مصرف آب",
+    "question": "درباره‌ی «اهمیت صرفه‌جویی در مصرف آب» بنویس. کلمه‌ی «قلم» باید دقیقاً ۳ بار در پاسخ تکرار شود.",
+    "constraint": {
+      "type": "must_include_exact_count",
+      "word": "قلم",
+      "count": 3
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "اهمیت صرفه‌جویی در مصرف آب",
+    "question": "درباره‌ی «اهمیت صرفه‌جویی در مصرف آب» بنویس. پاسخ باید دقیقاً با کلمه‌ی «می‌شود» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "می‌شود"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "زندگی در دوران باستان ایران",
+    "question": "درباره‌ی «زندگی در دوران باستان ایران» بنویس. پاسخ باید دقیقاً در ۲ پاراگراف نوشته شود؛ هر پاراگراف را با یک خط خالی از پاراگراف بعدی جدا کن.",
+    "constraint": {
+      "type": "paragraph_count",
+      "mode": "exact",
+      "value": 2
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "زندگی در دوران باستان ایران",
+    "question": "درباره‌ی «زندگی در دوران باستان ایران» بنویس. در پاسخ خود هرگز از کلمه‌ی «همچنین» استفاده نکن.",
+    "constraint": {
+      "type": "must_exclude",
+      "word": "همچنین"
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "زندگی در دوران باستان ایران",
+    "question": "درباره‌ی «زندگی در دوران باستان ایران» بنویس. پاسخ باید دقیقاً با کلمه‌ی «نخست» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "نخست"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "فواید یوگا و مدیتیشن",
+    "question": "درباره‌ی «فواید یوگا و مدیتیشن» بنویس. پاسخ باید دقیقاً ۳ جمله داشته باشد؛ نه بیشتر و نه کمتر.",
+    "constraint": {
+      "type": "sentence_count",
+      "mode": "exact",
+      "value": 3
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "فواید یوگا و مدیتیشن",
+    "question": "درباره‌ی «فواید یوگا و مدیتیشن» بنویس. پاسخ باید حتماً حاوی کلمه‌ی «جاده» باشد.",
+    "constraint": {
+      "type": "must_include",
+      "word": "جاده",
+      "count": 1
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "فواید یوگا و مدیتیشن",
+    "question": "درباره‌ی «فواید یوگا و مدیتیشن» بنویس. پاسخ باید دقیقاً با کلمه‌ی «خواهدشد» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "خواهدشد"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "چالش‌های کار از راه دور",
+    "question": "درباره‌ی «چالش‌های کار از راه دور» بنویس. پاسخ باید حداقل ۵۴ کلمه داشته باشد.",
+    "constraint": {
+      "type": "word_count",
+      "mode": "at_least",
+      "value": 54
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "چالش‌های کار از راه دور",
+    "question": "درباره‌ی «چالش‌های کار از راه دور» بنویس. کلمه‌ی «دریا» باید دقیقاً ۲ بار در پاسخ تکرار شود.",
+    "constraint": {
+      "type": "must_include_exact_count",
+      "word": "دریا",
+      "count": 2
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "چالش‌های کار از راه دور",
+    "question": "درباره‌ی «چالش‌های کار از راه دور» بنویس. پاسخ باید دقیقاً با کلمه‌ی «زندگی» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "زندگی"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "تأثیر موسیقی بر روحیه‌ی انسان",
+    "question": "درباره‌ی «تأثیر موسیقی بر روحیه‌ی انسان» بنویس. پاسخ باید دقیقاً در ۴ پاراگراف نوشته شود؛ هر پاراگراف را با یک خط خالی از پاراگراف بعدی جدا کن.",
+    "constraint": {
+      "type": "paragraph_count",
+      "mode": "exact",
+      "value": 4
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "تأثیر موسیقی بر روحیه‌ی انسان",
+    "question": "درباره‌ی «تأثیر موسیقی بر روحیه‌ی انسان» بنویس. در پاسخ خود هرگز از کلمه‌ی «اساساً» استفاده نکن.",
+    "constraint": {
+      "type": "must_exclude",
+      "word": "اساساً"
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "تأثیر موسیقی بر روحیه‌ی انسان",
+    "question": "درباره‌ی «تأثیر موسیقی بر روحیه‌ی انسان» بنویس. پاسخ باید دقیقاً با کلمه‌ی «می‌کند» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "می‌کند"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "اهمیت آموزش آنلاین",
+    "question": "درباره‌ی «اهمیت آموزش آنلاین» بنویس. پاسخ باید دقیقاً ۶ جمله داشته باشد؛ نه بیشتر و نه کمتر.",
+    "constraint": {
+      "type": "sentence_count",
+      "mode": "exact",
+      "value": 6
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "اهمیت آموزش آنلاین",
+    "question": "درباره‌ی «اهمیت آموزش آنلاین» بنویس. پاسخ باید حتماً حاوی کلمه‌ی «قلم» باشد.",
+    "constraint": {
+      "type": "must_include",
+      "word": "قلم",
+      "count": 1
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "اهمیت آموزش آنلاین",
+    "question": "درباره‌ی «اهمیت آموزش آنلاین» بنویس. پاسخ باید دقیقاً با کلمه‌ی «معمولاً» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "معمولاً"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "حفاظت از گونه‌های در حال انقراض",
+    "question": "درباره‌ی «حفاظت از گونه‌های در حال انقراض» بنویس. پاسخ باید حداقل ۴۳ کلمه داشته باشد.",
+    "constraint": {
+      "type": "word_count",
+      "mode": "at_least",
+      "value": 43
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "حفاظت از گونه‌های در حال انقراض",
+    "question": "درباره‌ی «حفاظت از گونه‌های در حال انقراض» بنویس. کلمه‌ی «چای» باید دقیقاً ۲ بار در پاسخ تکرار شود.",
+    "constraint": {
+      "type": "must_include_exact_count",
+      "word": "چای",
+      "count": 2
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "حفاظت از گونه‌های در حال انقراض",
+    "question": "درباره‌ی «حفاظت از گونه‌های در حال انقراض» بنویس. پاسخ باید دقیقاً با کلمه‌ی «تمام» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "تمام"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "فرهنگ چای‌خوری در ایران",
+    "question": "درباره‌ی «فرهنگ چای‌خوری در ایران» بنویس. پاسخ باید دقیقاً در ۲ پاراگراف نوشته شود؛ هر پاراگراف را با یک خط خالی از پاراگراف بعدی جدا کن.",
+    "constraint": {
+      "type": "paragraph_count",
+      "mode": "exact",
+      "value": 2
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "فرهنگ چای‌خوری در ایران",
+    "question": "درباره‌ی «فرهنگ چای‌خوری در ایران» بنویس. در پاسخ خود هرگز از کلمه‌ی «متأسفانه» استفاده نکن.",
+    "constraint": {
+      "type": "must_exclude",
+      "word": "متأسفانه"
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "فرهنگ چای‌خوری در ایران",
+    "question": "درباره‌ی «فرهنگ چای‌خوری در ایران» بنویس. پاسخ باید دقیقاً با کلمه‌ی «امروز» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "امروز"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "تأثیر بازی‌های ویدیویی بر کودکان",
+    "question": "درباره‌ی «تأثیر بازی‌های ویدیویی بر کودکان» بنویس. پاسخ باید دقیقاً ۴ جمله داشته باشد؛ نه بیشتر و نه کمتر.",
+    "constraint": {
+      "type": "sentence_count",
+      "mode": "exact",
+      "value": 4
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "تأثیر بازی‌های ویدیویی بر کودکان",
+    "question": "درباره‌ی «تأثیر بازی‌های ویدیویی بر کودکان» بنویس. پاسخ باید حتماً حاوی کلمه‌ی «دریا» باشد.",
+    "constraint": {
+      "type": "must_include",
+      "word": "دریا",
+      "count": 1
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "تأثیر بازی‌های ویدیویی بر کودکان",
+    "question": "درباره‌ی «تأثیر بازی‌های ویدیویی بر کودکان» بنویس. پاسخ باید دقیقاً با کلمه‌ی «است» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "است"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "اهمیت کشاورزی پایدار",
+    "question": "درباره‌ی «اهمیت کشاورزی پایدار» بنویس. پاسخ باید حداقل ۵۸ کلمه داشته باشد.",
+    "constraint": {
+      "type": "word_count",
+      "mode": "at_least",
+      "value": 58
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "اهمیت کشاورزی پایدار",
+    "question": "درباره‌ی «اهمیت کشاورزی پایدار» بنویس. کلمه‌ی «آینه» باید دقیقاً ۳ بار در پاسخ تکرار شود.",
+    "constraint": {
+      "type": "must_include_exact_count",
+      "word": "آینه",
+      "count": 3
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "اهمیت کشاورزی پایدار",
+    "question": "درباره‌ی «اهمیت کشاورزی پایدار» بنویس. پاسخ باید دقیقاً با کلمه‌ی «واقعیت» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "واقعیت"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "تاریخچه‌ی نوروز",
+    "question": "درباره‌ی «تاریخچه‌ی نوروز» بنویس. پاسخ باید دقیقاً در ۲ پاراگراف نوشته شود؛ هر پاراگراف را با یک خط خالی از پاراگراف بعدی جدا کن.",
+    "constraint": {
+      "type": "paragraph_count",
+      "mode": "exact",
+      "value": 2
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "تاریخچه‌ی نوروز",
+    "question": "درباره‌ی «تاریخچه‌ی نوروز» بنویس. در پاسخ خود هرگز از کلمه‌ی «بنابراین» استفاده نکن.",
+    "constraint": {
+      "type": "must_exclude",
+      "word": "بنابراین"
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "تاریخچه‌ی نوروز",
+    "question": "درباره‌ی «تاریخچه‌ی نوروز» بنویس. پاسخ باید دقیقاً با کلمه‌ی «می‌شود» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "می‌شود"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "مزایا و معایب شبکه‌های اجتماعی",
+    "question": "درباره‌ی «مزایا و معایب شبکه‌های اجتماعی» بنویس. پاسخ باید دقیقاً ۳ جمله داشته باشد؛ نه بیشتر و نه کمتر.",
+    "constraint": {
+      "type": "sentence_count",
+      "mode": "exact",
+      "value": 3
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "مزایا و معایب شبکه‌های اجتماعی",
+    "question": "درباره‌ی «مزایا و معایب شبکه‌های اجتماعی» بنویس. پاسخ باید حتماً حاوی کلمه‌ی «چای» باشد.",
+    "constraint": {
+      "type": "must_include",
+      "word": "چای",
+      "count": 1
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "مزایا و معایب شبکه‌های اجتماعی",
+    "question": "درباره‌ی «مزایا و معایب شبکه‌های اجتماعی» بنویس. پاسخ باید دقیقاً با کلمه‌ی «نخست» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "نخست"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "اهمیت بهداشت روان",
+    "question": "درباره‌ی «اهمیت بهداشت روان» بنویس. پاسخ باید حداقل ۷۶ کلمه داشته باشد.",
+    "constraint": {
+      "type": "word_count",
+      "mode": "at_least",
+      "value": 76
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "اهمیت بهداشت روان",
+    "question": "درباره‌ی «اهمیت بهداشت روان» بنویس. کلمه‌ی «پل» باید دقیقاً ۳ بار در پاسخ تکرار شود.",
+    "constraint": {
+      "type": "must_include_exact_count",
+      "word": "پل",
+      "count": 3
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "اهمیت بهداشت روان",
+    "question": "درباره‌ی «اهمیت بهداشت روان» بنویس. پاسخ باید دقیقاً با کلمه‌ی «خواهدشد» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "خواهدشد"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "آینده‌ی انرژی‌های تجدیدپذیر",
+    "question": "درباره‌ی «آینده‌ی انرژی‌های تجدیدپذیر» بنویس. پاسخ باید دقیقاً در ۴ پاراگراف نوشته شود؛ هر پاراگراف را با یک خط خالی از پاراگراف بعدی جدا کن.",
+    "constraint": {
+      "type": "paragraph_count",
+      "mode": "exact",
+      "value": 4
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "آینده‌ی انرژی‌های تجدیدپذیر",
+    "question": "درباره‌ی «آینده‌ی انرژی‌های تجدیدپذیر» بنویس. در پاسخ خود هرگز از کلمه‌ی «خوشبختانه» استفاده نکن.",
+    "constraint": {
+      "type": "must_exclude",
+      "word": "خوشبختانه"
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "آینده‌ی انرژی‌های تجدیدپذیر",
+    "question": "درباره‌ی «آینده‌ی انرژی‌های تجدیدپذیر» بنویس. پاسخ باید دقیقاً با کلمه‌ی «زندگی» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "زندگی"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "سفر به شمال ایران",
+    "question": "درباره‌ی «سفر به شمال ایران» بنویس. پاسخ باید دقیقاً ۴ جمله داشته باشد؛ نه بیشتر و نه کمتر.",
+    "constraint": {
+      "type": "sentence_count",
+      "mode": "exact",
+      "value": 4
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "سفر به شمال ایران",
+    "question": "درباره‌ی «سفر به شمال ایران» بنویس. پاسخ باید حتماً حاوی کلمه‌ی «آینه» باشد.",
+    "constraint": {
+      "type": "must_include",
+      "word": "آینه",
+      "count": 1
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "سفر به شمال ایران",
+    "question": "درباره‌ی «سفر به شمال ایران» بنویس. پاسخ باید دقیقاً با کلمه‌ی «می‌کند» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "می‌کند"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "تأثیر گردشگری بر اقتصاد محلی",
+    "question": "درباره‌ی «تأثیر گردشگری بر اقتصاد محلی» بنویس. پاسخ باید حداقل ۴۶ کلمه داشته باشد.",
+    "constraint": {
+      "type": "word_count",
+      "mode": "at_least",
+      "value": 46
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "تأثیر گردشگری بر اقتصاد محلی",
+    "question": "درباره‌ی «تأثیر گردشگری بر اقتصاد محلی» بنویس. کلمه‌ی «پنجره» باید دقیقاً ۲ بار در پاسخ تکرار شود.",
+    "constraint": {
+      "type": "must_include_exact_count",
+      "word": "پنجره",
+      "count": 2
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "تأثیر گردشگری بر اقتصاد محلی",
+    "question": "درباره‌ی «تأثیر گردشگری بر اقتصاد محلی» بنویس. پاسخ باید دقیقاً با کلمه‌ی «معمولاً» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "معمولاً"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "اهمیت خواندن روزنامه و اخبار",
+    "question": "درباره‌ی «اهمیت خواندن روزنامه و اخبار» بنویس. پاسخ باید دقیقاً در ۳ پاراگراف نوشته شود؛ هر پاراگراف را با یک خط خالی از پاراگراف بعدی جدا کن.",
+    "constraint": {
+      "type": "paragraph_count",
+      "mode": "exact",
+      "value": 3
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "اهمیت خواندن روزنامه و اخبار",
+    "question": "درباره‌ی «اهمیت خواندن روزنامه و اخبار» بنویس. در پاسخ خود هرگز از کلمه‌ی «عملاً» استفاده نکن.",
+    "constraint": {
+      "type": "must_exclude",
+      "word": "عملاً"
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "اهمیت خواندن روزنامه و اخبار",
+    "question": "درباره‌ی «اهمیت خواندن روزنامه و اخبار» بنویس. پاسخ باید دقیقاً با کلمه‌ی «تمام» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "تمام"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "زندگی در فضا",
+    "question": "درباره‌ی «زندگی در فضا» بنویس. پاسخ باید دقیقاً ۳ جمله داشته باشد؛ نه بیشتر و نه کمتر.",
+    "constraint": {
+      "type": "sentence_count",
+      "mode": "exact",
+      "value": 3
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "زندگی در فضا",
+    "question": "درباره‌ی «زندگی در فضا» بنویس. پاسخ باید حتماً حاوی کلمه‌ی «پل» باشد.",
+    "constraint": {
+      "type": "must_include",
+      "word": "پل",
+      "count": 1
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "زندگی در فضا",
+    "question": "درباره‌ی «زندگی در فضا» بنویس. پاسخ باید دقیقاً با کلمه‌ی «امروز» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "امروز"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "فواید باغبانی خانگی",
+    "question": "درباره‌ی «فواید باغبانی خانگی» بنویس. پاسخ باید حداقل ۷۵ کلمه داشته باشد.",
+    "constraint": {
+      "type": "word_count",
+      "mode": "at_least",
+      "value": 75
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "فواید باغبانی خانگی",
+    "question": "درباره‌ی «فواید باغبانی خانگی» بنویس. کلمه‌ی «ابر» باید دقیقاً ۲ بار در پاسخ تکرار شود.",
+    "constraint": {
+      "type": "must_include_exact_count",
+      "word": "ابر",
+      "count": 2
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "فواید باغبانی خانگی",
+    "question": "درباره‌ی «فواید باغبانی خانگی» بنویس. پاسخ باید دقیقاً با کلمه‌ی «است» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "است"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "تأثیر اینترنت اشیا بر زندگی روزمره",
+    "question": "درباره‌ی «تأثیر اینترنت اشیا بر زندگی روزمره» بنویس. پاسخ باید دقیقاً در ۴ پاراگراف نوشته شود؛ هر پاراگراف را با یک خط خالی از پاراگراف بعدی جدا کن.",
+    "constraint": {
+      "type": "paragraph_count",
+      "mode": "exact",
+      "value": 4
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "تأثیر اینترنت اشیا بر زندگی روزمره",
+    "question": "درباره‌ی «تأثیر اینترنت اشیا بر زندگی روزمره» بنویس. در پاسخ خود هرگز از کلمه‌ی «درواقع» استفاده نکن.",
+    "constraint": {
+      "type": "must_exclude",
+      "word": "درواقع"
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "تأثیر اینترنت اشیا بر زندگی روزمره",
+    "question": "درباره‌ی «تأثیر اینترنت اشیا بر زندگی روزمره» بنویس. پاسخ باید دقیقاً با کلمه‌ی «واقعیت» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "واقعیت"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "اهمیت حفظ زبان و ادبیات فارسی",
+    "question": "درباره‌ی «اهمیت حفظ زبان و ادبیات فارسی» بنویس. پاسخ باید دقیقاً ۳ جمله داشته باشد؛ نه بیشتر و نه کمتر.",
+    "constraint": {
+      "type": "sentence_count",
+      "mode": "exact",
+      "value": 3
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "اهمیت حفظ زبان و ادبیات فارسی",
+    "question": "درباره‌ی «اهمیت حفظ زبان و ادبیات فارسی» بنویس. پاسخ باید حتماً حاوی کلمه‌ی «پنجره» باشد.",
+    "constraint": {
+      "type": "must_include",
+      "word": "پنجره",
+      "count": 1
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "اهمیت حفظ زبان و ادبیات فارسی",
+    "question": "درباره‌ی «اهمیت حفظ زبان و ادبیات فارسی» بنویس. پاسخ باید دقیقاً با کلمه‌ی «می‌شود» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "می‌شود"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "چالش‌های کاهش آلودگی هوا",
+    "question": "درباره‌ی «چالش‌های کاهش آلودگی هوا» بنویس. پاسخ باید حداقل ۷۹ کلمه داشته باشد.",
+    "constraint": {
+      "type": "word_count",
+      "mode": "at_least",
+      "value": 79
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "چالش‌های کاهش آلودگی هوا",
+    "question": "درباره‌ی «چالش‌های کاهش آلودگی هوا» بنویس. کلمه‌ی «صندلی» باید دقیقاً ۲ بار در پاسخ تکرار شود.",
+    "constraint": {
+      "type": "must_include_exact_count",
+      "word": "صندلی",
+      "count": 2
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "چالش‌های کاهش آلودگی هوا",
+    "question": "درباره‌ی «چالش‌های کاهش آلودگی هوا» بنویس. پاسخ باید دقیقاً با کلمه‌ی «نخست» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "نخست"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "تأثیر فناوری بر آموزش",
+    "question": "درباره‌ی «تأثیر فناوری بر آموزش» بنویس. پاسخ باید دقیقاً در ۳ پاراگراف نوشته شود؛ هر پاراگراف را با یک خط خالی از پاراگراف بعدی جدا کن.",
+    "constraint": {
+      "type": "paragraph_count",
+      "mode": "exact",
+      "value": 3
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "تأثیر فناوری بر آموزش",
+    "question": "درباره‌ی «تأثیر فناوری بر آموزش» بنویس. در پاسخ خود هرگز از کلمه‌ی «قطعاً» استفاده نکن.",
+    "constraint": {
+      "type": "must_exclude",
+      "word": "قطعاً"
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "تأثیر فناوری بر آموزش",
+    "question": "درباره‌ی «تأثیر فناوری بر آموزش» بنویس. پاسخ باید دقیقاً با کلمه‌ی «خواهدشد» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "خواهدشد"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "اهمیت کار تیمی",
+    "question": "درباره‌ی «اهمیت کار تیمی» بنویس. پاسخ باید دقیقاً ۶ جمله داشته باشد؛ نه بیشتر و نه کمتر.",
+    "constraint": {
+      "type": "sentence_count",
+      "mode": "exact",
+      "value": 6
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "اهمیت کار تیمی",
+    "question": "درباره‌ی «اهمیت کار تیمی» بنویس. پاسخ باید حتماً حاوی کلمه‌ی «ابر» باشد.",
+    "constraint": {
+      "type": "must_include",
+      "word": "ابر",
+      "count": 1
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "اهمیت کار تیمی",
+    "question": "درباره‌ی «اهمیت کار تیمی» بنویس. پاسخ باید دقیقاً با کلمه‌ی «زندگی» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "زندگی"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "تاریخچه‌ی فرش ایرانی",
+    "question": "درباره‌ی «تاریخچه‌ی فرش ایرانی» بنویس. پاسخ باید حداقل ۸۹ کلمه داشته باشد.",
+    "constraint": {
+      "type": "word_count",
+      "mode": "at_least",
+      "value": 89
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "تاریخچه‌ی فرش ایرانی",
+    "question": "درباره‌ی «تاریخچه‌ی فرش ایرانی» بنویس. کلمه‌ی «ستاره» باید دقیقاً ۳ بار در پاسخ تکرار شود.",
+    "constraint": {
+      "type": "must_include_exact_count",
+      "word": "ستاره",
+      "count": 3
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "تاریخچه‌ی فرش ایرانی",
+    "question": "درباره‌ی «تاریخچه‌ی فرش ایرانی» بنویس. پاسخ باید دقیقاً با کلمه‌ی «می‌کند» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "می‌کند"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "مزایای دورکاری برای خانواده‌ها",
+    "question": "درباره‌ی «مزایای دورکاری برای خانواده‌ها» بنویس. پاسخ باید دقیقاً در ۳ پاراگراف نوشته شود؛ هر پاراگراف را با یک خط خالی از پاراگراف بعدی جدا کن.",
+    "constraint": {
+      "type": "paragraph_count",
+      "mode": "exact",
+      "value": 3
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "مزایای دورکاری برای خانواده‌ها",
+    "question": "درباره‌ی «مزایای دورکاری برای خانواده‌ها» بنویس. در پاسخ خود هرگز از کلمه‌ی «طبیعتاً» استفاده نکن.",
+    "constraint": {
+      "type": "must_exclude",
+      "word": "طبیعتاً"
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "مزایای دورکاری برای خانواده‌ها",
+    "question": "درباره‌ی «مزایای دورکاری برای خانواده‌ها» بنویس. پاسخ باید دقیقاً با کلمه‌ی «معمولاً» شروع شود.",
+    "constraint": {
+      "type": "must_start_with",
+      "word": "معمولاً"
+    }
+  },
+  {
+    "category": "length_constraint",
+    "topic": "آینده‌ی شهرهای هوشمند",
+    "question": "درباره‌ی «آینده‌ی شهرهای هوشمند» بنویس. پاسخ باید دقیقاً ۶ جمله داشته باشد؛ نه بیشتر و نه کمتر.",
+    "constraint": {
+      "type": "sentence_count",
+      "mode": "exact",
+      "value": 6
+    }
+  },
+  {
+    "category": "keyword_constraint",
+    "topic": "آینده‌ی شهرهای هوشمند",
+    "question": "درباره‌ی «آینده‌ی شهرهای هوشمند» بنویس. پاسخ باید حتماً حاوی کلمه‌ی «صندلی» باشد.",
+    "constraint": {
+      "type": "must_include",
+      "word": "صندلی",
+      "count": 1
+    }
+  },
+  {
+    "category": "position_constraint",
+    "topic": "آینده‌ی شهرهای هوشمند",
+    "question": "درباره‌ی «آینده‌ی شهرهای هوشمند» بنویس. پاسخ باید دقیقاً با کلمه‌ی «تمام» به پایان برسد.",
+    "constraint": {
+      "type": "must_end_with",
+      "word": "تمام"
+    }
+  }
+]

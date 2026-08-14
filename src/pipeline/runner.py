@@ -23,6 +23,7 @@ from src.pipeline.schemas import TaskSample, ModelGeneration, ScoredResult
 from src.judges.rubric_judge import VerifiableReasoningJudge
 from src.judges.persian_stability_judge import PersianStabilityJudge
 from src.utils.text_utils import extract_final_answer, normalize_fa_text
+from src.utils.instruction_utils import check_constraint
 
 DEFAULT_SYSTEM_PROMPT_FA = (
     "تو یک دستیار هوشمند فارسی‌زبان هستی. به سوال زیر با دقت و به زبان فارسی پاسخ بده. "
@@ -74,6 +75,12 @@ def score_sample(
         result.correctness = int(
             normalize_fa_text(extracted) == normalize_fa_text(sample.gold_answer)
         )
+
+    # درستی مبتنی بر محدودیت قابل‌راستی‌آزمایی با قانون (IFEval-lite)
+    elif sample.extra.get("constraint") is not None:
+        passed, reason_fa = check_constraint(generation.raw_output, sample.extra["constraint"])
+        result.correctness = int(passed)
+        result.notes = reason_fa
 
     # اعمال rubric استدلال قابل‌راستی‌آزمایی
     if sample.apply_verifiable_reasoning_rubric and vr_judge is not None:
