@@ -1,0 +1,752 @@
+[
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۲۷ بهمن ۱۳۷۵ و تاریخ ۱۵ شهریور ۱۳۷۷ فاصله است؟",
+    "answer": "۵۶۸"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۱۳ شهریور ۱۳۷۷ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "4 September 1998"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۳۷۸ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۳۱ اردیبهشت ۱۳۹۶ و تاریخ ۱۶ آبان ۱۳۹۸ فاصله است؟",
+    "answer": "۹۰۰"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 31 August 2023 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۹ شهریور ۱۴۰۲"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۱۹ تیر ۱۳۹۳ و تاریخ ۲۰ اسفند ۱۳۹۴ فاصله است؟",
+    "answer": "۶۰۹"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۱۸ مهر ۱۳۹۷ و تاریخ ۲۸ مهر ۱۳۹۷ فاصله است؟",
+    "answer": "۱۰"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۲۴ اردیبهشت ۱۳۷۸ و تاریخ ۱۱ آذر ۱۳۷۹ فاصله است؟",
+    "answer": "۵۶۷"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۷۳ روز از تاریخ ۸ فروردین ۱۳۸۷ کم کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۲۴ دی ۱۳۸۶"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 9 May 2030 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۱۹ اردیبهشت ۱۴۰۹"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۳۸۴ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۱۲ دی ۱۴۰۴ و تاریخ ۲۸ تیر ۱۴۰۴ فاصله است؟",
+    "answer": "۱۶۷"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۳۷ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۰۸ در تقویم جلالی کبیسه است؟",
+    "answer": "بله"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۲۸ روز به تاریخ ۱۶ بهمن ۱۳۸۸ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۱۴ اسفند ۱۳۸۸"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۰۴ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۳ خرداد ۱۴۰۲ و تاریخ ۴ بهمن ۱۴۰۳ فاصله است؟",
+    "answer": "۶۱۰"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۲۲ آذر ۱۳۷۸ و تاریخ ۱۸ اردیبهشت ۱۳۷۸ فاصله است؟",
+    "answer": "۲۱۹"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 3 May 2010 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۱۳ اردیبهشت ۱۳۸۹"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۸ ماه به تاریخ ۸ آبان ۱۳۹۸ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۸ تیر ۱۳۹۹"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 27 April 2013 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۷ اردیبهشت ۱۳۹۲"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۶ مرداد ۱۳۹۵ و تاریخ ۴ شهریور ۱۳۹۷ فاصله است؟",
+    "answer": "۷۶۰"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۴۴ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۲۹ مرداد ۱۴۰۶ و تاریخ ۲۹ اسفند ۱۴۰۵ فاصله است؟",
+    "answer": "۱۵۳"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۳۴ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۳۱ روز از تاریخ ۳۰ اردیبهشت ۱۳۸۰ کم کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۳۰ فروردین ۱۳۸۰"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۷ مرداد ۱۳۸۱ و تاریخ ۲۷ فروردین ۱۳۸۴ فاصله است؟",
+    "answer": "۹۹۲"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۸ ماه به تاریخ ۹ خرداد ۱۳۹۳ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۹ بهمن ۱۳۹۳"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۲۶ اسفند ۱۳۹۶ و تاریخ ۶ آذر ۱۳۹۷ فاصله است؟",
+    "answer": "۲۵۵"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۱۸ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 20 August 2020 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۳۰ مرداد ۱۳۹۹"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۱۹ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۴ اسفند ۱۳۸۳ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "22 February 2005"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 29 June 2013 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۸ تیر ۱۳۹۲"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۲۹ خرداد ۱۴۰۰ و تاریخ ۲۵ مرداد ۱۴۰۱ فاصله است؟",
+    "answer": "۴۲۳"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۳۱ تیر ۱۳۸۴ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "22 July 2005"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۷۰ روز به تاریخ ۲۱ فروردین ۱۳۸۳ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۲۹ خرداد ۱۳۸۳"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 9 February 2015 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۲۰ بهمن ۱۳۹۳"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۳ ماه از تاریخ ۲۵ آذر ۱۳۸۲ کم کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۲۵ شهریور ۱۳۸۲"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۱۰ ماه از تاریخ ۱ شهریور ۱۳۸۲ کم کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۱ آبان ۱۳۸۱"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 10 April 2000 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۲۲ فروردین ۱۳۷۹"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۴۰ روز به تاریخ ۲۹ شهریور ۱۳۸۳ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۸ آبان ۱۳۸۳"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۸۶ روز به تاریخ ۱۳ مرداد ۱۴۰۲ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۷ آبان ۱۴۰۲"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۹ ماه از تاریخ ۱۵ اردیبهشت ۱۳۸۷ کم کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۱۵ مرداد ۱۳۸۶"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۹ ماه به تاریخ ۳۰ تیر ۱۳۹۳ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۳۰ فروردین ۱۳۹۴"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۱۸ اردیبهشت ۱۳۹۹ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "7 May 2020"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۶ ماه از تاریخ ۲۴ مهر ۱۳۸۱ کم کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۲۴ فروردین ۱۳۸۱"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۲۶ شهریور ۱۳۹۸ و تاریخ ۸ اردیبهشت ۱۴۰۱ فاصله است؟",
+    "answer": "۹۵۴"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۲۳ خرداد ۱۳۷۵ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "12 June 1996"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۲۱ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۲۹ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۱۵ خرداد ۱۳۹۰ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "5 June 2011"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۲۵ روز به تاریخ ۸ اردیبهشت ۱۴۰۵ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۲ خرداد ۱۴۰۵"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۱۱ بهمن ۱۳۹۳ و تاریخ ۲ خرداد ۱۳۹۱ فاصله است؟",
+    "answer": "۹۸۴"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۴۱ در تقویم جلالی کبیسه است؟",
+    "answer": "بله"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۲۰ مهر ۱۴۰۳ و تاریخ ۲۷ آبان ۱۴۰۵ فاصله است؟",
+    "answer": "۷۶۸"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۲۱ دی ۱۳۷۹ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "10 January 2001"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 15 December 2006 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۲۴ آذر ۱۳۸۵"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۷ دی ۱۳۹۸ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "28 December 2019"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۱۹ شهریور ۱۴۰۱ و تاریخ ۱۰ فروردین ۱۴۰۳ فاصله است؟",
+    "answer": "۵۶۶"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۲ ماه از تاریخ ۷ مهر ۱۴۰۵ کم کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۷ مرداد ۱۴۰۵"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۲۹ فروردین ۱۴۰۰ و تاریخ ۳۱ فروردین ۱۴۰۱ فاصله است؟",
+    "answer": "۳۶۷"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۳۵ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۲۸ مهر ۱۳۸۷ و تاریخ ۶ مرداد ۱۳۸۶ فاصله است؟",
+    "answer": "۴۴۹"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۲۲ تیر ۱۳۹۷ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "13 July 2018"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۲۱ تیر ۱۳۹۵ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "11 July 2016"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۰۷ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۱۸ دی ۱۳۸۴ و تاریخ ۱۰ آبان ۱۳۸۳ فاصله است؟",
+    "answer": "۴۳۴"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۸ ماه به تاریخ ۱۶ مهر ۱۳۸۵ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۱۶ خرداد ۱۳۸۶"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۸ ماه به تاریخ ۲۴ اردیبهشت ۱۳۸۲ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۲۴ دی ۱۳۸۲"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۱۴ خرداد ۱۳۷۹ و تاریخ ۲۲ مهر ۱۳۷۷ فاصله است؟",
+    "answer": "۵۹۸"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۱۶ در تقویم جلالی کبیسه است؟",
+    "answer": "بله"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۳۷۶ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۱۸ روز از تاریخ ۱۵ آذر ۱۳۸۶ کم کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۲۷ آبان ۱۳۸۶"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۱۵ اسفند ۱۳۷۷ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "6 March 1999"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۲۵ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 21 October 2027 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۲۹ مهر ۱۴۰۶"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۲ بهمن ۱۳۸۳ و تاریخ ۴ بهمن ۱۳۸۲ فاصله است؟",
+    "answer": "۳۶۳"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۳۸۷ در تقویم جلالی کبیسه است؟",
+    "answer": "بله"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۳۸۱ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۳۸۸ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۰۲ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۲۸ در تقویم جلالی کبیسه است؟",
+    "answer": "بله"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 30 December 2018 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۹ دی ۱۳۹۷"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۹ آذر ۱۳۷۹ و تاریخ ۲۹ شهریور ۱۳۷۹ فاصله است؟",
+    "answer": "۷۱"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۲۲ خرداد ۱۳۸۷ و تاریخ ۱۱ آبان ۱۳۸۴ فاصله است؟",
+    "answer": "۹۵۲"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۱ ماه از تاریخ ۱۶ شهریور ۱۳۹۹ کم کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۱۶ مرداد ۱۳۹۹"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۰۱ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۲۲ آذر ۱۳۹۸ و تاریخ ۲۷ آذر ۱۴۰۰ فاصله است؟",
+    "answer": "۷۳۶"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۸ مهر ۱۴۰۹ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "30 September 2030"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۷ روز از تاریخ ۱۵ مهر ۱۳۹۳ کم کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۸ مهر ۱۳۹۳"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۲۴ در تقویم جلالی کبیسه است؟",
+    "answer": "بله"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 2 June 2019 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۱۲ خرداد ۱۳۹۸"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۷۸ روز از تاریخ ۱۷ مرداد ۱۳۸۵ کم کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۱ خرداد ۱۳۸۵"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۴ ماه از تاریخ ۱۷ اردیبهشت ۱۳۹۰ کم کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۱۷ دی ۱۳۸۹"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۱ ماه به تاریخ ۳ تیر ۱۳۸۱ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۳ مرداد ۱۳۸۱"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۲۹ روز به تاریخ ۱۹ تیر ۱۳۹۷ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۱۷ مرداد ۱۳۹۷"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۴ ماه از تاریخ ۲۳ اسفند ۱۴۰۴ کم کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۲۳ آبان ۱۴۰۴"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۱۳ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۳۷۱ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۲۴ فروردین ۱۳۸۲ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "13 April 2003"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۱ ماه از تاریخ ۲۹ مهر ۱۳۸۶ کم کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۲۹ شهریور ۱۳۸۶"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۴ ماه به تاریخ ۸ اردیبهشت ۱۳۹۴ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۸ شهریور ۱۳۹۴"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 29 June 2001 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۸ تیر ۱۳۸۰"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۱۱ بهمن ۱۳۸۹ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "31 January 2011"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۲۱ آبان ۱۳۹۲ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "12 November 2013"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۳۹۲ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۷ اسفند ۱۳۸۳ و تاریخ ۱ فروردین ۱۳۸۳ فاصله است؟",
+    "answer": "۳۴۲"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۱۱ دی ۱۳۷۸ و تاریخ ۱۵ فروردین ۱۳۷۷ فاصله است؟",
+    "answer": "۶۳۷"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۴۰ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۲۱ روز از تاریخ ۲۵ شهریور ۱۳۸۴ کم کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۴ شهریور ۱۳۸۴"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۲ آذر ۱۳۹۸ و تاریخ ۷ دی ۱۴۰۰ فاصله است؟",
+    "answer": "۷۶۶"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۰۳ در تقویم جلالی کبیسه است؟",
+    "answer": "بله"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۴۶ روز به تاریخ ۱۴ بهمن ۱۳۸۳ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۳۰ اسفند ۱۳۸۳"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۸۱ روز از تاریخ ۲۳ اردیبهشت ۱۳۸۰ کم کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۳ اسفند ۱۳۷۹"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۳۸ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۳۸۹ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۲۶ روز به تاریخ ۲۰ آذر ۱۴۰۰ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۱۶ دی ۱۴۰۰"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 23 April 2017 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۳ اردیبهشت ۱۳۹۶"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۱ فروردین ۱۴۰۲ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "21 March 2023"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۲۵ خرداد ۱۳۸۷ و تاریخ ۷ مرداد ۱۳۸۵ فاصله است؟",
+    "answer": "۶۸۶"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۳۸۳ در تقویم جلالی کبیسه است؟",
+    "answer": "بله"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۳ مرداد ۱۳۸۹ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "25 July 2010"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 18 July 1999 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۲۷ تیر ۱۳۷۸"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۲۶ آذر ۱۳۸۲ و تاریخ ۱۳ مرداد ۱۳۸۲ فاصله است؟",
+    "answer": "۱۳۵"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۵۰ روز به تاریخ ۱ مهر ۱۳۸۵ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۲۱ آبان ۱۳۸۵"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۱۲ اردیبهشت ۱۳۹۹ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "1 May 2020"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 11 March 2009 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۲۱ اسفند ۱۳۸۷"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۲۴ آبان ۱۳۹۷ و تاریخ ۲۸ بهمن ۱۳۹۶ فاصله است؟",
+    "answer": "۲۷۱"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۳ فروردین ۱۳۸۳ و تاریخ ۱۱ دی ۱۳۸۴ فاصله است؟",
+    "answer": "۶۵۰"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۲۵ آبان ۱۳۹۹ و تاریخ ۲۰ مرداد ۱۳۹۷ فاصله است؟",
+    "answer": "۸۲۷"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۱۸ فروردین ۱۳۸۰ و تاریخ ۱۰ فروردین ۱۳۷۹ فاصله است؟",
+    "answer": "۳۷۴"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۷ دی ۱۳۸۴ و تاریخ ۱۲ دی ۱۳۸۶ فاصله است؟",
+    "answer": "۷۳۵"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 20 May 2030 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۳۰ اردیبهشت ۱۴۰۹"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۳۷۰ در تقویم جلالی کبیسه است؟",
+    "answer": "بله"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۷۱ روز به تاریخ ۱۶ بهمن ۱۳۸۴ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۲۸ فروردین ۱۳۸۵"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۲ ماه به تاریخ ۲۱ بهمن ۱۴۰۱ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۲۱ فروردین ۱۴۰۲"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۳۹۸ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ ۱ دی ۱۴۰۷ (تقویم جلالی) در تقویم میلادی چه روزی است؟",
+    "answer": "21 December 2028"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۳۹۰ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۴۶ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۱ ماه به تاریخ ۳۰ آذر ۱۳۹۷ اضافه کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۳۰ دی ۱۳۹۷"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۶۷ روز از تاریخ ۱۵ شهریور ۱۴۰۰ کم کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۱۰ تیر ۱۴۰۰"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۱۵ خرداد ۱۳۷۸ و تاریخ ۱۶ دی ۱۳۷۶ فاصله است؟",
+    "answer": "۵۱۵"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۳۳ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "leap_year",
+    "question": "آیا سال ۱۴۵۰ در تقویم جلالی کبیسه است؟",
+    "answer": "خیر"
+  },
+  {
+    "category": "date_distance",
+    "question": "چند روز بین تاریخ ۱۳ آبان ۱۴۰۲ و تاریخ ۱۳ تیر ۱۴۰۲ فاصله است؟",
+    "answer": "۱۲۳"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 29 December 2024 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۹ دی ۱۴۰۳"
+  },
+  {
+    "category": "date_arithmetic",
+    "question": "اگر ۷۴ روز از تاریخ ۲۴ خرداد ۱۳۹۷ کم کنیم، تاریخ جدید (جلالی) چیست؟",
+    "answer": "۱۲ فروردین ۱۳۹۷"
+  },
+  {
+    "category": "date_conversion",
+    "question": "تاریخ 13 March 2014 (تقویم میلادی) در تقویم جلالی چه روزی است؟",
+    "answer": "۲۲ اسفند ۱۳۹۲"
+  }
+]

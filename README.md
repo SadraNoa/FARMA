@@ -4,10 +4,10 @@ A benchmark framework for evaluating language models fine-tuned for Persian
 (built on top of `gpt-oss-20b`), with special focus on the quality and
 stability of Persian chain-of-thought (CoT) reasoning.
 
-## Current status: infrastructure + Math + BBH-lite tasks
+## Current status: infrastructure + Math + BBH-lite + Jalali calendar tasks
 
-This version includes the **shared infrastructure** of the project plus two
-**Phase 1 tasks**: Math and BBH-lite (logic).
+This version includes the **shared infrastructure** of the project plus
+three **Phase 1 tasks**: Math, BBH-lite (logic), and Jalali calendar.
 
 ### Math task
 - 199 problems from OpenMathReasoning, translated to Persian (1 sample was
@@ -37,6 +37,21 @@ methodology.
 See `docs/tasks/bbh_task.md` for full details on data format and scoring
 methodology.
 
+### Jalali calendar task
+- 150 fully synthetic samples, generated deterministically with the
+  `jdatetime` library (no manual authoring or translation), split across 4
+  categories: `date_conversion` (38), `leap_year` (38), `date_arithmetic`
+  (37), `date_distance` (37).
+- Every sample has a `gold_answer` guaranteed correct by construction, so
+  `correctness` is computed automatically by the runner via exact-match.
+  `persian_stability` is applied; `verifiable_reasoning` is not.
+- `scripts/generate_jalali_calendar_data.py` produces the raw source file;
+  `scripts/prepare_jalali_task.py` converts it into the executable
+  `data/tasks/jalali_calendar_fa.jsonl` format.
+
+See `docs/tasks/jalali_calendar_task.md` for full details on data format
+and scoring methodology.
+
 ## Project structure
 
 ```
@@ -61,8 +76,10 @@ FARMA/
 │       ├── runner.py               # Generic runner: generates model output + applies rubrics
 │       └── aggregate.py            # Aggregates results into a summary report
 ├── scripts/
-│   ├── prepare_math_task.py        # Converts raw math data into task-ready jsonl
-│   └── prepare_bbh_task.py         # Converts raw BBH-lite data into task-ready jsonl
+│   ├── prepare_math_task.py                # Converts raw math data into task-ready jsonl
+│   ├── prepare_bbh_task.py                 # Converts raw BBH-lite data into task-ready jsonl
+│   ├── generate_jalali_calendar_data.py    # Generates the raw Jalali calendar data
+│   └── prepare_jalali_task.py              # Converts raw Jalali calendar data into task-ready jsonl
 ├── data/
 │   ├── raw_sources/      # Raw, unprocessed source data per task
 │   ├── tasks/            # Task-ready jsonl files (input to the runner)
@@ -136,7 +153,8 @@ pytest tests/ -v
 - [x] Phase 0: shared infrastructure
 - [x] Phase 1 — Math (done)
 - [x] Phase 1 — BBH-lite (logic) (done)
-- [ ] Phase 1 — Jalali calendar, IFEval-lite, Aroozi (meter)
+- [x] Phase 1 — Jalali calendar (done)
+- [ ] Phase 1 — IFEval-lite, Aroozi (meter)
 - [ ] Phase 2 — MMLU-lite, script disambiguation, proverbs, wordplay (ieham)
 - [ ] Phase 3 — Minimal pairs, contradiction & consistency, abstention, paraphrase robustness, multi-constraint
 - [ ] Phase 4 — Persian controllability, deep brainstorm
