@@ -4,10 +4,10 @@ A benchmark framework for evaluating language models fine-tuned for Persian
 (built on top of `gpt-oss-20b`), with special focus on the quality and
 stability of Persian chain-of-thought (CoT) reasoning.
 
-## Current status: infrastructure + Math task
+## Current status: infrastructure + Math + BBH-lite tasks
 
-This version includes the **shared infrastructure** of the project plus the
-**first Phase 1 task (Math)**.
+This version includes the **shared infrastructure** of the project plus two
+**Phase 1 tasks**: Math and BBH-lite (logic).
 
 ### Math task
 - 199 problems from OpenMathReasoning, translated to Persian (1 sample was
@@ -21,6 +21,20 @@ This version includes the **shared infrastructure** of the project plus the
   format.
 
 See `docs/tasks/math_task.md` for full details on data format and scoring
+methodology.
+
+### BBH-lite (logic) task
+- 120 hand-authored Persian samples, split evenly across 4 categories (30
+  each): `object_ordering`, `navigate`, `boolean_logic`, `arithmetic`.
+- This task **has a gold_answer** for every sample, so `correctness` is
+  computed automatically by the runner via exact-match (after light
+  normalization). The `persian_stability` rubric is still applied to check
+  language stability even on short answers; `verifiable_reasoning` is not
+  applied since a hard gold answer already exists.
+- `scripts/prepare_bbh_task.py` converts the raw hand-authored data into
+  the executable `data/tasks/bbh_lite_fa.jsonl` format.
+
+See `docs/tasks/bbh_task.md` for full details on data format and scoring
 methodology.
 
 ## Project structure
@@ -47,7 +61,8 @@ FARMA/
 │       ├── runner.py               # Generic runner: generates model output + applies rubrics
 │       └── aggregate.py            # Aggregates results into a summary report
 ├── scripts/
-│   └── prepare_math_task.py        # Converts raw math data into task-ready jsonl
+│   ├── prepare_math_task.py        # Converts raw math data into task-ready jsonl
+│   └── prepare_bbh_task.py         # Converts raw BBH-lite data into task-ready jsonl
 ├── data/
 │   ├── raw_sources/      # Raw, unprocessed source data per task
 │   ├── tasks/            # Task-ready jsonl files (input to the runner)
@@ -120,7 +135,8 @@ pytest tests/ -v
 
 - [x] Phase 0: shared infrastructure
 - [x] Phase 1 — Math (done)
-- [ ] Phase 1 — BBH-lite (logic), Jalali calendar, IFEval-lite, Aroozi (meter)
+- [x] Phase 1 — BBH-lite (logic) (done)
+- [ ] Phase 1 — Jalali calendar, IFEval-lite, Aroozi (meter)
 - [ ] Phase 2 — MMLU-lite, script disambiguation, proverbs, wordplay (ieham)
 - [ ] Phase 3 — Minimal pairs, contradiction & consistency, abstention, paraphrase robustness, multi-constraint
 - [ ] Phase 4 — Persian controllability, deep brainstorm
