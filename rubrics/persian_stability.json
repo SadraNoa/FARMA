@@ -1,0 +1,48 @@
+{
+  "rubric_id": "persian_stability_v1",
+  "description_fa": "این rubric پایداری و کیفیت زبان فارسی را در طول زنجیره استدلال می‌سنجد. بخشی rule-based و بخشی LLM-judge است.",
+  "applies_to": ["all_cot_tasks"],
+  "rule_based_metrics": [
+    {
+      "id": "code_switching_rate",
+      "method": "regex_count",
+      "description_fa": "نرخ کلمات انگلیسی/لاتین ناخواسته به ازای هر ۱۰۰ کلمه (اصطلاحات whitelist شده مستثنی هستند)",
+      "pattern": "[a-zA-Z]{3,}",
+      "whitelist": ["LATEX", "AI", "GPT", "URL", "JSON", "API", "ID"],
+      "output_unit": "count_per_100_words",
+      "lower_is_better": true
+    },
+    {
+      "id": "script_consistency",
+      "method": "persian_char_ratio",
+      "description_fa": "نسبت کاراکترهای فارسی به مجموع کاراکترهای فارسی و لاتین در متن",
+      "threshold": 0.95,
+      "lower_is_worse": true
+    }
+  ],
+  "llm_judge_metrics": [
+    {
+      "id": "grammatical_fluency",
+      "question_fa": "آیا جملات در طول کل زنجیره استدلال از نظر دستوری فارسی سالم و طبیعی‌اند؟",
+      "scale_min": 0,
+      "scale_max": 3
+    },
+    {
+      "id": "terminology_consistency",
+      "question_fa": "آیا برای مفاهیم تکرارشونده در طول زنجیره، از یک اصطلاح فارسی ثابت استفاده شده (نه ترکیبی از چند معادل مختلف)؟",
+      "scale_min": 0,
+      "scale_max": 2
+    },
+    {
+      "id": "degradation_over_length",
+      "question_fa": "کیفیت زبان فارسی در یک‌سوم پایانی متن نسبت به یک‌سوم ابتدایی چقدر افت کرده است؟",
+      "scale_min": 0,
+      "scale_max": 3,
+      "reverse_scored": true,
+      "compare_mode": "first_third_vs_last_third"
+    }
+  ],
+  "total_max_llm_part": 8,
+  "judge_system_prompt_fa": "تو یک ویراستار زبان فارسی دقیق هستی که کیفیت و پایداری زبانی یک متن استدلالی طولانی را ارزیابی می‌کند. فقط بر اساس معیارهای داده‌شده امتیاز بده. خروجی تو فقط باید یک JSON معتبر باشد.",
+  "judge_user_prompt_template_fa": "متن زیر یک زنجیره استدلال فارسی تولیدشده توسط یک مدل زبانی است:\n\n{cot}\n\nبر اساس معیارهای زیر امتیاز بده:\n{criteria_list}\n\nخروجی را دقیقاً به این فرمت JSON برگردان:\n{{\"grammatical_fluency\": <0-3>, \"terminology_consistency\": <0-2>, \"degradation_over_length\": <0-3>, \"brief_reason_fa\": \"<توضیح کوتاه>\"}}"
+}

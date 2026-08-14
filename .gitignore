@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+data/raw_outputs/*
+data/scored_results/*
+!data/raw_outputs/.gitkeep
+!data/scored_results/.gitkeep
+report.json
+.venv/
+venv/
+*.egg-info/

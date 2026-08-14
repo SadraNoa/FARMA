@@ -1,0 +1,52 @@
+# این فایل دو دسته مدل را تعریف می‌کند:
+# 1) candidate_models: مدل‌هایی که قرار است ارزیابی شوند (نسخه‌های فاین‌تیون‌شده‌ی شما روی vLLM)
+# 2) judge_models: مدل‌هایی که برای داوری (LLM-judge) استفاده می‌شوند (از طریق OpenRouter/GapGPT)
+
+candidate_models:
+  - name: "gpt-oss-20b-fa-cot-v1"
+    provider: "vllm"
+    base_url_env: "VLLM_BASE_URL"
+    api_key_env: "VLLM_API_KEY"
+    model_id: "gpt-oss-20b-fa-cot-v1"   # باید دقیقاً با نامی که vLLM سرو می‌کند یکی باشد
+    has_cot: true
+    max_tokens: 4096
+    temperature: 0.2
+
+  - name: "gpt-oss-20b-fa-nocot-v1"
+    provider: "vllm"
+    base_url_env: "VLLM_BASE_URL"
+    api_key_env: "VLLM_API_KEY"
+    model_id: "gpt-oss-20b-fa-nocot-v1"
+    has_cot: false
+    max_tokens: 1024
+    temperature: 0.2
+
+  # نمونه‌های بیشتر را در همین فرمت اضافه کنید:
+  # - name: "gpt-oss-20b-fa-cot-v2"
+  #   provider: "vllm"
+  #   ...
+
+judge_models:
+  - name: "judge-primary"
+    provider: "openrouter"
+    base_url_env: "OPENROUTER_BASE_URL"
+    api_key_env: "OPENROUTER_API_KEY"
+    model_id: "anthropic/claude-sonnet-4.5"   # مدل داور اصلی - در صورت نیاز تغییر دهید
+    temperature: 0.0
+    max_tokens: 1024
+
+  - name: "judge-fallback"
+    provider: "gapgpt"
+    base_url_env: "GAPGPT_BASE_URL"
+    api_key_env: "GAPGPT_API_KEY"
+    model_id: "gpt-4o"                        # مدل داور جایگزین در صورت خطای provider اصلی
+    temperature: 0.0
+    max_tokens: 1024
+
+# تنظیمات کلی اجرای پایپ‌لاین
+runtime:
+  concurrency: 4          # تعداد درخواست‌های هم‌زمان به provider
+  retry_attempts: 3
+  retry_backoff_seconds: 2
+  output_dir: "data/raw_outputs"
+  scored_dir: "data/scored_results"
