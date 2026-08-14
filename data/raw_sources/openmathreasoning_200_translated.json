@@ -1,0 +1,2266 @@
+[
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Given a group of \\( N \\) balls consisting of \\( C \\) colors, where the number of balls in each color is represented as \\( n_1, n_2, \\ldots, n_C \\) (with \\( n_1 + n_2 + \\ldots + n_C = N \\)), what is the probability that when \\( A \\) balls are randomly picked (where \\( A \\leq N \\)), the picked balls consist of \\( a_1, a_2, \\ldots, a_C \\) balls of each color, where \\( a_1 + a_2 + \\ldots + a_C = A \\)?",
+    "problem_fa": "مجموعه‌ای شامل [LATEX_1] توپ با [LATEX_2] رنگ در نظر بگیرید که تعداد توپ‌های هر رنگ به‌ترتیب با [LATEX_3] نشان داده می‌شود؛ به‌طوری‌که [LATEX_4]. احتمال این‌که با انتخاب تصادفی [LATEX_5] توپ، که در آن [LATEX_6]، توپ‌های انتخاب‌شده شامل به‌ترتیب [LATEX_7] توپ از هر رنگ باشند، چقدر است؟ همچنین [LATEX_8].",
+    "latex": [
+      "N",
+      "C",
+      "n_1, n_2, \\ldots, n_C",
+      "n_1 + n_2 + \\ldots + n_C = N",
+      "A",
+      "A \\leq N",
+      "a_1, a_2, \\ldots, a_C",
+      "a_1 + a_2 + \\ldots + a_C = A"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "How many lines can be drawn that are equidistant from \\( n \\) given points in the plane?",
+    "problem_fa": "چند خط را می‌توان رسم کرد که فاصله‌شان از [LATEX_1] نقطهٔ داده‌شده در صفحه برابر باشد؟",
+    "latex": [
+      "n"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find all functions \\( f: \\mathbb{R} \\to \\mathbb{R} \\) such that\n\\[\n(f(x^2) + f(xy) + f(y^2))(x - y) = f(x^3) - f(y^3)\n\\]\nfor all \\( x, y \\in \\mathbb{R} \\).",
+    "problem_fa": "تمام توابع [LATEX_1] را بیابید که رابطهٔ [LATEX_2] برای هر [LATEX_3] برقرار باشد.",
+    "latex": [
+      "f:\\mathbb{R}\\to\\mathbb{R}",
+      "\\bigl(f(x^2)+f(xy)+f(y^2)\\bigr)(x-y)=f(x^3)-f(y^3)",
+      "x,y\\in\\mathbb{R}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find the sum of the roots of the equation \\((x+6)^{1/3} + (x-2)^{1/2} = 2\\).",
+    "problem_fa": "مجموع ریشه‌های معادلهٔ [LATEX_1] را بیابید.",
+    "latex": [
+      "\\left(x+6\\right)^{1/3}+\\left(x-2\\right)^{1/2}=2"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Determine how many 1000 digit numbers \\( A \\) have the property that when any digit of \\( A \\), aside from the first, is deleted to form a 999 digit number \\( B \\), then \\( B \\) divides \\( A \\).",
+    "problem_fa": "تعیین کنید چند عدد [LATEX_1] رقمی [LATEX_2] دارای این ویژگی هستند که با حذف هر یک از رقم‌های [LATEX_2]، به‌جز رقم اول آن، عدد [LATEX_3] رقمی [LATEX_4] تشکیل شود و شرط [LATEX_5] برقرار باشد.",
+    "latex": [
+      "1000",
+      "A",
+      "999",
+      "B",
+      "B\\mid A"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Calculate the integral\n\n\\[\n\\int^{\\frac{3\\pi}{2}}_{\\frac{\\pi}{2}} \\left|\\left(\\frac{2}{x^3}+\\frac{1}{x}\\right)\\sin x\\right|dx\n\\]",
+    "problem_fa": "انتگرال زیر را محاسبه کنید:",
+    "latex": [
+      "\\int_{\\frac{\\pi}{2}}^{\\frac{3\\pi}{2}} \\left|\\left(\\frac{2}{x^3}+\\frac{1}{x}\\right)\\sin x\\right|\\,dx"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "In $\\triangle ABC$ with incenter $I$, points $P$ and $Q$ are on side $BC$ such that $AP$ and $AQ$ are isogonal conjugates with respect to $\\angle BAC$. The tangent line at $B$ of $\\odot (ABP)$ and the tangent line at $C$ of $\\odot (ACQ)$ intersect at $D$. Let $E = AP \\cap IB$ and $F = AQ \\cap IC$. If $DI$ intersects $EF$ at $G$, calculate the ratio $\\frac{EG}{GF}$.",
+    "problem_fa": "در مثلث [LATEX_1]، که [LATEX_2] مرکز دایرهٔ محاطی آن است، نقاط [LATEX_3] و [LATEX_4] روی ضلع [LATEX_5] قرار دارند؛ به‌طوری‌که [LATEX_6] و [LATEX_7] نسبت به زاویهٔ [LATEX_8] مزدوج‌های ایزوگونال هستند. خط مماس بر دایرهٔ [LATEX_9] در نقطهٔ [LATEX_10] و خط مماس بر دایرهٔ [LATEX_11] در نقطهٔ [LATEX_12]، یکدیگر را در [LATEX_13] قطع می‌کنند. فرض کنید [LATEX_14] و [LATEX_15] باشند. اگر خط [LATEX_16]، خط [LATEX_17] را در [LATEX_18] قطع کند، نسبت [LATEX_19] را محاسبه کنید.",
+    "latex": [
+      "\\triangle ABC",
+      "I",
+      "P",
+      "Q",
+      "BC",
+      "AP",
+      "AQ",
+      "\\angle BAC",
+      "\\odot(ABP)",
+      "B",
+      "\\odot(ACQ)",
+      "C",
+      "D",
+      "E=AP\\cap IB",
+      "F=AQ\\cap IC",
+      "DI",
+      "EF",
+      "G",
+      "\\frac{EG}{GF}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\( x_0 = 1 \\), and \\( x_{n+1} = 2x_n + \\sqrt{3x_n^2 - 2} \\). Determine \\( x_{2016} \\).",
+    "problem_fa": "فرض کنید [LATEX_1] و [LATEX_2] باشد. مقدار [LATEX_3] را تعیین کنید.",
+    "latex": [
+      "x_0 = 1",
+      "x_{n+1} = 2x_n + \\sqrt{3x_n^2 - 2}",
+      "x_{2016}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Which is greater, $\\sqrt[2012]{2013!}$ or $\\sqrt[2013]{2012!}$?",
+    "problem_fa": "کدام‌یک بزرگ‌تر است: [LATEX_1] یا [LATEX_2]؟",
+    "latex": [
+      "\\sqrt[2012]{2013!}",
+      "\\sqrt[2013]{2012!}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "On average, how long will you have to flip a coin to get the sequence $HTHT$?",
+    "problem_fa": "به‌طور متوسط، برای به‌دست‌آوردن دنبالهٔ [LATEX_1] چند بار باید سکه را پرتاب کنید؟",
+    "latex": [
+      "\\mathrm{HTHT}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\( v \\) and \\( w \\) be two randomly chosen roots of the equation \\( z^{1997} - 1 = 0 \\). Find the probability that \\( \\sqrt{2 + \\sqrt{3}} \\le |v + w| \\).",
+    "problem_fa": "فرض کنید [LATEX_1] و [LATEX_2] دو ریشه باشند که به‌طور تصادفی از معادلهٔ [LATEX_3] انتخاب شده‌اند. احتمال برقرار بودن نامساوی [LATEX_4] را بیابید.",
+    "latex": [
+      "v",
+      "w",
+      "z^{1997} - 1 = 0",
+      "\\sqrt{2 + \\sqrt{3}} \\le |v + w|"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "How many real numbers satisfy \\( x^6 + |x| = 7 \\)?",
+    "problem_fa": "چند عدد حقیقی معادلهٔ [LATEX_1] را ارضا می‌کنند؟",
+    "latex": [
+      "x^6 + |x| = 7"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Simplify the expression $cos^2(x) - sin^2(x)$.",
+    "problem_fa": "عبارت [LATEX_1] را ساده کنید.",
+    "latex": [
+      "\\cos^2(x) - \\sin^2(x)"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Let \\( A \\) be a Lebesgue measurable subset of \\( \\mathbb{R} \\) with Lebesgue measure \\( \\mu(A) = 1 \\). Define \\( S = \\{ p - q \\mid p, q \\in A \\} \\). Find the minimum number of irrational numbers that must be in \\( S \\).",
+    "problem_fa": "فرض کنید [LATEX_1] زیرمجموعه‌ای لبگ‌قابل‌اندازه‌گیری از [LATEX_2] باشد و اندازهٔ لبگ آن برابر با [LATEX_3] باشد. مجموعهٔ [LATEX_4] را تعریف کنید. کمینهٔ تعداد اعداد گنگی را که الزاماً در [LATEX_5] قرار دارند، بیابید.",
+    "latex": [
+      "A",
+      "\\mathbb{R}",
+      "\\mu(A)=1",
+      "S=\\{p-q\\mid p,q\\in A\\}",
+      "S"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\(a, b \\in \\mathbb{N}\\) such that \\(a \\mid b^2\\), \\(b^2 \\mid a^3\\), \\(a^3 \\mid b^4\\), and \\(b^4 \\mid a^5\\). Find the value of \\(a - b\\).",
+    "problem_fa": "فرض کنید [LATEX_1] اعداد طبیعی باشند، به‌طوری‌که [LATEX_2]، [LATEX_3]، [LATEX_4] و [LATEX_5]. مقدار [LATEX_6] را بیابید.",
+    "latex": [
+      "a, b \\in \\mathbb{N}",
+      "a \\mid b^2",
+      "b^2 \\mid a^3",
+      "a^3 \\mid b^4",
+      "b^4 \\mid a^5",
+      "a-b"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\(ABC\\) be an isosceles right-angled triangle with \\(AB = AC = 1\\) and \\(\\angle CAB = 90^\\circ\\). Let \\(D\\) be the midpoint of the side \\(BC\\), and let \\(E\\) and \\(F\\) be two points on the side \\(BC\\). Let \\(M\\) be the point of intersection of the circles \\((ADE)\\) and \\((ABF)\\) (apart from \\(A\\)). Let \\(N\\) be the point of intersection of the line \\(AF\\) and the circle \\((ACE)\\) (apart from \\(A\\)). Let \\(P\\) be the point of intersection of the line \\(AD\\) and the circle \\((AMN)\\). Find the length of \\(AP\\).",
+    "problem_fa": "فرض کنید [LATEX_1] مثلثی قائم‌الزاویه و متساوی‌الساقین باشد، به‌طوری‌که [LATEX_2] و [LATEX_3]. نقطهٔ [LATEX_4] وسط ضلع [LATEX_5] باشد و نقاط [LATEX_6] و [LATEX_7] دو نقطه روی ضلع [LATEX_8] باشند. فرض کنید [LATEX_9] نقطهٔ تقاطع دو دایرهٔ [LATEX_10] و [LATEX_11]، به‌جز [LATEX_12]، باشد. همچنین، [LATEX_13] نقطهٔ تقاطع خط [LATEX_14] و دایرهٔ [LATEX_15]، به‌جز [LATEX_16]، باشد. اگر [LATEX_17] نقطهٔ تقاطع خط [LATEX_18] و دایرهٔ [LATEX_19] باشد، طول [LATEX_20] را بیابید.",
+    "latex": [
+      "ABC",
+      "AB=AC=1",
+      "\\angle CAB=90^\\circ",
+      "D",
+      "BC",
+      "E",
+      "F",
+      "BC",
+      "M",
+      "(ADE)",
+      "(ABF)",
+      "A",
+      "N",
+      "AF",
+      "(ACE)",
+      "A",
+      "P",
+      "AD",
+      "(AMN)",
+      "AP"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "If \\( x, y, z \\) are real numbers such that \\( x^3 - xyz = -16 \\), \\( y^3 - xyz = 3 \\), and \\( z^3 - xyz = 40 \\), then find the minimum value of \\( x^2 + y^2 + z^2 \\).",
+    "problem_fa": "اگر [LATEX_1] اعداد حقیقی باشند، به‌طوری‌که [LATEX_2]، [LATEX_3] و [LATEX_4]، آنگاه کمینهٔ مقدار [LATEX_5] را بیابید.",
+    "latex": [
+      "x, y, z",
+      "x^3 - xyz = -16",
+      "y^3 - xyz = 3",
+      "z^3 - xyz = 40",
+      "x^2 + y^2 + z^2"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Consider the function $f(n) = \\Gamma \\left ( \\frac{1}{n} \\right )\\Gamma \\left ( 1-\\frac{1}{n} \\right )$ for positive integers $n$. Calculate the value of $f(5)$.",
+    "problem_fa": "تابع [LATEX_1] را برای اعداد صحیح مثبت [LATEX_2] در نظر بگیرید. مقدار [LATEX_3] را محاسبه کنید.",
+    "latex": [
+      "f(n) = \\Gamma\\left(\\frac{1}{n}\\right)\\Gamma\\left(1-\\frac{1}{n}\\right)",
+      "n",
+      "f(5)"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find the maximum value of $k$ such that the inequality $\\sqrt{a^2 + b^2} \\geq a + b + k\\sqrt{ab}$ holds for all positive numbers $a$ and $b$.",
+    "problem_fa": "بیشینهٔ مقدار [LATEX_1] را بیابید به‌طوری‌که نامساوی [LATEX_2] برای همهٔ اعداد مثبت [LATEX_3] و [LATEX_4] برقرار باشد.",
+    "latex": [
+      "k",
+      "\\sqrt{a^2+b^2} \\geq a+b+k\\sqrt{ab}",
+      "a",
+      "b"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "How many positive integers from 1 to \\(10^{2019}\\) have the sum of their digits equal to 2?",
+    "problem_fa": "چند عدد صحیح مثبت از [LATEX_1] تا [LATEX_2] وجود دارد که مجموع ارقامشان برابر [LATEX_3] باشد؟",
+    "latex": [
+      "1",
+      "10^{2019}",
+      "2"
+    ]
+  },
+  {
+    "problem_source": "aops_c5_contests_amp_programs",
+    "problem_en": "Brenda and Sally run in opposite directions on a circular track, starting at diametrically opposite points. They first meet after Brenda has run 100 meters. They next meet after Sally has run 150 meters past their first meeting point. Each girl runs at a constant speed. What is the length of the track in meters?",
+    "problem_fa": "برندا و سالی در جهت‌های مخالف روی یک پیست دایره‌ای می‌دوند و از نقاطی که دو سر یک قطر هستند، شروع می‌کنند. آن‌ها نخستین بار پس از آن‌که برندا [LATEX_1] متر دویده است، یکدیگر را ملاقات می‌کنند. بار دوم، پس از آن‌که سالی از محل نخستین ملاقاتشان [LATEX_2] متر گذشته است، یکدیگر را ملاقات می‌کنند. هر دو دختر با سرعتی ثابت می‌دوند. طول پیست، بر حسب متر، چقدر است؟",
+    "latex": [
+      "100",
+      "150"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "In a clothing store, a sweater that was originally priced at $73 was marked down and sold for $54.75. What was the percent amount of the markdown?",
+    "problem_fa": "در یک فروشگاه پوشاک، ژاکتی که در ابتدا به قیمت [LATEX_1] دلار عرضه می‌شد، با کاهش قیمت به [LATEX_2] دلار فروخته شد. درصد تخفیف چقدر بود؟",
+    "latex": [
+      "\\$73",
+      "\\$54.75"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Determine all functions \\(f\\) whose domain is \\(\\mathbb{R} \\setminus \\{0\\}\\) satisfying\n\\[ f(x) + 8f\\left(\\frac{1}{x}\\right) = -63x \\]\nfor all \\(x \\neq 0\\).",
+    "problem_fa": "همهٔ توابع [LATEX_1] را بیابید که برای هر [LATEX_3] رابطهٔ [LATEX_2] را ارضا می‌کنند.",
+    "latex": [
+      "f\\colon \\mathbb{R} \\setminus \\{0\\} \\to \\mathbb{R}",
+      "f(x) + 8f\\left(\\frac{1}{x}\\right) = -63x",
+      "x \\ne 0"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "How many possible combinations of gummies are there in a bag containing 16 gummies, where each gummy can be one of five colors (red, blue, green, yellow, or purple)?",
+    "problem_fa": "در یک کیسه شامل [LATEX_1] پاستیل، که هر پاستیل می‌تواند یکی از [LATEX_2] رنگِ قرمز، آبی، سبز، زرد یا بنفش را داشته باشد، چند ترکیب ممکن وجود دارد؟",
+    "latex": [
+      "16",
+      "5"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "For how many positive integer values of $n$ is $n^3+1631$ divisible by $n+11$?",
+    "problem_fa": "برای چند مقدار صحیح مثبت [LATEX_1]، عبارت [LATEX_2] بر [LATEX_3] بخش‌پذیر است؟",
+    "latex": [
+      "n",
+      "n^3+1631",
+      "n+11"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "If \\( f(n) = n^8 - 2n^7 + 4n^6 - 8n^5 + 16n^4 - 32n^3 + 64n^2 - 128n + 1 \\), then what is \\( f\\left(\\frac{1}{128}\\right) \\)?",
+    "problem_fa": "اگر [LATEX_1] باشد، مقدار [LATEX_2] را بیابید.",
+    "latex": [
+      "f(n) = n^8 - 2n^7 + 4n^6 - 8n^5 + 16n^4 - 32n^3 + 64n^2 - 128n + 1",
+      "f\\left(\\frac{1}{128}\\right)"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Determine the median and the mode of Jerelyn’s scores from her first six tests, which were 92, 78, 86, 92, 95, and 91.",
+    "problem_fa": "میانه و نمای نمره‌های جرلین در شش آزمون نخستش را که به‌ترتیب [LATEX_1] بوده‌اند، تعیین کنید.",
+    "latex": [
+      "92, 78, 86, 92, 95, 91"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let $x, y, z \\in \\mathbb{R}^+$ satisfy $x \\ge y \\ge z$. If the equality holds in the inequality \n\\[ 2\\left(\\frac{x^2}{z} + \\frac{y^2}{x} + \\frac{z^2}{y}\\right) \\ge \\frac{y^2z + yz^2}{x} + \\frac{z^2x + zx^2}{y} + \\frac{x^2y + y^2x}{z}, \\]\nfind the value of $\\frac{x}{z}$.",
+    "problem_fa": "فرض کنید [LATEX_1] و [LATEX_2] برقرار باشد. اگر در نامساوی [LATEX_3] برابری برقرار باشد، مقدار [LATEX_4] را بیابید.",
+    "latex": [
+      "x,y,z\\in\\mathbb{R}^+",
+      "x\\ge y\\ge z",
+      "2\\left(\\frac{x^2}{z}+\\frac{y^2}{x}+\\frac{z^2}{y}\\right)\\ge\\frac{y^2z+yz^2}{x}+\\frac{z^2x+zx^2}{y}+\\frac{x^2y+y^2x}{z}",
+      "\\frac{x}{z}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find all \\( a, b \\in \\mathbb{N} \\) such that for all \\( x, y \\in [a, b] \\), the expression \\( \\frac{1}{x} + \\frac{1}{y} \\) lies within the interval \\([a, b]\\).",
+    "problem_fa": "تمام [LATEX_1] را بیابید، به‌طوری‌که برای هر [LATEX_2]، عبارت [LATEX_3] در بازهٔ [LATEX_4] قرار داشته باشد.",
+    "latex": [
+      "a,b\\in\\mathbb{N}",
+      "x,y\\in[a,b]",
+      "\\frac{1}{x}+\\frac{1}{y}",
+      "[a,b]"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "In a class of 440 students, each student votes for 2 candidates to elect 3 representatives. What is the minimum number of votes that guarantees a student will be chosen as a representative?",
+    "problem_fa": "در کلاسی با [LATEX_1] دانش‌آموز، هر دانش‌آموز به [LATEX_2] نامزد رأی می‌دهد تا [LATEX_3] نماینده انتخاب شوند. حداقل چند رأی، انتخاب شدن یک دانش‌آموز به‌عنوان نماینده را تضمین می‌کند؟",
+    "latex": [
+      "440",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find all functions \\( f: \\mathbb{N} \\to \\mathbb{N} \\) such that \n\\[ f(m+n)f(m-n) = f(m^2) \\]\nfor \\( m, n \\in \\mathbb{N} \\).",
+    "problem_fa": "همهٔ توابع [LATEX_1] را بیابید به‌طوری‌که [LATEX_2] برای [LATEX_3] برقرار باشد.",
+    "latex": [
+      "f:\\mathbb{N}\\to\\mathbb{N}",
+      "f(m+n)f(m-n)=f(m^2)",
+      "m,n\\in\\mathbb{N}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Solve the equation $|...|||x^2-x|-1|-1|...-1|=x^2-2x-14$, where the number of nested absolute value units on the left side is 11.",
+    "problem_fa": "معادلهٔ [LATEX_1] را حل کنید؛ تعداد واحدهای قدرمطلقِ تو‌در‌تو در سمت چپ برابر با ۱۱ است.",
+    "latex": [
+      "\\left|\\cdots\\left|\\left|\\left|x^2-x\\right|-1\\right|-1\\right|\\cdots-1\\right|=x^2-2x-14"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Given the equation \\( x + y = k \\) and integers \\( a \\) and \\( b \\) where \\( a < b \\), find the minimum value of \\( ax + by \\).",
+    "problem_fa": "با توجه به معادلهٔ [LATEX_1] و اعداد صحیح [LATEX_2] و [LATEX_3] که [LATEX_4]، کمینهٔ مقدار [LATEX_5] را بیابید.",
+    "latex": [
+      "x+y=k",
+      "a",
+      "b",
+      "a<b",
+      "ax+by"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Let \\( A \\) be the sum of the digits of \\( 4444^{4444} \\). Let \\( B \\) be the sum of the digits of \\( A \\). Let \\( C \\) be the sum of the digits of \\( B \\). Find the value of \\( C \\).",
+    "problem_fa": "فرض کنید [LATEX_1] برابر با مجموع ارقام [LATEX_2] باشد. همچنین، [LATEX_3] برابر با مجموع ارقام [LATEX_4] باشد. [LATEX_5] را برابر با مجموع ارقام [LATEX_6] در نظر بگیرید. مقدار [LATEX_7] را بیابید.",
+    "latex": [
+      "A",
+      "4444^{4444}",
+      "B",
+      "A",
+      "C",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find all functions \\( f \\) which take real values, are symmetric about the y-axis, and satisfy the functional equation for \\( x, y, x+y \\neq 0 \\):\n\\[ f \\left( \\dfrac{1}{x+y} \\right) = f \\left( \\dfrac{1}{x} \\right) + f \\left( \\dfrac{1}{y} \\right) + 2xy - 1. \\]",
+    "problem_fa": "همهٔ تابع‌های [LATEX_1] را که مقادیر حقیقی می‌گیرند، نسبت به محور [LATEX_2] متقارن‌اند و برای [LATEX_3] معادلهٔ تابعی [LATEX_4] را ارضا می‌کنند، بیابید.",
+    "latex": [
+      "f",
+      "y",
+      "x,y,x+y\\ne 0",
+      "f\\left(\\dfrac{1}{x+y}\\right)=f\\left(\\dfrac{1}{x}\\right)+f\\left(\\dfrac{1}{y}\\right)+2xy-1"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Given \\( A \\in \\mathbb{C}^{n \\times n} \\) and a positive semidefinite Hermitian matrix \\( Q \\in \\mathbb{C}^{n \\times n} \\), find a Hermitian solution \\( X \\) such that \\( (X - A)(X - A)^* = Q \\).",
+    "problem_fa": "با فرض اینکه [LATEX_1] و [LATEX_2] یک ماتریس هرمیتیِ نیمه‌معین مثبت است، یک ماتریس هرمیتی [LATEX_3] بیابید به‌طوری‌که [LATEX_4].",
+    "latex": [
+      "A \\in \\mathbb{C}^{n \\times n}",
+      "Q \\in \\mathbb{C}^{n \\times n}",
+      "X",
+      "(X-A)(X-A)^* = Q"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "What is the largest 3-digit number $\\overline{abc}$ such that\n\n\\[b \\cdot \\overline{ac} = c \\cdot \\overline{ab} + 50?\\]",
+    "problem_fa": "بزرگ‌ترین عدد سه‌رقمی [LATEX_1] را بیابید به‌طوری‌که [LATEX_2].",
+    "latex": [
+      "\\overline{abc}",
+      "b \\cdot \\overline{ac} = c \\cdot \\overline{ab} + 50"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Determine if the element $y=5+3\\sqrt[3]{2}+7\\sqrt[3]{4}$ is prime in the ring $R=\\{a+b\\sqrt[3]{2}+c\\sqrt[3]{4}\\mid a,b,c\\in\\mathbb{Z}\\}$. If not, factor it.",
+    "problem_fa": "تعیین کنید آیا عنصر [LATEX_1] در حلقهٔ [LATEX_2] اول است یا نه. اگر اول نیست، آن را تجزیه کنید.",
+    "latex": [
+      "y=5+3\\sqrt[3]{2}+7\\sqrt[3]{4}",
+      "R=\\{a+b\\sqrt[3]{2}+c\\sqrt[3]{4}\\mid a,b,c\\in\\mathbb{Z}\\}"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Find the remainder when \\((x+2)^{2011} - (x-1)^{2011}\\) is divided by \\(x^2 + x + 1\\).",
+    "problem_fa": "باقی‌ماندهٔ تقسیم [LATEX_1] بر [LATEX_2] را بیابید.",
+    "latex": [
+      "(x+2)^{2011} - (x-1)^{2011}",
+      "x^2 + x + 1"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "If the polynomials $x^3 + ax^2 + 11x + 6 = 0$ and $x^3 + bx^2 + 14x + 8 = 0$ have a common quadratic factor $x^2 + px + q$, find the value of $a + b$.",
+    "problem_fa": "اگر چندجمله‌ای‌های [LATEX_1] و [LATEX_2] دارای عامل درجه‌دوم مشترک [LATEX_3] باشند، مقدار [LATEX_4] را بیابید.",
+    "latex": [
+      "x^3 + ax^2 + 11x + 6 = 0",
+      "x^3 + bx^2 + 14x + 8 = 0",
+      "x^2 + px + q",
+      "a + b"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "In a cube with edges $\\overline{AB}, \\overline{BC},$ and $\\overline{CD},$ points $P, Q,$ and $R$ are on $\\overline{AB}, \\overline{BC},$ and $\\overline{CD},$ respectively, such that $AP=5, PB=15, BQ=15,$ and $CR=10.$ What is the area of the polygon that is the intersection of plane $PQR$ and the cube?",
+    "problem_fa": "در مکعبی با یال‌های [LATEX_1]، نقاط [LATEX_2] به‌ترتیب روی یال‌های [LATEX_3] قرار دارند، به‌طوری‌که [LATEX_4] است. مساحت چندضلعی حاصل از تقاطع صفحهٔ [LATEX_5] و مکعب چقدر است؟",
+    "latex": [
+      "\\overline{AB},\\ \\overline{BC},\\ \\overline{CD}",
+      "P,\\ Q,\\ R",
+      "\\overline{AB},\\ \\overline{BC},\\ \\overline{CD}",
+      "AP=5,\\ PB=15,\\ BQ=15,\\ CR=10",
+      "PQR"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Solve the congruence equation \\(3x \\equiv 5 \\pmod{12}\\).",
+    "problem_fa": "معادلهٔ هم‌نهشتی [LATEX_1] را حل کنید.",
+    "latex": [
+      "3x \\equiv 5 \\pmod{12}"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "All convex polygons with perimeter 1 have area less than $x$. What is the smallest possible value of $x$?",
+    "problem_fa": "مساحت همهٔ چندضلعی‌های محدب با محیط [LATEX_1] کمتر از [LATEX_2] است. کمترین مقدار ممکن برای [LATEX_2] چیست؟",
+    "latex": [
+      "1",
+      "x"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\(a, b, c \\ge 0\\) and \\(ab + bc + ca = 3\\). Calculate the minimum value of the expression:\n\\[\n\\left(\\frac{a + b + c}{3}\\right)^{36} - \\frac{a^4 + b^4 + c^4}{3}\n\\]",
+    "problem_fa": "فرض کنید [LATEX_1] و [LATEX_2]. کمینهٔ مقدار عبارت زیر را محاسبه کنید: [LATEX_3]",
+    "latex": [
+      "a,b,c\\ge 0",
+      "ab+bc+ca=3",
+      "\\left(\\frac{a+b+c}{3}\\right)^{36}-\\frac{a^4+b^4+c^4}{3}"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Find the number of ways to select \\( n \\) objects from \\( 3n \\) objects, where \\( n \\) of the objects are identical and the remaining \\( 2n \\) objects are all different.",
+    "problem_fa": "تعداد روش‌های انتخاب [LATEX_1] شیء از میان [LATEX_2] شیء را بیابید؛ به‌طوری‌که [LATEX_3] تا از اشیا یکسان باشند و [LATEX_4] شیء باقی‌مانده همگی متمایز باشند.",
+    "latex": [
+      "n",
+      "3n",
+      "n",
+      "2n"
+    ]
+  },
+  {
+    "problem_source": "MATH_training_set",
+    "problem_en": "What is the least positive three-digit multiple of 7?",
+    "problem_fa": "کمترین مضرب مثبتِ سه‌رقمیِ [LATEX_1] چیست؟",
+    "latex": [
+      "7"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Evaluate the integral $\\int_{0}^{\\infty}\\frac{\\sin\\sqrt{x}}{1+x}\\; dx$. (Hint: The value of this integral is the ratio of two important constants in math.)",
+    "problem_fa": "انتگرال [LATEX_1] را محاسبه کنید. (راهنما: مقدار این انتگرال نسبتِ دو ثابت مهم در ریاضیات است.)",
+    "latex": [
+      "\\int_{0}^{\\infty}\\frac{\\sin\\sqrt{x}}{1+x}\\,dx"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\( a_k \\ (k=1, 2, \\dots, n) \\) be positive real numbers such that \\( \\sum_{k=1}^n a_k = \\prod_{k=1}^n a_k \\). Find the minimum value of the expression in terms of \\( n \\):\n\n\\[\n\\sum_{k=1}^n \\left(a_k - \\frac{1}{a_k}\\right)^2.\n\\]",
+    "problem_fa": "فرض کنید [LATEX_1] اعداد حقیقی مثبت باشند، به‌طوری‌که [LATEX_2]. کمینهٔ مقدار عبارت [LATEX_3] را بر حسب [LATEX_4] بیابید.",
+    "latex": [
+      "a_k\\ (k=1,2,\\dots,n)",
+      "\\sum_{k=1}^n a_k=\\prod_{k=1}^n a_k",
+      "\\sum_{k=1}^n\\left(a_k-\\frac{1}{a_k}\\right)^2",
+      "n"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Evaluate the limit\n\\[ \\lim_{x\\rightarrow \\infty} \\int_1^x \\frac{e^{-t}}{t} \\, dt. \\]\nGiven that \\(\\frac{e^{-t}}{t} > 0\\) for all \\(t > 1\\), explain why the limit is not negative.",
+    "problem_fa": "حد [LATEX_1] را محاسبه کنید. با توجه به اینکه [LATEX_2] برای هر [LATEX_3] برقرار است، توضیح دهید چرا این حد منفی نیست.",
+    "latex": [
+      "\\lim_{x\\rightarrow \\infty} \\int_1^x \\frac{e^{-t}}{t}\\,dt",
+      "\\frac{e^{-t}}{t} > 0",
+      "t > 1"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "How many positive divisors of \\(2^7 \\cdot 3^5 \\cdot 5^3 \\cdot 7^2\\) are divisible by 10?",
+    "problem_fa": "چند مقسوم‌علیهٔ مثبتِ [LATEX_1] بر [LATEX_2] بخش‌پذیر هستند؟",
+    "latex": [
+      "2^7 \\cdot 3^5 \\cdot 5^3 \\cdot 7^2",
+      "10"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\( a, b, c \\) be positive real numbers. Calculate the minimum value of the expression\n\\[ \\frac{a}{b} + \\frac{b}{c} + \\frac{c}{a} + \\frac{7(ab + bc + ca)}{a^2 + b^2 + c^2}. \\]",
+    "problem_fa": "فرض کنید [LATEX_1] اعداد حقیقیِ مثبت باشند. کمینهٔ مقدار عبارت [LATEX_2] را محاسبه کنید.",
+    "latex": [
+      "a, b, c",
+      "\\frac{a}{b} + \\frac{b}{c} + \\frac{c}{a} + \\frac{7(ab + bc + ca)}{a^2 + b^2 + c^2}"
+    ]
+  },
+  {
+    "problem_source": "MATH_training_set",
+    "problem_en": "Apartment rentals in Fairview run $\\$$0.90 per square foot. Jillian has determined that she can afford $\\$$630 per month for rent. What is the largest apartment, in square feet, she should consider at the given rate?",
+    "problem_fa": "اجارهٔ آپارتمان‌ها در فیرفیو به ازای هر فوت مربع [LATEX_1] است. جیلیان تعیین کرده است که می‌تواند ماهانه [LATEX_2] برای اجاره‌بها بپردازد. در این نرخ، بزرگ‌ترین آپارتمانی که باید در نظر بگیرد، بر حسب فوت مربع، چه اندازه است؟",
+    "latex": [
+      "\\$0.90",
+      "\\$630"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Find the 5 distinct subrings (with identity) of \\(\\mathbb{Q}\\).",
+    "problem_fa": "پنج زیرحلقهٔ متمایزِ دارای عضو همانی از [LATEX_1] را بیابید.",
+    "latex": [
+      "\\mathbb{Q}"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Given the general term of a sequence \\( t_n = 3 \\cdot 5^{n-1} \\), derive the recursive formula for the sequence.",
+    "problem_fa": "با توجه به جملهٔ عمومی دنباله [LATEX_1]، فرمول بازگشتی دنباله را به دست آورید.",
+    "latex": [
+      "t_n = 3 \\cdot 5^{n-1}"
+    ]
+  },
+  {
+    "problem_source": "aops_c5_contests_amp_programs",
+    "problem_en": "Let the product of the roots of \\( z^6 + z^4 + z^3 + z^2 + 1 = 0 \\) with positive imaginary part be \\( r(\\cos \\theta^\\circ + i \\sin \\theta^\\circ) \\). Find \\( \\theta \\).",
+    "problem_fa": "فرض کنید حاصل‌ضرب ریشه‌های معادلهٔ [LATEX_1] که قسمت موهومیِ مثبت دارند، برابر با [LATEX_2] باشد. مقدار [LATEX_3] را بیابید.",
+    "latex": [
+      "z^6 + z^4 + z^3 + z^2 + 1 = 0",
+      "r(\\cos \\theta^\\circ + i \\sin \\theta^\\circ)",
+      "\\theta"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\( n \\in \\mathbb{Z} \\) with \\( n \\geq 4 \\) and \\( a_1, a_2, a_3, \\ldots, a_n \\in \\mathbb{R} \\) satisfy:\n\\[ a_1^2 + a_2^2 + a_3^2 + \\cdots + a_n^2 = 1. \\]\nCalculate the minimum value of the expression:\n\\[ \\frac{a_1}{a_2^2 + 1} + \\frac{a_2}{a_3^2 + 1} + \\cdots + \\frac{a_n}{a_1^2 + 1} - \\frac{4}{5} \\left( a_1 \\sqrt{a_1} + a_2 \\sqrt{a_2} + \\cdots + a_n \\sqrt{a_n} \\right)^2. \\]",
+    "problem_fa": "فرض کنید [LATEX_1] و [LATEX_2] اعداد حقیقی باشند و شرط [LATEX_3] را برآورده کنند. کمینهٔ مقدار عبارت زیر را محاسبه کنید: [LATEX_4]",
+    "latex": [
+      "n \\in \\mathbb{Z},\\quad n \\geq 4",
+      "a_1, a_2, a_3, \\ldots, a_n \\in \\mathbb{R}",
+      "a_1^2 + a_2^2 + a_3^2 + \\cdots + a_n^2 = 1",
+      "\\frac{a_1}{a_2^2 + 1} + \\frac{a_2}{a_3^2 + 1} + \\cdots + \\frac{a_n}{a_1^2 + 1} - \\frac{4}{5} \\left( a_1 \\sqrt{a_1} + a_2 \\sqrt{a_2} + \\cdots + a_n \\sqrt{a_n} \\right)^2"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Roger gives half of his 20 chocolates to Nadal so that Nadal has more chocolates. Nadal then gives half of his chocolates to Novak so that Novak has more chocolates than Nadal. What is the total number of chocolates belonging to Roger, Nadal, and Novak?",
+    "problem_fa": "راجر نیمی از [LATEX_1] شکلات خود را به نادال می‌دهد تا نادال شکلات‌های بیشتری داشته باشد. سپس نادال نیمی از شکلات‌های خود را به نواک می‌دهد تا نواک شکلات‌های بیشتری از نادال داشته باشد. مجموع تعداد شکلات‌های متعلق به راجر، نادال و نواک چقدر است؟",
+    "latex": [
+      "20"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Let \\( F \\) be an increasing real function such that \\( F''(x) > 0 \\) for all \\( x \\in (0,1) \\), \\( F(0) = 0 \\), and \\( F(1) = 1 \\). If \\( G \\) is the inverse function of \\( F \\), find the maximum value of \\( \\frac{F(x) \\cdot G(x)}{x^2} \\) for \\( x \\in (0,1) \\).",
+    "problem_fa": "فرض کنید [LATEX_1] یک تابع حقیقی صعودی باشد، به‌طوری‌که [LATEX_2] برای هر [LATEX_3] برقرار باشد، و [LATEX_4] و [LATEX_5]. اگر [LATEX_6] تابع معکوس [LATEX_1] باشد، بیشینهٔ مقدار [LATEX_7] را برای [LATEX_8] بیابید.",
+    "latex": [
+      "F",
+      "F''(x) > 0",
+      "x \\in (0,1)",
+      "F(0) = 0",
+      "F(1) = 1",
+      "G",
+      "\\frac{F(x) \\cdot G(x)}{x^2}",
+      "x \\in (0,1)"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "In a parallelogram, the diagonals are inclined to each other at an angle of 45 degrees, and the sides AB and BC (with AB > BC) are inclined to each other at an angle of 30 degrees. Find the ratio of the sides AB to BC.",
+    "problem_fa": "در یک متوازی‌الاضلاع، قطرها با یکدیگر زاویهٔ [LATEX_1] می‌سازند و ضلع‌های [LATEX_2] و [LATEX_3] (که [LATEX_4]) با یکدیگر زاویهٔ [LATEX_5] می‌سازند. نسبت [LATEX_6] به [LATEX_7] را بیابید.",
+    "latex": [
+      "45^\\circ",
+      "AB",
+      "BC",
+      "AB > BC",
+      "30^\\circ",
+      "AB",
+      "BC"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let a sequence \\( S \\) be \\( 1, 2, 3, \\cdots, 9 \\). In every move, you pick any three adjacent numbers and reverse their order. For example, \\( (1, 2, 3, 4, \\cdots) \\) changes to \\( (3, 2, 1, 4, \\cdots) \\). How many distinct sequences can you make using one or more such moves?",
+    "problem_fa": null,
+    "latex": null,
+    "error": "Invalid \\escape: line 5 column 12 (char 316)"
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Solve the equation $18x^{2} - 18x\\sqrt{x} - 17x - 8\\sqrt{x} - 2 = 0$.",
+    "problem_fa": "معادلهٔ [LATEX_1] را حل کنید.",
+    "latex": [
+      "18x^{2} - 18x\\sqrt{x} - 17x - 8\\sqrt{x} - 2 = 0"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "What is the smallest number of planes needed to divide a cube into congruent tetrahedra?",
+    "problem_fa": "کمترین تعداد صفحه‌ای که برای تقسیم یک مکعب به چهاروجهی‌های هم‌نهشت لازم است، چند تاست؟",
+    "latex": []
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Solve for $x$ between $0^\\circ$ and $360^\\circ$ or $0$ and $2\\pi$:\n\\[\n\\sin x + \\cos x + \\tan x + 1 = 0\n\\]",
+    "problem_fa": "معادلهٔ زیر را برای [LATEX_1] در بازهٔ [LATEX_2] یا در بازهٔ [LATEX_3] حل کنید:",
+    "latex": [
+      "x",
+      "0^\\circ \\le x \\le 360^\\circ",
+      "0 \\le x \\le 2\\pi",
+      "\\sin x + \\cos x + \\tan x + 1 = 0"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Determine the minimum value of \\( n \\) such that there are more than 100,000 times the number of distinct arrangements possible for a group of \\( 2n \\) mathematicians (with \\( n \\) men and \\( n \\) women) sitting at a round table with no distinguishing marks, where men and women do not necessarily alternate, compared to the number of distinct arrangements where men and women must alternate.",
+    "problem_fa": "کمینهٔ مقدار [LATEX_1] را تعیین کنید به‌طوری‌که تعداد آرایش‌های متمایز ممکن برای گروهی متشکل از [LATEX_2] ریاضی‌دان، شامل [LATEX_3] مرد و [LATEX_4] زن، که دور یک میز گردِ بدون علامت مشخص‌کننده نشسته‌اند و در آن مردان و زنان الزاماً یکی‌درمیان نمی‌نشینند، بیش از [LATEX_5] برابر تعداد آرایش‌های متمایزی باشد که در آن مردان و زنان باید به‌صورت یکی‌درمیان بنشینند.",
+    "latex": [
+      "n",
+      "2n",
+      "n",
+      "n",
+      "100{,}000"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find all prime numbers \\( p \\) such that \\( \\frac{7^{p-1} - 1}{p} \\) is a perfect square.",
+    "problem_fa": "همهٔ اعداد اول [LATEX_1] را بیابید به‌طوری‌که [LATEX_2] یک مربع کامل باشد.",
+    "latex": [
+      "p",
+      "\\frac{7^{p-1}-1}{p}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let $\\triangle ABC$ be an equilateral triangle. $P$ is an arbitrary point inside $\\triangle ABC$. Find the locus of $P$ such that $\\sqrt{x} + \\sqrt{y} = \\sqrt{z}$, where $x$, $y$, and $z$ are the distances from $P$ to the sides $AB$, $AC$, and $BC$, respectively.",
+    "problem_fa": "فرض کنید [LATEX_1] مثلثی متساوی‌الاضلاع باشد. [LATEX_2] نقطه‌ای دلخواه درون [LATEX_1] است. مکان هندسی [LATEX_2] را بیابید، به‌طوری‌که [LATEX_3] برقرار باشد؛ در این رابطه، [LATEX_4]، [LATEX_5] و [LATEX_6] به‌ترتیب فاصله‌های [LATEX_7] از ضلع‌های [LATEX_8]، [LATEX_9] و [LATEX_10] هستند.",
+    "latex": [
+      "\\triangle ABC",
+      "P",
+      "\\sqrt{x} + \\sqrt{y} = \\sqrt{z}",
+      "x",
+      "y",
+      "z",
+      "P",
+      "AB",
+      "AC",
+      "BC"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Given positive real numbers \\(a, b, c\\), define the expression \n\\[\nE = \\sum_{\\text{cyc}} \\left(\\frac{a^2}{b^2 + c^2}\\right) - \\sum_{\\text{cyc}} \\left(\\frac{a}{b + c}\\right).\n\\]\nFind the minimum value of \\(E\\).",
+    "problem_fa": "با فرض اینکه [LATEX_1] اعداد حقیقی مثبت باشند، عبارت [LATEX_2] را تعریف می‌کنیم. کمینهٔ مقدار [LATEX_2] را بیابید.",
+    "latex": [
+      "a, b, c",
+      "E = \\sum_{\\text{cyc}} \\left(\\frac{a^2}{b^2 + c^2}\\right) - \\sum_{\\text{cyc}} \\left(\\frac{a}{b + c}\\right)"
+    ]
+  },
+  {
+    "problem_source": "aops_c5_contests_amp_programs",
+    "problem_en": "Evaluate the integral $\\int\\frac{x-1}{x^2\\ln(x)+x}dx$ using Popular Integrals.",
+    "problem_fa": "با استفاده از انتگرال‌های معروف، انتگرال [LATEX_1] را محاسبه کنید.",
+    "latex": [
+      "\\int\\frac{x-1}{x^2\\ln(x)+x}\\,dx"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Find the smallest value of \\( k \\) for which \\( \\frac{(k!)(k!)}{(k+5)!} \\) is an integer.",
+    "problem_fa": "کوچک‌ترین مقدار [LATEX_1] را بیابید که برای آن [LATEX_2] یک عدد صحیح باشد.",
+    "latex": [
+      "k",
+      "\\frac{(k!)(k!)}{(k+5)!}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find all values of $1^{\\pi}$.",
+    "problem_fa": "تمام مقادیر [LATEX_1] را بیابید.",
+    "latex": [
+      "1^{\\pi}"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Find all natural numbers $ n $ for which $ 2^{8} + 2^{11} + 2^{n} $ is a perfect square.",
+    "problem_fa": "تمام اعداد طبیعی [LATEX_1] را بیابید که [LATEX_2] یک مربع کامل باشد.",
+    "latex": [
+      "n",
+      "2^{8} + 2^{11} + 2^{n}"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Let \\( x \\) be a real number such that \\( 2^{2^x} + 4^{2^x} = 42 \\). What is \\( \\sqrt{2^{2^{2^x}}} \\)?",
+    "problem_fa": "فرض کنید [LATEX_1] عددی حقیقی باشد، به‌طوری‌که [LATEX_2]. مقدار [LATEX_3] چیست؟",
+    "latex": [
+      "x",
+      "2^{2^x} + 4^{2^x} = 42",
+      "\\sqrt{2^{2^{2^x}}}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "For \\(0 \\leq a, b, c \\leq 1\\), let \\(P = \\prod (4a(1-b))^\\frac{1}{2a(1-b)}\\) and \\(Q = 4^3 \\prod a(1-b)\\). Calculate the maximum value of \\(\\frac{P}{Q}\\).",
+    "problem_fa": "برای [LATEX_1]، فرض کنید [LATEX_2] و [LATEX_3]. بیشینهٔ مقدار [LATEX_4] را محاسبه کنید.",
+    "latex": [
+      "0 \\leq a,b,c \\leq 1",
+      "P=\\prod \\left(4a(1-b)\\right)^{\\frac{1}{2a(1-b)}}",
+      "Q=4^3\\prod a(1-b)",
+      "\\frac{P}{Q}"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Determine how many real solutions the equation \\((x^2 + x - 1)^3 + (2x^2 - x - 1)^3 = 27(x^2 - 1)^3\\) has.",
+    "problem_fa": "تعیین کنید معادلهٔ [LATEX_1] چند جواب حقیقی دارد.",
+    "latex": [
+      "\\((x^2 + x - 1)^3 + (2x^2 - x - 1)^3 = 27(x^2 - 1)^3\\)"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Compute \\(\\sigma(12)\\), the sum of the divisors of 12.",
+    "problem_fa": "مقدار [LATEX_1]، یعنی مجموع مقسوم‌علیه‌های عدد ۱۲، را محاسبه کنید.",
+    "latex": [
+      "\\sigma(12)"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "On a chessboard, what is the minimum number of cells that must be colored red such that there exist at least two red cells where a knight can jump from one to the other?",
+    "problem_fa": "روی یک صفحهٔ شطرنج، حداقل چند خانه باید به رنگ قرمز رنگ‌آمیزی شوند تا دست‌کم دو خانهٔ قرمز وجود داشته باشد که یک اسب بتواند از یکی به دیگری بپرد؟",
+    "latex": []
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\(ABC\\) be a triangle and \\(DEF\\) be points on sides \\(BC\\), \\(CA\\), and \\(AB\\), respectively. Let \\(\\omega_1\\) be the circumcircle of \\(\\triangle AEF\\) and \\(\\tau_1\\) the reflection of \\(\\omega_1\\) over \\(EF\\). Similarly define \\(\\omega_2\\), \\(\\omega_3\\), \\(\\tau_2\\), and \\(\\tau_3\\). Let \\(P\\) and \\(Q\\) be the common intersections of \\(\\omega_i\\) and \\(\\tau_i\\), respectively, and let \\(X\\), \\(Y\\), and \\(Z\\) be the reflections of \\(Q\\) over \\(EF\\), \\(FD\\), and \\(DE\\), respectively. Calculate the ratio of the circumradius of \\(\\triangle XYZ\\) to the circumradius of \\(\\triangle PXY\\).",
+    "problem_fa": "فرض کنید [LATEX_1] یک مثلث باشد و نقاط [LATEX_2]، [LATEX_3] و [LATEX_4]، به‌ترتیب، روی ضلع‌های [LATEX_5]، [LATEX_6] و [LATEX_7] قرار داشته باشند. [LATEX_8] را دایرهٔ محیطی [LATEX_9] و [LATEX_10] را قرینهٔ [LATEX_8] نسبت به [LATEX_11] در نظر بگیرید. به‌طور مشابه، [LATEX_12]، [LATEX_13]، [LATEX_14]، [LATEX_15] و [LATEX_16] را تعریف کنید. فرض کنید [LATEX_17] و [LATEX_18]، به‌ترتیب، نقاط تقاطع مشترک دایره‌های [LATEX_19] و [LATEX_20] باشند. همچنین [LATEX_21]، [LATEX_22] و [LATEX_23] را به‌ترتیب قرینه‌های [LATEX_24] نسبت به [LATEX_25]، [LATEX_26] و [LATEX_27] در نظر بگیرید. نسبت شعاع محیطی [LATEX_28] به شعاع محیطی [LATEX_29] را محاسبه کنید.",
+    "latex": [
+      "ABC",
+      "D",
+      "E",
+      "F",
+      "BC",
+      "CA",
+      "AB",
+      "\\omega_1",
+      "\\triangle AEF",
+      "\\tau_1",
+      "EF",
+      "\\omega_2",
+      "\\omega_3",
+      "\\tau_2",
+      "\\tau_3",
+      "P",
+      "Q",
+      "\\omega_i",
+      "\\tau_i",
+      "\\omega_i",
+      "\\tau_i",
+      "X",
+      "Y",
+      "Z",
+      "Q",
+      "EF",
+      "FD",
+      "DE",
+      "\\triangle XYZ",
+      "\\triangle PXY"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Alex and his two brothers, Rob and Paul, are painting the 4 walls of Alex's cubical house. Alex and Rob will paint the first side, Rob and Paul will paint the second, Paul and Alex will paint the third, and all three together will paint the 4th. If Alex paints 1 wall in 6 hours, Rob paints one wall in 2 hours, and Paul paints 1 wall in 3 hours, what total fraction of the four walls will each of the brothers paint?",
+    "problem_fa": "الکس و دو برادرش، راب و پل، در حال رنگ‌آمیزی [LATEX_1] دیوار خانهٔ مکعبی الکس هستند. الکس و راب ضلع اول را رنگ می‌کنند، راب و پل ضلع دوم را، پل و الکس ضلع سوم را، و هر سه نفر با هم ضلع چهارم را رنگ می‌کنند. اگر الکس هر دیوار را در [LATEX_2] ساعت، راب هر دیوار را در [LATEX_3] ساعت، و پل هر دیوار را در [LATEX_4] ساعت رنگ کند، هر یک از این سه نفر در مجموع چه کسری از چهار دیوار را رنگ خواهد کرد؟",
+    "latex": [
+      "4",
+      "6",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "problem_source": "MATH_training_set",
+    "problem_en": "Solve  \\[\\frac{x^2+2x+3}{x+4}=x+5\\]for $x$.",
+    "problem_fa": "معادلهٔ [LATEX_1] را برای [LATEX_2] حل کنید.",
+    "latex": [
+      "\\frac{x^2+2x+3}{x+4}=x+5",
+      "x"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Suppose \\( S_{1}, \\ldots, S_{k} \\) are distinct subsets of \\( \\{ 1, 2, \\ldots, n \\} \\) and that for any two of them \\( |S_{i} \\cup S_{j}| \\le n-4 \\) holds. Find the maximal possible value of \\( k \\).",
+    "problem_fa": "فرض کنید [LATEX_1] زیرمجموعه‌های متمایزی از [LATEX_2] باشند و برای هر دو تا از آن‌ها، شرط [LATEX_3] برقرار باشد. بیشینهٔ مقدار ممکن [LATEX_4] را بیابید.",
+    "latex": [
+      "S_{1}, \\ldots, S_{k}",
+      "\\{1,2,\\ldots,n\\}",
+      "|S_{i} \\cup S_{j}| \\le n-4",
+      "k"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\(a\\) and \\(b\\) be real numbers. We say that a pair \\((x, y)\\) of real numbers is 'nice' if \\((x - y)\\) is an integer multiple of 2017. Define the sequence \\(u_0 = a\\), \\(u_1 = b\\), and \\(u_{n+2} \\cdot u_n + u_{n+1} = 0\\). Find the smallest positive integer \\(M\\) such that every set of \\(M\\) positive integers contains two different numbers \\(i\\) and \\(j\\) such that the pair \\((u_i, u_j)\\) is 'nice'.",
+    "problem_fa": "فرض کنید [LATEX_1] و [LATEX_2] اعداد حقیقی باشند. می‌گوییم یک زوج [LATEX_3] از اعداد حقیقی «خوب» است، هرگاه [LATEX_4] مضرب صحیحی از [LATEX_5] باشد. دنبالهٔ [LATEX_6] را با [LATEX_7]، [LATEX_8] و رابطهٔ [LATEX_9] تعریف کنید. کوچک‌ترین عدد صحیح مثبت [LATEX_10] را بیابید به‌طوری‌که هر مجموعهٔ شامل [LATEX_10] عدد صحیح مثبت، دو عدد متفاوت [LATEX_11] و [LATEX_12] داشته باشد که زوج [LATEX_13] «خوب» باشد.",
+    "latex": [
+      "a",
+      "b",
+      "(x,y)",
+      "x-y",
+      "2017",
+      "(u_n)_{n\\geq 0}",
+      "u_0=a",
+      "u_1=b",
+      "u_{n+2}\\cdot u_n+u_{n+1}=0",
+      "M",
+      "i",
+      "j",
+      "(u_i,u_j)"
+    ]
+  },
+  {
+    "problem_source": "aops_c5_contests_amp_programs",
+    "problem_en": "Let \\( N \\) be the positive integer \\( 7777\\ldots777 \\), a 313-digit number where each digit is a 7. Let \\( f(r) \\) be the leading digit of the \\( r \\)-th root of \\( N \\). What is \\( f(2) + f(3) + f(4) + f(5) + f(6) \\)?",
+    "problem_fa": "فرض کنید [LATEX_1] عدد صحیح مثبتِ [LATEX_2] باشد؛ عددی [LATEX_3] رقمی که هر رقم آن [LATEX_4] است. فرض کنید [LATEX_5] رقم ابتداییِ ریشهٔ [LATEX_6]اُمِ [LATEX_1] باشد. مقدار [LATEX_7] چیست؟",
+    "latex": [
+      "N",
+      "7777\\ldots777",
+      "313",
+      "7",
+      "f(r)",
+      "\\sqrt[r]{N}",
+      "f(2)+f(3)+f(4)+f(5)+f(6)"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "In the sequence $00, 01, 02, 03, \\ldots, 99$, the terms are rearranged so that each term is obtained from the previous one by increasing or decreasing one of its digits by $1$. What is the maximal number of terms that could remain in their original positions?",
+    "problem_fa": "در دنبالهٔ [LATEX_1]، جمله‌ها به‌گونه‌ای بازآرایی می‌شوند که هر جمله با افزایش یا کاهش یکی از رقم‌های جملهٔ قبلی به اندازهٔ [LATEX_2] به‌دست آید. بیشترین تعداد جمله‌ای که می‌تواند در جایگاه اصلی خود باقی بماند، چند است؟",
+    "latex": [
+      "00, 01, 02, 03, \\ldots, 99",
+      "1"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "For triangle \\(ABC\\), let \\(BE\\) and \\(CF\\) be the angle bisectors of \\(\\angle ABC\\) with \\(F \\in AB\\) and \\(E \\in AC\\). Let \\(BH\\) and \\(CK\\) be the altitudes of \\(\\triangle ABC\\) with \\(H \\in AC\\) and \\(K \\in AB\\). Given that the incenter \\(I\\) of \\(\\triangle ABC\\) lies on line \\(HK\\), find the ratio of the circumradius \\(R\\) to the inradius \\(r\\) of \\(\\triangle ABC\\) if the circumcenter \\(O\\) lies on line \\(EF\\).",
+    "problem_fa": "برای مثلث [LATEX_1]، فرض کنید [LATEX_2] و [LATEX_3] نیمسازهای زاویهٔ [LATEX_4] باشند، به‌طوری‌که [LATEX_5] و [LATEX_6]. همچنین، فرض کنید [LATEX_7] و [LATEX_8] ارتفاع‌های [LATEX_9] باشند، به‌طوری‌که [LATEX_10] و [LATEX_11]. اگر مرکز داخلی [LATEX_12] مثلث [LATEX_13] روی خط [LATEX_14] قرار داشته باشد، و مرکز محیطی [LATEX_15] روی خط [LATEX_16] قرار بگیرد، نسبت شعاع محیطی [LATEX_17] به شعاع داخلی [LATEX_18] مثلث [LATEX_19] را بیابید.",
+    "latex": [
+      "\\triangle ABC",
+      "BE",
+      "CF",
+      "\\angle ABC",
+      "F \\in AB",
+      "E \\in AC",
+      "BH",
+      "CK",
+      "\\triangle ABC",
+      "H \\in AC",
+      "K \\in AB",
+      "I",
+      "\\triangle ABC",
+      "HK",
+      "O",
+      "EF",
+      "R",
+      "r",
+      "\\triangle ABC"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\( p \\) and \\( q \\) be real numbers where \\( 0 < q < 1 < p \\). An infinite sequence of rectangles \\( R_n = a_n \\times b_n \\) with \\( n = 1, 2, 3, \\ldots \\) is defined as \"good\" if:\ni) \\( a_{n+1} = qa_n \\)\nii) \\( b_n \\leq b_{n+1} \\leq 2 \\)\niii) Each rectangle \\( R_n \\) is either white or black.\niv) For each \\( n \\geq 2 \\), the rectangle \\( R_n \\) is black if and only if \\( qb_n \\geq pb_{n-1} \\).\n\nLet \\( B \\) be the sum of the areas of the black rectangles and \\( W \\) be the sum of the areas of the white rectangles. Find the smallest number \\( r \\) such that \\( B < rW \\) for all \"good\" sequences.",
+    "problem_fa": "فرض کنید [LATEX_1] و [LATEX_2] اعداد حقیقی باشند، به‌طوری‌که [LATEX_3]. یک دنبالهٔ نامتناهی از مستطیل‌های [LATEX_4]، که در آن [LATEX_5] و [LATEX_6]، «خوب» نامیده می‌شود اگر شرایط زیر را داشته باشد:\n\nالف) [LATEX_7]\n\nب) [LATEX_8]\n\nج) هر مستطیل [LATEX_9] یا سفید است یا سیاه.\n\nد) برای هر [LATEX_10]، مستطیل [LATEX_11] سیاه است اگر و تنها اگر [LATEX_12].\n\nفرض کنید [LATEX_13] مجموع مساحت مستطیل‌های سیاه و [LATEX_14] مجموع مساحت مستطیل‌های سفید باشد. کوچک‌ترین عدد [LATEX_15] را بیابید به‌طوری‌که برای همهٔ دنباله‌های «خوب» داشته باشیم [LATEX_16].",
+    "latex": [
+      "p",
+      "q",
+      "0<q<1<p",
+      "R_n=a_n\\times b_n",
+      "n=1,2,3,\\ldots",
+      "R_n",
+      "a_{n+1}=qa_n",
+      "b_n\\leq b_{n+1}\\leq 2",
+      "R_n",
+      "n\\geq 2",
+      "R_n",
+      "qb_n\\geq pb_{n-1}",
+      "B",
+      "W",
+      "r",
+      "B<rW"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\( M(a, b) \\) be a point in the plane \\( xOy \\) with \\( a, b \\in \\mathbb{Z} \\) and \\( a \\neq b \\). Consider the points \\( M_k(k, k) \\) for \\( k \\in \\{0, 1, 2, 3\\} \\). For any \\( k \\in \\{0, 1, 2\\} \\), the triangle \\( MM_kM_{k+1} \\) does not contain any points with both integer coordinates inside it. Calculate the sum of all possible values of \\( |a - b| \\).",
+    "problem_fa": "نقطهٔ [LATEX_1] را در صفحهٔ [LATEX_2] در نظر بگیرید؛ به‌طوری‌که [LATEX_3] و [LATEX_4]. نقاط [LATEX_5] را برای [LATEX_6] در نظر بگیرید. برای هر [LATEX_7]، مثلث [LATEX_8] هیچ نقطه‌ای با هر دو مختصات صحیح درون خود ندارد. مجموع همهٔ مقادیر ممکن [LATEX_9] را محاسبه کنید.",
+    "latex": [
+      "M(a,b)",
+      "xOy",
+      "a,b\\in\\mathbb{Z}",
+      "a\\ne b",
+      "M_k(k,k)",
+      "k\\in\\{0,1,2,3\\}",
+      "k\\in\\{0,1,2\\}",
+      "MM_kM_{k+1}",
+      "|a-b|"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\((a, b, c, d) \\in \\mathbb{R}^4\\) such that \\(a + b + c + d = 3\\) and \\(a^2 + b^2 + c^2 + d^2 = 45\\). Find the value of \n\\[\n\\frac{a^5}{(a-b)(a-c)(a-d)} + \\frac{b^5}{(b-a)(b-c)(b-d)} + \\frac{c^5}{(c-a)(c-b)(c-d)} + \\frac{d^5}{(d-a)(d-b)(d-c)}.\n\\]",
+    "problem_fa": "فرض کنید [LATEX_1] به‌گونه‌ای که [LATEX_2] و [LATEX_3] برقرار باشند. مقدار عبارت [LATEX_4] را بیابید.",
+    "latex": [
+      "(a,b,c,d)\\in\\mathbb{R}^4",
+      "a+b+c+d=3",
+      "a^2+b^2+c^2+d^2=45",
+      "\\frac{a^5}{(a-b)(a-c)(a-d)}+\\frac{b^5}{(b-a)(b-c)(b-d)}+\\frac{c^5}{(c-a)(c-b)(c-d)}+\\frac{d^5}{(d-a)(d-b)(d-c)}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Given \\(a, b, c > 0\\) and \\(a + b + c = 4\\), let \\(S\\) be the sum \n\n\\[\nS = \\sum \\left[\\frac{3(a+b)\\sqrt{b^2+4bc+c^2} + (2b+2c-a)^2}{b^2+4bc+c^2}\\right].\n\\]\n\nFind the minimum value of \\(S\\).",
+    "problem_fa": "با فرض اینکه [LATEX_1] و [LATEX_2]، فرض کنید [LATEX_3] مجموع زیر باشد. کمترین مقدار [LATEX_4] را بیابید.",
+    "latex": [
+      "a,b,c>0",
+      "a+b+c=4",
+      "S=\\sum\\left[\\frac{3(a+b)\\sqrt{b^2+4bc+c^2}+(2b+2c-a)^2}{b^2+4bc+c^2}\\right]",
+      "S"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find the minimum possible value of \\( x^2 + y^2 \\) given that \\( x \\) and \\( y \\) are real numbers satisfying \\( xy(x^2 - y^2) = x^2 + y^2 \\) and \\( x \\neq 0 \\).",
+    "problem_fa": "کمینهٔ مقدار ممکنِ [LATEX_1] را بیابید، با فرض اینکه [LATEX_2] و [LATEX_3] و x و y اعداد حقیقی هستند.",
+    "latex": [
+      "x^2 + y^2",
+      "xy(x^2 - y^2) = x^2 + y^2",
+      "x \\neq 0"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let $a \\neq b$ be positive real numbers that are solutions to $\\log_4(x^2) + \\log_2(x) = 1 + 3 \\log_2(x)$. What is $ab$?",
+    "problem_fa": "فرض کنید [LATEX_1] اعداد حقیقی مثبت و متمایزی باشند که جواب‌های معادلهٔ [LATEX_2] هستند. مقدار [LATEX_3] چیست؟",
+    "latex": [
+      "a \\ne b",
+      "\\log_4(x^2) + \\log_2(x) = 1 + 3\\log_2(x)",
+      "ab"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Consider an operation that transforms a sequence $(a_1, a_2, \\dots, a_{n-1}, a_n)$ into $(a_2, a_3, \\dots, a_n, a_n a_1)$ for $n \\geq 2$. Let $S_n$ be the sequence with all $2^n - 1$ entries equal to $-1$. Find the smallest positive integer $k$ such that applying the operation $2^k - 1$ times to $S_n$ results in the original sequence $S_n$. Calculate $k$ for $n = 5$.",
+    "problem_fa": "عملی را در نظر بگیرید که دنبالهٔ [LATEX_1] را به دنبالهٔ [LATEX_2] تبدیل می‌کند، که در آن [LATEX_3] است. فرض کنید [LATEX_4] دنباله‌ای باشد که همهٔ [LATEX_5] جملهٔ آن برابر [LATEX_6] هستند. کوچک‌ترین عدد صحیح مثبت [LATEX_7] را بیابید به‌طوری‌که اگر این عمل به تعداد [LATEX_8] بار روی [LATEX_9] اعمال شود، نتیجه دنبالهٔ اصلی [LATEX_10] باشد. مقدار [LATEX_11] را برای [LATEX_12] محاسبه کنید.",
+    "latex": [
+      "(a_1, a_2, \\dots, a_{n-1}, a_n)",
+      "(a_2, a_3, \\dots, a_n, a_n a_1)",
+      "n \\geq 2",
+      "S_n",
+      "2^n - 1",
+      "-1",
+      "k",
+      "2^k - 1",
+      "S_n",
+      "S_n",
+      "k",
+      "n = 5"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "For integer \\( n = 0, 1, 2, \\cdots \\) and positive number \\( a_n \\), let \\( f_n(x) = a_n (x - n)(n + 1 - x) \\).\n(1) Find \\( a_n \\) such that the curve \\( y = f_n(x) \\) touches the curve \\( y = e^{-x} \\).\n(2) For \\( f_n(x) \\) defined in (1), denote the area of the figure bounded by \\( y = f_0(x) \\), \\( y = e^{-x} \\), and the \\( y \\)-axis by \\( S_0 \\). For \\( n \\geq 1 \\), denote the area of the figure bounded by \\( y = f_{n-1}(x) \\), \\( y = f_n(x) \\), and \\( y = e^{-x} \\) by \\( S_n \\). Find \\( \\lim_{n \\to \\infty} (S_0 + S_1 + \\cdots + S_n) \\).",
+    "problem_fa": "برای هر عدد صحیح [LATEX_1] و عدد مثبت [LATEX_2]، تابع [LATEX_3] را در نظر بگیرید.\n(۱) [LATEX_2] را چنان بیابید که منحنی [LATEX_4] بر منحنی [LATEX_5] مماس شود.\n(۲) برای تابع [LATEX_6] که در بخش (۱) تعریف شده است، مساحت ناحیه‌ای را که به‌وسیلهٔ منحنی‌های [LATEX_7] و [LATEX_8] و محور [LATEX_9] محدود شده است، [LATEX_10] بنامید. برای [LATEX_11]، مساحت ناحیه‌ای را که به‌وسیلهٔ منحنی‌های [LATEX_12]، [LATEX_13] و [LATEX_14] محدود شده است، [LATEX_15] بنامید. مقدار [LATEX_16] را بیابید.",
+    "latex": [
+      "n=0,1,2,\\cdots",
+      "a_n",
+      "f_n(x)=a_n(x-n)(n+1-x)",
+      "y=f_n(x)",
+      "y=e^{-x}",
+      "f_n(x)",
+      "y=f_0(x)",
+      "y=e^{-x}",
+      "y\\text{-محور}",
+      "S_0",
+      "n\\geq 1",
+      "y=f_{n-1}(x)",
+      "y=f_n(x)",
+      "y=e^{-x}",
+      "S_n",
+      "\\lim_{n\\to\\infty}(S_0+S_1+\\cdots+S_n)"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Given \\( a_1 + a_2 + \\cdots + a_n = n \\) and \\( a_i > 0 \\) for \\( i = 1, 2, \\ldots, n \\), find the minimum value of the expression \\( \\left(1 + \\frac{1}{a_1}\\right)\\left(1 + \\frac{1}{a_2}\\right) \\cdots \\left(1 + \\frac{1}{a_n}\\right) \\).",
+    "problem_fa": "با فرض اینکه [LATEX_1] و [LATEX_2] برای [LATEX_3] برقرار باشند، کمینهٔ عبارت [LATEX_4] را بیابید.",
+    "latex": [
+      "a_1 + a_2 + \\cdots + a_n = n",
+      "a_i > 0",
+      "i = 1, 2, \\ldots, n",
+      "\\left(1 + \\frac{1}{a_1}\\right)\\left(1 + \\frac{1}{a_2}\\right) \\cdots \\left(1 + \\frac{1}{a_n}\\right)"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "If $ \\lambda_1 ,\\lambda_2 ,\\ldots ,\\lambda_n $ are pairwise distinct, determine how many such orthonormal bases there are for the matrix $ A=\\lambda_1 u_1^tu_1 +\\lambda_2 u_2^tu_2 +\\cdots + \\lambda_n u_n^tu_n. $",
+    "problem_fa": "اگر [LATEX_1] دوتادوتا متمایز باشند، تعیین کنید برای ماتریس [LATEX_2] چند پایهٔ متعامدِ یکه از این نوع وجود دارد.",
+    "latex": [
+      "\\lambda_1,\\lambda_2,\\ldots,\\lambda_n",
+      "A=\\lambda_1 u_1^t u_1+\\lambda_2 u_2^t u_2+\\cdots+\\lambda_n u_n^t u_n"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "In an alleyway, a ladder of length $3.9$ m leans from the foot of the west wall onto the east wall, while a ladder of length $2.5$ m leans from the foot of the east wall onto the west wall. The ladders cross $1\\frac{2}{7}$ m above the roadway. How wide is the alleyway?",
+    "problem_fa": "در یک کوچه، نردبانی به طول [LATEX_1] متر، از پای دیوار غربی به دیوار شرقی تکیه داده شده است؛ در حالی که نردبانی به طول [LATEX_2] متر، از پای دیوار شرقی به دیوار غربی تکیه داده شده است. این دو نردبان در ارتفاع [LATEX_3] متر از سطح گذرگاه یکدیگر را قطع می‌کنند. عرض کوچه چقدر است؟",
+    "latex": [
+      "3.9",
+      "2.5",
+      "1\\frac{2}{7}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Dwarfs of height 1, 2, 3, ..., N are arranged around a circular table in some order. The positive difference of adjacent dwarfs is taken and these differences are summed to give T. Find the maximum value of T.",
+    "problem_fa": "کوتوله‌هایی با ارتفاع‌های [LATEX_1] به ترتیبی دلخواه به دور یک میز گرد چیده شده‌اند. اختلاف مثبت ارتفاع‌های کوتوله‌های مجاور را در نظر می‌گیریم و این اختلاف‌ها را با هم جمع می‌کنیم تا [LATEX_2] به دست آید. بیشترین مقدار [LATEX_2] را بیابید.",
+    "latex": [
+      "1,2,3,\\ldots,N",
+      "T"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Find the number of odd three-digit positive integers \\( x \\) such that \\( x^2 \\equiv 1 \\pmod{8} \\) and the product of the digits of \\( x \\) is odd.",
+    "problem_fa": "تعداد اعداد صحیح مثبتِ سه‌رقمی و فردِ [LATEX_1] را بیابید که [LATEX_2] باشد و حاصل‌ضرب رقم‌های [LATEX_3] فرد باشد.",
+    "latex": [
+      "x",
+      "x^2 \\equiv 1 \\pmod{8}",
+      "x"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find the minimum value of \\(a^2 + b^2\\) if the equation \\(x^4 + ax^3 + bx^2 + ax + 1 = 0\\) has real roots.",
+    "problem_fa": "اگر معادلهٔ [LATEX_1] ریشه‌های حقیقی داشته باشد، کمینهٔ مقدار [LATEX_2] را بیابید.",
+    "latex": [
+      "x^4 + ax^3 + bx^2 + ax + 1 = 0",
+      "a^2 + b^2"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "In a permutation of $1, 2, \\ldots, n$ denoted as $a_1, a_2, \\ldots, a_n$, a pair $(a_i, a_j)$ is called bad if $a_i > a_j$ and $i < j$. Find the number of permutations of $1, 2, \\ldots, n$ such that the number of bad pairs is divisible by $n$.",
+    "problem_fa": "در یک جایگشت از [LATEX_1] که با [LATEX_2] نشان داده می‌شود، زوج [LATEX_3] را «بد» می‌نامیم هرگاه [LATEX_4] و [LATEX_5] برقرار باشند. تعداد جایگشت‌های [LATEX_1] را بیابید که تعداد زوج‌های بدِ آن‌ها بر [LATEX_6] بخش‌پذیر باشد.",
+    "latex": [
+      "1,2,\\ldots,n",
+      "a_1,a_2,\\ldots,a_n",
+      "(a_i,a_j)",
+      "a_i>a_j",
+      "i<j",
+      "n"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Lattice points \\(A, B, C\\) (points with integer coordinates) lie on the parabola \\(y = x^2\\) such that \\(ABC\\) is a right triangle. Given that the area of \\(ABC\\) is no more than 2015, determine the maximum possible area of \\(ABC\\).",
+    "problem_fa": "نقاط شبکه‌ای [LATEX_1]، [LATEX_2] و [LATEX_3] (نقاطی با مختصات صحیح) روی سهمی [LATEX_4] قرار دارند، به‌گونه‌ای که مثلث [LATEX_5] قائم‌الزاویه است. با توجه به اینکه مساحت [LATEX_6] حداکثر [LATEX_7] است، بیشترین مساحت ممکن [LATEX_8] را تعیین کنید.",
+    "latex": [
+      "A",
+      "B",
+      "C",
+      "y=x^2",
+      "ABC",
+      "ABC",
+      "2015",
+      "ABC"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "A balance scale sits on a teacher's table, currently tipped to the right. There is a set of weights on the scale, and each weight has the name of at least one pupil. When each pupil enters the classroom, they move all the weights carrying their name to the opposite side of the scale. Let $W$ be the set of all weights, and for each pupil $p$, let $W_p$ be the set of weights with $p$'s name on them. Define the function $f(S)$ for any subset $S$ of pupils as the total change in weight on the left side of the scale when all pupils in $S$ enter the classroom. Calculate the sum of $f(S)$ for all possible non-empty subsets $S$ of pupils.",
+    "problem_fa": "ترازویی روی میز معلم قرار دارد و در حال حاضر به سمت راست خم شده است. مجموعه‌ای از وزنه‌ها روی ترازو قرار دارد و روی هر وزنه نام دست‌کم یک دانش‌آموز نوشته شده است. هرگاه هر دانش‌آموز وارد کلاس می‌شود، همهٔ وزنه‌هایی را که نام او روی آن‌هاست به سمت مخالف ترازو منتقل می‌کند. فرض کنید [LATEX_1] مجموعهٔ همهٔ وزنه‌ها باشد و برای هر دانش‌آموز [LATEX_2]، [LATEX_3] مجموعهٔ وزنه‌هایی باشد که نام [LATEX_4] روی آن‌ها نوشته شده است. تابع [LATEX_5] را برای هر زیرمجموعهٔ [LATEX_6] از دانش‌آموزان، برابر با تغییر کل وزن سمت چپ ترازو هنگامی که همهٔ دانش‌آموزان [LATEX_7] وارد کلاس می‌شوند، تعریف کنید. مجموع [LATEX_8] را برای همهٔ زیرمجموعه‌های ناتهی ممکن از دانش‌آموزان محاسبه کنید.",
+    "latex": [
+      "W",
+      "p",
+      "W_p",
+      "p",
+      "f(S)",
+      "S",
+      "S",
+      "f(S)"
+    ]
+  },
+  {
+    "problem_source": "MATH_training_set",
+    "problem_en": "Simplify $\\sqrt{245}$.",
+    "problem_fa": "[LATEX_1] را ساده کنید.",
+    "latex": [
+      "\\sqrt{245}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find the least \\( M \\) such that the following inequality holds for positive reals \\( a, b, c \\):\n\\[ |(a-b)(b-c)|^{3} + |(b-c)(c-a)|^{3} + |(c-a)(a-b)|^{3} \\le M(a^{3} + b^{3} + c^{3})^{2} \\]",
+    "problem_fa": "کمترین مقدار [LATEX_1] را بیابید، به‌طوری‌که نامساوی زیر برای اعداد حقیقی مثبت [LATEX_2] برقرار باشد:",
+    "latex": [
+      "M",
+      "a,b,c",
+      "\\lvert(a-b)(b-c)\\rvert^{3}+\\lvert(b-c)(c-a)\\rvert^{3}+\\lvert(c-a)(a-b)\\rvert^{3}\\le M(a^{3}+b^{3}+c^{3})^{2}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Determine all functions \\( f : \\mathbb{R}^+ \\to \\mathbb{R}^+ \\) such that \n\\[ f(x+f(y-x)) = f(x)+f(y)-x, \\ \\ \\ \\forall x,y \\in \\mathbb{R}^+, \\ y>x. \\]",
+    "problem_fa": "همهٔ توابع [LATEX_1] را بیابید، به‌طوری‌که رابطهٔ [LATEX_2] برای همهٔ [LATEX_3] برقرار باشد.",
+    "latex": [
+      "f:\\mathbb{R}^+\\to\\mathbb{R}^+",
+      "f(x+f(y-x))=f(x)+f(y)-x",
+      "x,y\\in\\mathbb{R}^+,\\quad y>x"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find all functions \\( f: \\mathbb{R}^+ \\to \\mathbb{R}^+ \\) such that:\n\\[ f(x + f(xy)) = x f(1 + f(y)) \\]",
+    "problem_fa": "همهٔ توابع [LATEX_1] را بیابید به‌طوری‌که برای هر [LATEX_2] داشته باشیم:",
+    "latex": [
+      "f:\\mathbb{R}^+\\to\\mathbb{R}^+",
+      "x,y\\in\\mathbb{R}^+"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Find the indefinite integral of \\(\\frac{x^3+1}{x^2 + 3} \\, dx\\).",
+    "problem_fa": "انتگرال نامعین [LATEX_1] را بیابید.",
+    "latex": [
+      "\\int \\frac{x^3+1}{x^2+3}\\,dx"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "A circle $\\omega$ with center $I$ is inscribed into a segment of the disk, formed by an arc and a chord $AB$. Point $M$ is the midpoint of this arc $AB$, and point $N$ is the midpoint of the complementary arc. The tangents from $N$ touch $\\omega$ at points $C$ and $D$. The opposite sidelines $AC$ and $BD$ of quadrilateral $ABCD$ meet at point $X$, and the diagonals of $ABCD$ meet at point $Y$. If the radius of $\\omega$ is $r$, and the distance from $I$ to $AB$ is $d$, find the value of $\\frac{d}{r}$ given that points $X, Y, I$, and $M$ are collinear.",
+    "problem_fa": "دایرهٔ [LATEX_1] با مرکز [LATEX_2] درون قطعه‌ای از قرص دایره‌ای محاط شده است؛ این قطعه به‌وسیلهٔ یک کمان و وتر [LATEX_3] تشکیل می‌شود. نقطهٔ [LATEX_4] نقطهٔ میانی کمان [LATEX_5] و نقطهٔ [LATEX_6] نقطهٔ میانی کمان مکمل آن است. مماس‌هایی که از [LATEX_7] رسم می‌شوند، دایرهٔ [LATEX_8] را در نقاط [LATEX_9] و [LATEX_10] لمس می‌کنند. دو ضلع مقابل [LATEX_11] و [LATEX_12] چهارضلعی [LATEX_13] در نقطهٔ [LATEX_14] یکدیگر را قطع می‌کنند و قطرهای [LATEX_15] در نقطهٔ [LATEX_16] یکدیگر را قطع می‌کنند. اگر شعاع دایرهٔ [LATEX_17] برابر [LATEX_18] و فاصلهٔ مرکز [LATEX_19] از [LATEX_20] برابر [LATEX_21] باشد، با توجه به اینکه نقاط [LATEX_22]، [LATEX_23]، [LATEX_24] و [LATEX_25] هم‌خط‌اند، مقدار [LATEX_26] را بیابید.",
+    "latex": [
+      "\\omega",
+      "I",
+      "AB",
+      "M",
+      "\\widehat{AB}",
+      "N",
+      "\\widehat{AB}_{\\mathrm{complementary}}",
+      "\\omega",
+      "C",
+      "D",
+      "AC",
+      "BD",
+      "ABCD",
+      "X",
+      "AD\\text{ and }BC",
+      "Y",
+      "\\omega",
+      "r",
+      "I",
+      "AB",
+      "d",
+      "X",
+      "Y",
+      "I",
+      "M",
+      "\\frac{d}{r}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Solve for \\( x \\) in the equation \\( 8x = 4^x \\).",
+    "problem_fa": "معادلهٔ [LATEX_1] را برای [LATEX_2] حل کنید.",
+    "latex": [
+      "8x = 4^x",
+      "x"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Given distinct positive integers \\(a_{1}, a_{2}, \\cdots, a_{2n}\\) such that for all \\(1 \\leq i \\leq n\\), \\(a_{2i}\\) is smaller than \\(a_{2i-1}\\) and \\(a_{2i+1}\\) (with \\(a_{2n+1} = a_{1}\\)), find the minimum value of \\(\\sum_{i=1}^{2n} (-1)^{i+1} a_{i}\\).",
+    "problem_fa": "اعداد صحیح مثبت و متمایز [LATEX_1] را در نظر بگیرید؛ به‌گونه‌ای که برای هر [LATEX_2]، [LATEX_3] برقرار باشد و [LATEX_4]. کمینهٔ مقدار [LATEX_5] را بیابید.",
+    "latex": [
+      "a_{1}, a_{2}, \\cdots, a_{2n}",
+      "1 \\leq i \\leq n",
+      "a_{2i}<a_{2i-1}\\quad\\text{و}\\quad a_{2i}<a_{2i+1}",
+      "a_{2n+1}=a_{1}",
+      "\\sum_{i=1}^{2n}(-1)^{i+1}a_i"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let $\\epsilon = 0.1$. Find the smallest positive integer $N$ such that for all integers $n > N$ and positive integers $x_1, x_2, \\dots, x_n$, if $L(i,j) \\ne L(u,v)$ for all $1 \\le i \\le j \\le n$, $1 \\le u \\le v \\le n$, and $(i,j) \\ne (u,v)$ (where $L(i,j) = \\sum_{k=i}^j x_k$), then $L(1,n) > 0.9n^2$. Calculate $N$.",
+    "problem_fa": "فرض کنید [LATEX_1]. کمترین عدد صحیح مثبت [LATEX_2] را بیابید به‌طوری‌که برای هر عدد صحیح [LATEX_3] و هر مجموعه از اعداد صحیح مثبت [LATEX_4]، اگر [LATEX_5] برای همهٔ [LATEX_6] و [LATEX_7] برقرار باشد، که در آن [LATEX_8]، آنگاه [LATEX_9]. مقدار [LATEX_2] را محاسبه کنید.",
+    "latex": [
+      "\\epsilon = 0.1",
+      "N",
+      "n > N",
+      "x_1, x_2, \\dots, x_n",
+      "L(i,j) \\ne L(u,v)",
+      "1 \\le i \\le j \\le n",
+      "1 \\le u \\le v \\le n \\quad \\text{و} \\quad (i,j) \\ne (u,v)",
+      "L(i,j) = \\sum_{k=i}^j x_k",
+      "L(1,n) > 0.9n^2"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "In trapezoid \\(ABCD\\) with bases \\(AD\\) and \\(BC\\), points \\(K\\) and \\(L\\) are taken on sides \\(AB\\) and \\(CD\\) respectively. Given that \\(\\angle BAL = \\angle CDK\\), calculate the value of \\(\\angle BLA + \\angle CKD\\).",
+    "problem_fa": "در ذوزنقه [LATEX_1] که قاعده‌های آن [LATEX_2] و [LATEX_3] هستند، نقاط [LATEX_4] و [LATEX_5] به‌ترتیب روی ضلع‌های [LATEX_6] و [LATEX_7] قرار دارند. با توجه به اینکه [LATEX_8] است، مقدار [LATEX_9] را محاسبه کنید.",
+    "latex": [
+      "ABCD",
+      "AD",
+      "BC",
+      "K",
+      "L",
+      "AB",
+      "CD",
+      "\\angle BAL = \\angle CDK",
+      "\\angle BLA + \\angle CKD"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\(ABCD\\) be an inscribed trapezoid with \\(AB \\parallel CD\\). If \\(m(\\widehat{AOD}) = 60^\\circ\\) and the altitude of the trapezoid is \\(10\\), what is the area of the trapezoid?",
+    "problem_fa": "فرض کنید [LATEX_1] یک ذوزنقهٔ محاطی باشد، به‌طوری‌که [LATEX_2]. اگر [LATEX_3] و ارتفاع ذوزنقه [LATEX_4] باشد، مساحت ذوزنقه را بیابید.",
+    "latex": [
+      "ABCD",
+      "AB \\parallel CD",
+      "m(\\widehat{AOD}) = 60^\\circ",
+      "10"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Given positive real numbers \\( a, b, c \\) such that \\( \\frac{a^4}{b^2} + \\frac{b^4}{c^2} + \\frac{c^4}{a^2} = 3 \\), calculate the maximum value of the expression \\( a^2 + b^2 + c^2 - (a^3 + b^3 + c^3) \\).",
+    "problem_fa": "با فرض اینکه [LATEX_1]، بیشینهٔ مقدار عبارت [LATEX_2] را محاسبه کنید.",
+    "latex": [
+      "a,b,c>0,\\qquad \\frac{a^4}{b^2}+\\frac{b^4}{c^2}+\\frac{c^4}{a^2}=3",
+      "a^2+b^2+c^2-(a^3+b^3+c^3)"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find all $a \\in \\mathbb{N}$ such that $2^{a+1} + 1$ is divisible by $a$.",
+    "problem_fa": "تمام اعضای [LATEX_1] را بیابید که [LATEX_2] بر [LATEX_3] بخش‌پذیر باشد.",
+    "latex": [
+      "\\mathbb{N}",
+      "2^{a+1}+1",
+      "a"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Given the equation $a + b + c + d + e = abcde$, find the maximum value of $e$.",
+    "problem_fa": "با توجه به معادلهٔ [LATEX_1]، بیشینهٔ مقدار [LATEX_2] را بیابید.",
+    "latex": [
+      "a + b + c + d + e = abcde",
+      "e"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\( \\triangle ABC \\) be a right triangle with \\( \\angle A = 90^\\circ \\). Denote its incenter by \\( I \\), and let \\( D \\) be the intersection of \\( BI \\) with \\( AC \\) and \\( E \\) be the intersection of \\( CI \\) with \\( AB \\). Determine whether it is possible for the segments \\( AB \\), \\( AC \\), \\( BI \\), \\( ID \\), \\( CI \\), and \\( IE \\) to all have integer lengths.",
+    "problem_fa": "فرض کنید [LATEX_1] یک مثلث قائم‌الزاویه باشد که [LATEX_2] است. مرکز داخلی آن را با [LATEX_3] نشان دهید، و فرض کنید [LATEX_4] محل تقاطع [LATEX_5] با [LATEX_6] و [LATEX_7] محل تقاطع [LATEX_8] با [LATEX_9] باشد. تعیین کنید آیا ممکن است طول پاره‌خط‌های [LATEX_10] همگی عدد صحیح باشند یا خیر.",
+    "latex": [
+      "\\triangle ABC",
+      "\\angle A = 90^\\circ",
+      "I",
+      "D",
+      "BI",
+      "AC",
+      "E",
+      "CI",
+      "AB",
+      "AB,\\ AC,\\ BI,\\ ID,\\ CI,\\ IE"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Consider a graph \\( G \\) with vertices labeled with elements from the set \\(\\{0,1,\\cdots, n\\}\\). Let \\( A(G) \\) and \\( B(G) \\) be two functions defined on \\( G \\). If \\( A(G) = B(G) \\) holds true for \\( n = 2 \\), find the sum of all even integers \\( n \\) less than 100 for which \\( A(G) = B(G) \\) remains true.",
+    "problem_fa": "گرافی [LATEX_1] را در نظر بگیرید که رأس‌های آن با اعضای مجموعهٔ [LATEX_2] برچسب‌گذاری شده‌اند. فرض کنید [LATEX_3] و [LATEX_4] دو تابع تعریف‌شده روی [LATEX_5] باشند. اگر رابطهٔ [LATEX_6] برای [LATEX_7] برقرار باشد، مجموع تمام اعداد صحیح زوج [LATEX_8] کوچک‌تر از [LATEX_9] را بیابید که برای آن‌ها رابطهٔ [LATEX_10] همچنان برقرار است.",
+    "latex": [
+      "G",
+      "\\{0,1,\\cdots,n\\}",
+      "A(G)",
+      "B(G)",
+      "G",
+      "A(G)=B(G)",
+      "n=2",
+      "n",
+      "100",
+      "A(G)=B(G)"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "In a right triangle \\(ABC\\) with \\(\\widehat{A} = 90^\\circ\\), \\(BI\\) and \\(CI\\) are the angle bisectors of \\(\\widehat{ABC}\\) and \\(\\widehat{ACB}\\) respectively. Given that \\(AB = 5\\) and \\(IC = 6\\), find the length of \\(BC\\).",
+    "problem_fa": "در مثلث قائم‌الزاویهٔ [LATEX_1] که در آن [LATEX_2] است، [LATEX_3] و [LATEX_4] به‌ترتیب نیمسازهای زاویه‌های [LATEX_5] و [LATEX_6] هستند. با توجه به اینکه [LATEX_7] و [LATEX_8] است، طول [LATEX_9] را بیابید.",
+    "latex": [
+      "\\triangle ABC",
+      "\\widehat{A}=90^\\circ",
+      "BI",
+      "CI",
+      "\\widehat{ABC}",
+      "\\widehat{ACB}",
+      "AB=5",
+      "IC=6",
+      "BC"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Consider a set $H$ of integers such that every nonzero integer can be represented in infinitely many ways as a sum of some distinct elements of $H$, but $0$ cannot be represented at all. If such a set $H$ exists, let $S$ be the sum of the absolute values of the first three elements of $H$. Find the smallest possible value of $S$.",
+    "problem_fa": "مجموعه‌ای از اعداد صحیح [LATEX_1] را در نظر بگیرید، به‌گونه‌ای که هر عدد صحیح ناصفر بتواند به بی‌نهایت روش، به‌صورت مجموع برخی اعضای متمایز آن نمایش داده شود؛ اما [LATEX_2] به‌هیچ‌وجه قابل نمایش نباشد. اگر چنین مجموعه‌ای وجود داشته باشد، [LATEX_3] را برابر مجموع قدرمطلق سه عضو اول آن، یعنی [LATEX_4]، در نظر بگیرید. کمترین مقدار ممکن [LATEX_3] را بیابید.",
+    "latex": [
+      "H",
+      "0",
+      "S",
+      "h_1,h_2,h_3"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let there be an acute-angled triangle \\(ABC\\). For \\(n=1,2,3\\), define \\(x_n = 2^{n-3}(\\cos^n A + \\cos^n B + \\cos^n C) + \\cos A \\cos B \\cos C\\). If \\(x_1 + x_2 + x_3 = k\\), find the minimum possible value of \\(16k\\).",
+    "problem_fa": "مثلث [LATEX_1] دارای زاویه‌های تند باشد. برای [LATEX_2]، [LATEX_3] را تعریف می‌کنیم. اگر [LATEX_4] باشد، کمینهٔ مقدار ممکنِ [LATEX_5] را بیابید.",
+    "latex": [
+      "ABC",
+      "n=1,2,3",
+      "x_n=2^{n-3}\\left(\\cos^n A+\\cos^n B+\\cos^n C\\right)+\\cos A\\cos B\\cos C",
+      "x_1+x_2+x_3=k",
+      "16k"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Consider a random variable $X$ with mean $\\mu$ and variance $\\sigma^2$. For a given positive real number $k$, define the function $f(k) = P(|X - \\mu| \\geq k\\sigma)$. Without using summation notations, determine the maximum possible value of $f(k)$ for $k > 0$.",
+    "problem_fa": "متغیر تصادفی [LATEX_1] را با میانگین [LATEX_2] و واریانس [LATEX_3] در نظر بگیرید. برای عدد حقیقی مثبت [LATEX_4]، تابع [LATEX_5] را تعریف کنید. بدون استفاده از نمادهای جمع، بیشینه مقدار ممکن [LATEX_5] را برای [LATEX_6] تعیین کنید.",
+    "latex": [
+      "X",
+      "\\mu",
+      "\\sigma^2",
+      "k",
+      "f(k) = P(|X - \\mu| \\geq k\\sigma)",
+      "k > 0"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Consider a convex quadrilateral ABCD with diagonals intersecting at point O. Let P, Q, and R be the circumcenters of triangles ABO, BCO, and DAO, respectively. Calculate the area of the parallelogram formed by points P, Q, and R, given that the area of quadrilateral ABCD is 100 square units.",
+    "problem_fa": "چهارضلعی محدب [LATEX_1] را در نظر بگیرید که قطرهای آن در نقطهٔ [LATEX_2] یکدیگر را قطع می‌کنند. فرض کنید [LATEX_3] به‌ترتیب مراکز دایره‌های محیطی مثلث‌های [LATEX_4]، [LATEX_5] و [LATEX_6] باشند. اگر مساحت چهارضلعی [LATEX_1] برابر با [LATEX_7] واحد مربع باشد، مساحت متوازی‌الاضلاع تشکیل‌شده توسط نقاط [LATEX_3] را محاسبه کنید.",
+    "latex": [
+      "ABCD",
+      "O",
+      "P, Q, R",
+      "ABO",
+      "BCO",
+      "DAO",
+      "100"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find all decreasing, continuous functions \\( f \\colon \\mathbb{R} \\to \\mathbb{R} \\) such that \\( f(x+y) + f(f(x^2) + f(y^2)) = f(f(x) + f(y) + f(y^2 + f(x^2))) \\).",
+    "problem_fa": "همهٔ توابع پیوسته و نزولی [LATEX_1] را بیابید که برای هر [LATEX_2] رابطهٔ زیر برقرار باشد.",
+    "latex": [
+      "f\\colon\\mathbb{R}\\to\\mathbb{R}",
+      "x,y\\in\\mathbb{R},\\quad f(x+y)+f\\bigl(f(x^2)+f(y^2)\\bigr)=f\\bigl(f(x)+f(y)+f\\bigl(y^2+f(x^2)\\bigr)\\bigr)"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "In triangle \\( \\triangle ABC \\) with \\( \\angle B = 120^\\circ \\), there is a point \\( D \\) on segment \\( AC \\) such that \\( \\angle DCB = 2 \\angle DBC \\) and \\( AD = BC \\). Find \\( \\angle DBC \\).",
+    "problem_fa": "در مثلث [LATEX_1] که [LATEX_2] است، نقطه‌ای [LATEX_3] روی پاره‌خط [LATEX_4] وجود دارد، به‌طوری‌که [LATEX_5] و [LATEX_6]. مقدار [LATEX_7] را بیابید.",
+    "latex": [
+      "\\triangle ABC",
+      "\\angle B = 120^\\circ",
+      "D",
+      "\\overline{AC}",
+      "\\angle DCB = 2\\angle DBC",
+      "AD = BC",
+      "\\angle DBC"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find the minimum value of \\(xy\\) given that \\(x^2 + y^2 + z^2 = 300\\) and \\(xy + yz + zx = 130\\), where \\(x, y, z\\) are real numbers.",
+    "problem_fa": "با توجه به اینکه [LATEX_2] و [LATEX_3] هستند و [LATEX_4] اعداد حقیقی‌اند، کمینهٔ مقدار [LATEX_1] را بیابید.",
+    "latex": [
+      "xy",
+      "x^2 + y^2 + z^2 = 300",
+      "xy + yz + zx = 130",
+      "x, y, z"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Given that \\( x \\) and \\( y \\) are real numbers satisfying the equation \\( (2x+1)^2 + y^2 + (y-2x)^2 = \\frac{1}{3} \\), find \\( x + y \\).",
+    "problem_fa": "با فرض اینکه [LATEX_1] و [LATEX_2] اعداد حقیقی‌ای هستند که معادلهٔ [LATEX_3] را ارضا می‌کنند، مقدار [LATEX_4] را بیابید.",
+    "latex": [
+      "x",
+      "y",
+      "(2x+1)^2 + y^2 + (y-2x)^2 = \\frac{1}{3}",
+      "x+y"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Find a formula for \\( S_n \\), the number of sequences of \\( n \\) terms where each term is -1, 0, or 1, and the sequence contains an even number of 1s.",
+    "problem_fa": "فرمولی برای [LATEX_1] بیابید؛ در اینجا [LATEX_1] تعداد دنباله‌های [LATEX_2] جمله‌ای است که هر جملهٔ آن یکی از اعضای مجموعهٔ [LATEX_3] باشد و دنباله شامل تعداد زوجی از جمله‌های برابر با [LATEX_4] باشد.",
+    "latex": [
+      "S_n",
+      "n",
+      "\\{-1,0,1\\}",
+      "1"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "In $ \\triangle{ABC} $, the angle bisector of $ \\angle{B} $ meets $ AC $ at $ K $. Given $ BC=2 $, $ CK=1 $, and $ BK=\\frac{3\\sqrt{2}}{2} $, find the area of $ \\triangle{ABC} $.",
+    "problem_fa": "در مثلث [LATEX_1]، نیمساز زاویهٔ [LATEX_2]، ضلع [LATEX_3] را در نقطهٔ [LATEX_4] قطع می‌کند. با توجه به اینکه [LATEX_5]، [LATEX_6] و [LATEX_7] هستند، مساحت مثلث [LATEX_8] را بیابید.",
+    "latex": [
+      "\\triangle ABC",
+      "\\angle B",
+      "AC",
+      "K",
+      "BC=2",
+      "CK=1",
+      "BK=\\frac{3\\sqrt{2}}{2}",
+      "\\triangle ABC"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Elsa starts at \\((0,0)\\) in the coordinate plane and moves to one of the four nearest lattice points each second, chosen at random with equal probability. If she ever moves to a lattice point she has stood on before, she stops moving. After four seconds, the probability that Elsa is still venturing into the unknown can be expressed as \\(\\frac{a}{b}\\) in simplest terms. Find \\(a + b\\).",
+    "problem_fa": "السا در صفحهٔ مختصات از [LATEX_1] شروع می‌کند و در هر ثانیه، به‌طور تصادفی و با احتمال‌های برابر، به یکی از چهار نقطهٔ شبکه‌ایِ مجاور حرکت می‌کند. اگر او زمانی به نقطهٔ شبکه‌ای‌ای حرکت کند که پیش‌تر روی آن ایستاده است، از حرکت بازمی‌ایستد. پس از چهار ثانیه، احتمال اینکه السا همچنان در حال کاوش در ناشناخته‌ها باشد، در ساده‌ترین شکل به صورت [LATEX_2] بیان می‌شود. مقدار [LATEX_3] را بیابید.",
+    "latex": [
+      "(0,0)",
+      "\\frac{a}{b}",
+      "a+b"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find a simple form of the sum $\\sin{A}\\sin{2A}+\\sin{2A}\\sin{3A}+\\cdots+\\sin{(n-2)A}\\sin{(n-1)A}$, where $A = \\frac{\\pi}{n}$.",
+    "problem_fa": "صورت سادهٔ مجموع [LATEX_1] را بیابید؛ در اینجا [LATEX_2] است.",
+    "latex": [
+      "\\sin A\\sin 2A+\\sin 2A\\sin 3A+\\cdots+\\sin (n-2)A\\sin (n-1)A",
+      "A=\\frac{\\pi}{n}"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "For how many integer values of \\( k \\) do the graphs of \\( x^2 + y^2 = k^2 \\) and \\( xy = k \\) not intersect?",
+    "problem_fa": "برای چند مقدار صحیح [LATEX_1]، نمودارهای [LATEX_2] و [LATEX_3] با یکدیگر تقاطع ندارند؟",
+    "latex": [
+      "k",
+      "x^2 + y^2 = k^2",
+      "xy = k"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find all pairs of primes \\( p \\) and \\( q \\) such that \\( p^q - q^p = p + q \\).",
+    "problem_fa": "همهٔ زوج‌های مرتبِ اعداد اول [LATEX_1] و [LATEX_2] را بیابید که در آن‌ها [LATEX_3].",
+    "latex": [
+      "p",
+      "q",
+      "p^q - q^p = p + q"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\( a, b, c \\geq 0 \\) such that \\( ab + ac + bc = 1 \\). Calculate the minimum value of the expression\n\\[ a \\sqrt{b^2 + c^2 + bc} + b \\sqrt{a^2 + c^2 + ac} + c \\sqrt{a^2 + b^2 + ab}. \\]",
+    "problem_fa": "فرض کنید [LATEX_1] باشد. کمینهٔ مقدار عبارت [LATEX_2] را به‌دست آورید.",
+    "latex": [
+      "a,b,c\\geq 0\\quad\\text{و}\\quad ab+ac+bc=1",
+      "a\\sqrt{b^2+c^2+bc}+b\\sqrt{a^2+c^2+ac}+c\\sqrt{a^2+b^2+ab}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "In the parallelogram \\(ABCD\\), the lengths of the sides \\(AB\\) and \\(BC\\) are 10 cm and 15 cm, respectively, and \\(\\cos DAB = \\frac{3}{5}\\). Inside \\(ABCD\\), a point \\(M\\) is chosen such that \\(MC = 3\\sqrt{10}\\) and the distance from \\(M\\) to line \\(AD\\) is 5 cm. Find the length of \\(AM\\).",
+    "problem_fa": "در متوازی‌الاضلاع [LATEX_1]، طول ضلع‌های [LATEX_2] و [LATEX_3] به‌ترتیب [LATEX_4] و [LATEX_5] است و [LATEX_6]. درون [LATEX_1] نقطه‌ای به نام [LATEX_7] انتخاب می‌شود، به‌طوری‌که [LATEX_8] و فاصلهٔ [LATEX_7] از خط [LATEX_9] برابر [LATEX_10] است. طول [LATEX_11] را بیابید.",
+    "latex": [
+      "ABCD",
+      "AB",
+      "BC",
+      "10\\ \\mathrm{cm}",
+      "15\\ \\mathrm{cm}",
+      "\\cos\\angle DAB=\\frac{3}{5}",
+      "M",
+      "MC=3\\sqrt{10}",
+      "AD",
+      "5\\ \\mathrm{cm}",
+      "AM"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find the minimum real number $k$ such that for all positive real numbers $x$ and $y$, the inequality $x^3 + y^5 + k \\ge xy$ holds.",
+    "problem_fa": "کمترین عدد حقیقی [LATEX_1] را بیابید به‌طوری‌که برای همهٔ اعداد حقیقی مثبت [LATEX_2] و [LATEX_3]، نامساوی [LATEX_4] برقرار باشد.",
+    "latex": [
+      "k",
+      "x",
+      "y",
+      "x^3 + y^5 + k \\ge xy"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find the largest positive integer \\( n \\) such that the equations \\((x + 1)^2 + y_1^2 = (x + 2)^2 + y_2^2 = \\cdots = (x + n)^2 + y_n^2\\) have integer solutions in \\( x, y_1, y_2, \\ldots, y_n \\).",
+    "problem_fa": "بزرگ‌ترین عدد صحیح مثبت [LATEX_1] را بیابید، به‌طوری‌که معادله‌های [LATEX_2] در متغیرهای [LATEX_3] جواب‌های صحیح داشته باشند.",
+    "latex": [
+      "n",
+      "(x + 1)^2 + y_1^2 = (x + 2)^2 + y_2^2 = \\cdots = (x + n)^2 + y_n^2",
+      "x, y_1, y_2, \\ldots, y_n"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Given \\((1A7)^2 - (1B3)^2 = 2G(1A7 + 1B3)\\), what is \\( G \\)?",
+    "problem_fa": "با توجه به اینکه [LATEX_1] است، مقدار [LATEX_2] چیست؟",
+    "latex": [
+      "(1A7)^2 - (1B3)^2 = 2G(1A7 + 1B3)",
+      "G"
+    ]
+  },
+  {
+    "problem_source": "aops_c5_contests_amp_programs",
+    "problem_en": "Poles \\( A \\) and \\( B \\) are vertical line segments with their bases on the x-axis. The tops of poles \\( A \\) and \\( B \\) are at \\((0,1)\\) and \\((200,5)\\), respectively. A string \\( S \\) contains the points \\((0,1)\\) and \\((200,0)\\) and intersects another string connecting \\((0,0)\\) and \\((200,5)\\) at point \\( T \\). Pole \\( P_1 \\) is constructed with \\( T \\) as its top point. For each integer \\( i > 1 \\), pole \\( P_i \\) is constructed so that its top point is the intersection of \\( S \\) and the line segment connecting the base of \\( P_{i-1} \\) (on the x-axis) and the top of pole \\( B \\). Find the height of pole \\( P_{100} \\).",
+    "problem_fa": "میله‌های [LATEX_1] و [LATEX_2] پاره‌خط‌های قائم هستند که پایه‌هایشان روی محور [LATEX_3] قرار دارد. رأس‌های میله‌های [LATEX_1] و [LATEX_2] به‌ترتیب در نقاط [LATEX_4] و [LATEX_5] قرار دارند. ریسمان [LATEX_6] از نقاط [LATEX_7] و [LATEX_8] می‌گذرد و با ریسمان دیگری که نقاط [LATEX_9] و [LATEX_10] را به هم وصل می‌کند، در نقطهٔ [LATEX_11] تقاطع دارد. میلهٔ [LATEX_12] به‌گونه‌ای ساخته می‌شود که [LATEX_13] نقطهٔ بالایی آن باشد. برای هر عدد صحیح [LATEX_14]، میلهٔ [LATEX_15] به‌گونه‌ای ساخته می‌شود که نقطهٔ بالایی آن، نقطهٔ تقاطع [LATEX_16] و پاره‌خطی باشد که پایهٔ میلهٔ [LATEX_17] روی محور [LATEX_18] را به رأس میلهٔ [LATEX_19] وصل می‌کند. ارتفاع میلهٔ [LATEX_20] را بیابید.",
+    "latex": [
+      "A",
+      "B",
+      "x",
+      "(0,1)",
+      "(200,5)",
+      "S",
+      "(0,1)",
+      "(200,0)",
+      "(0,0)",
+      "(200,5)",
+      "T",
+      "P_1",
+      "T",
+      "i>1",
+      "P_i",
+      "S",
+      "P_{i-1}",
+      "x",
+      "B",
+      "P_{100}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find all triplets of positive integers \\( m, n, k \\) such that \\((3m+n)(8m+11n)=5^k\\).",
+    "problem_fa": "تمام سه‌تایی‌های مرتبِ اعداد صحیح مثبت [LATEX_1] را بیابید، به‌طوری‌که [LATEX_2].",
+    "latex": [
+      "(m,n,k)",
+      "(3m+n)(8m+11n)=5^k"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\(a, b, c\\) be positive reals such that \\(abc = 1\\). For positive reals \\(\\lambda, \\mu, n\\), find the minimum value of the expression\n\\[\n\\frac{1}{a^{2n+1}(\\lambda b + \\mu c)^n} + \\frac{1}{b^{2n+1}(\\lambda c + \\mu a)^n} + \\frac{1}{c^{2n+1}(\\lambda a + \\mu b)^n}.\n\\]",
+    "problem_fa": "فرض کنید [LATEX_1] اعداد حقیقی مثبت باشند و [LATEX_2]. برای اعداد حقیقی مثبت [LATEX_3]، کمینهٔ مقدار عبارت زیر را بیابید:",
+    "latex": [
+      "a,b,c",
+      "abc=1",
+      "\\lambda,\\mu,n"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Find all polynomials \\( P \\in \\mathbb{R}[x] \\) such that:\n1) \\( P(0) = 0 \\)\n2) \\( 2P(x) = P(x - 1) + P(x + 1) \\) for all \\( x \\in \\mathbb{R} \\)",
+    "problem_fa": "همهٔ چندجمله‌ای‌های [LATEX_1] را بیابید که شرایط زیر را داشته باشند:\n۱) [LATEX_2]\n۲) [LATEX_3] برای هر [LATEX_4].",
+    "latex": [
+      "P \\in \\mathbb{R}[x]",
+      "P(0)=0",
+      "2P(x)=P(x-1)+P(x+1)",
+      "x\\in\\mathbb{R}"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Evaluate the sum $\\sum_{n=2009} ^{\\infty} \\frac{\\binom{n}{2009}}{2^n}$.",
+    "problem_fa": "مقدار مجموع [LATEX_1] را محاسبه کنید.",
+    "latex": [
+      "\\sum_{n=2009}^{\\infty} \\frac{\\binom{n}{2009}}{2^n}"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "How must the numbers $a, b$, and $c$ be related for the following system to have at least one solution?\n\\[\n\\begin{cases}\nx - 2y + z = a \\\\\n2x + y - 2z = b \\\\\nx + 3y - 3z = c\n\\end{cases}\n\\]",
+    "problem_fa": "اعداد [LATEX_1]، [LATEX_2] و [LATEX_3] چگونه باید با یکدیگر مرتبط باشند تا دستگاه زیر دست‌کم یک جواب داشته باشد؟\n[LATEX_4]",
+    "latex": [
+      "a",
+      "b",
+      "c",
+      "\\begin{cases}\n x - 2y + z = a \\\\\n 2x + y - 2z = b \\\\\n x + 3y - 3z = c\n\\end{cases}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find all ordered pairs $(x, y)$ of real numbers that satisfy the equations $x^2 - x + 1 = y^3$ and $y^2 - y = x^3$ simultaneously.",
+    "problem_fa": "تمام زوج‌های مرتب [LATEX_1] از اعداد حقیقی را بیابید که به‌طور هم‌زمان معادلات [LATEX_2] و [LATEX_3] را ارضا کنند.",
+    "latex": [
+      "(x,y)",
+      "x^2-x+1=y^3",
+      "y^2-y=x^3"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find all positive integer solutions of the equation $x^2 - y! = 2001$.",
+    "problem_fa": "همهٔ جواب‌های صحیحِ مثبتِ معادلهٔ [LATEX_1] را بیابید.",
+    "latex": [
+      "x^2 - y! = 2001"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Factorize the polynomial $x^8 - 2x^4y^4 \\cos 4\\theta + y^8$ completely as a product of polynomials of smaller degree with real coefficients.",
+    "problem_fa": "چندجمله‌ای [LATEX_1] را به‌طور کامل، به صورت حاصل‌ضرب چندجمله‌ای‌هایی با درجهٔ کمتر و ضرایب حقیقی تجزیه کنید.",
+    "latex": [
+      "x^8 - 2x^4y^4 \\cos 4\\theta + y^8"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Let \\(0 \\leq x \\leq \\frac{\\pi}{2}\\) and \\(0 \\leq y \\leq +\\infty\\). Find the value of \\(y\\) for which the expression \\( y(\\arctan y - x) - \\ln\\left(\\cos\\sqrt{1+y^2}\\right) \\) is maximized, and calculate this maximum value when \\(x = \\frac{\\pi}{4}\\).",
+    "problem_fa": "فرض کنید [LATEX_1] و [LATEX_2] باشد. مقدار [LATEX_3] را بیابید که عبارت [LATEX_4] را بیشینه می‌کند، و هنگامی که [LATEX_5] است، مقدار این بیشینه را محاسبه کنید.",
+    "latex": [
+      "0 \\leq x \\leq \\frac{\\pi}{2}",
+      "0 \\leq y \\leq +\\infty",
+      "y",
+      "y(\\arctan y - x) - \\ln\\left(\\cos\\sqrt{1+y^2}\\right)",
+      "x = \\frac{\\pi}{4}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find the interval of \\( a \\) for which the function \\( f(x) = \\frac{ax^2 + 6x - 8}{a + 6x - 8x^2} \\) is onto, where \\( f(x) \\) is defined from real numbers to real numbers.",
+    "problem_fa": "بازهٔ مقادیر [LATEX_1] را بیابید که برای آن، تابع [LATEX_2] پوشا باشد؛ در اینجا [LATEX_3] از اعداد حقیقی به اعداد حقیقی تعریف شده است.",
+    "latex": [
+      "a",
+      "f(x)=\\frac{ax^2+6x-8}{a+6x-8x^2}",
+      "f:\\mathbb{R}\\to\\mathbb{R}"
+    ]
+  },
+  {
+    "problem_source": "aops_c5_contests_amp_programs",
+    "problem_en": "Circles with radii $1, 2$, and $3$ are mutually externally tangent. What is the area of the triangle determined by the points of tangency?",
+    "problem_fa": "دایره‌هایی با شعاع‌های [LATEX_1]، [LATEX_2] و [LATEX_3] دو به دو مماس خارجی هستند. مساحت مثلثی را که نقاط تماس تعیین می‌کنند، بیابید.",
+    "latex": [
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\( x, y \\in \\mathbb{R} \\) such that \\( x^2 + y^2 = 1 \\). Find the minimum value of \\( A = x\\sqrt{1+y} + y\\sqrt{1+x} \\).",
+    "problem_fa": "فرض کنید [LATEX_1] به‌گونه‌ای باشند که [LATEX_2]. کمینهٔ مقدار [LATEX_3] را بیابید.",
+    "latex": [
+      "x, y \\in \\mathbb{R}",
+      "x^2 + y^2 = 1",
+      "A = x\\sqrt{1+y} + y\\sqrt{1+x}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find the greatest common divisor (GCD) of numbers of the form $p^8 - 1$ where $p$ is a prime greater than 5.",
+    "problem_fa": "بزرگ‌ترین مقسوم‌علیه مشترکِ اعداد به شکل [LATEX_1] را بیابید؛ در اینجا [LATEX_2] عددی اول است.",
+    "latex": [
+      "p^8 - 1",
+      "p>5"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "In how many ways can 9 people (3 boys, their 3 fathers, and their 3 grandfathers) stand in a queue such that no father stands in front of his son?",
+    "problem_fa": "به چند روش می‌توان [LATEX_1] نفر ([LATEX_2] پسر، [LATEX_3] پدرِ آن‌ها و [LATEX_4] پدربزرگِ آن‌ها) را در یک صف قرار داد، به‌گونه‌ای که هیچ پدری پیش از پسر خود نایستد؟",
+    "latex": [
+      "9",
+      "3",
+      "3",
+      "3"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "If \\(a, b, c > 0\\) and \\(ab + ac + bc = 1\\), calculate the minimum value of \\((a + \\frac{1}{b})^2 + (b + \\frac{1}{c})^2 + (c + \\frac{1}{a})^2\\).",
+    "problem_fa": "اگر [LATEX_1] و [LATEX_2] باشد، کمینهٔ مقدار [LATEX_3] را محاسبه کنید.",
+    "latex": [
+      "a,b,c>0",
+      "ab+ac+bc=1",
+      "\\left(a+\\frac{1}{b}\\right)^2+\\left(b+\\frac{1}{c}\\right)^2+\\left(c+\\frac{1}{a}\\right)^2"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "How many different six-digit numbers can be formed using the digits 1, 2, 3, 4, 5, and 7?",
+    "problem_fa": "با استفاده از ارقام [LATEX_1] چند عدد شش‌رقمی متفاوت می‌توان تشکیل داد؟",
+    "latex": [
+      "1, 2, 3, 4, 5, 7"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Determine the differentiable functions $f, g: \\mathbb{R} \\to \\mathbb{R}$ such that for every $x \\in \\mathbb{R}$, the following conditions hold:\n\\[\n\\{g'(x) - f(x)\\} = \\{g(x) - f'(x)\\}\n\\]\nand\n\\[\n\\{f'(x) + f(x)\\} = \\{g'(x) + g(x)\\},\n\\]\nwhere $\\{a\\}$ denotes the fractional part of $a$.",
+    "problem_fa": "توابع مشتق‌پذیر [LATEX_1] را تعیین کنید، به‌گونه‌ای که برای هر [LATEX_2]، شرایط زیر برقرار باشند: [LATEX_3] و [LATEX_4]؛ که در آن [LATEX_5] نشان‌دهندهٔ قسمت کسریِ [LATEX_6] است.",
+    "latex": [
+      "f,g:\\mathbb{R}\\to\\mathbb{R}",
+      "x\\in\\mathbb{R}",
+      "\\{g'(x)-f(x)\\}=\\{g(x)-f'(x)\\}",
+      "\\{f'(x)+f(x)\\}=\\{g'(x)+g(x)\\}",
+      "\\{a\\}",
+      "a"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Find all \\( x \\) in \\( \\mathbb{R} \\) such that the limit\n\\[ \\lim_{n \\to \\infty} f_n(x) = \\lim_{n \\to \\infty} \\sum_{k=1}^{n} |\\sin (\\pi k! x)|^{1/n} \\]\nis bounded.",
+    "problem_fa": "تمام مقادیر [LATEX_1] در [LATEX_2] را بیابید، به‌طوری‌که حد زیر کراندار باشد: [LATEX_3]",
+    "latex": [
+      "x",
+      "\\mathbb{R}",
+      "\\lim_{n \\to \\infty} f_n(x) = \\lim_{n \\to \\infty} \\sum_{k=1}^{n} \\left|\\sin(\\pi k! x)\\right|^{1/n}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find all positive integers \\( x \\) and \\( y \\) such that both \\( x^2 + xy + y^2 \\) and \\( x^2 - xy + y^2 \\) are perfect squares simultaneously.",
+    "problem_fa": "همهٔ اعداد صحیح مثبت [LATEX_1] و [LATEX_2] را بیابید، به‌طوری‌که هر دو عبارت [LATEX_3] و [LATEX_4] به‌طور هم‌زمان مربع کامل باشند.",
+    "latex": [
+      "x",
+      "y",
+      "x^2 + xy + y^2",
+      "x^2 - xy + y^2"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "In a triangle \\(ABC\\) with angles \\(A, B, C\\) and sides \\(a, b, c\\) where \\(a \\ge b \\ge c\\), if \\(\\dfrac{a^3 + b^3 + c^3}{\\sin^3 A + \\sin^3 B + \\sin^3 C} = 8\\), find the maximum length of side \\(a\\).",
+    "problem_fa": "در مثلث [LATEX_1] با زاویه‌های [LATEX_2] و ضلع‌های [LATEX_3]، به‌طوری‌که [LATEX_4]، اگر [LATEX_5] باشد، بیشینهٔ طول ضلع [LATEX_6] را بیابید.",
+    "latex": [
+      "\\triangle ABC",
+      "A, B, C",
+      "a, b, c",
+      "a \\ge b \\ge c",
+      "\\dfrac{a^3 + b^3 + c^3}{\\sin^3 A + \\sin^3 B + \\sin^3 C} = 8",
+      "a"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Evaluate the double integral\n$$\\int_0^\\frac{\\pi}{4}\\int_0^\\frac{\\pi}{4} \\left(\\sec(x+y) + \\sec(x-y)\\right) \\, dx \\, dy$$\nand express your answer in terms of $G$, where $G$ is Catalan's constant.",
+    "problem_fa": "انتگرال دوگانهٔ [LATEX_1] را محاسبه کنید و پاسخ خود را بر حسب [LATEX_2] بیان کنید؛ در اینجا [LATEX_2] ثابت کاتالان است.",
+    "latex": [
+      "\\int_0^{\\frac{\\pi}{4}}\\int_0^{\\frac{\\pi}{4}} \\left(\\sec(x+y) + \\sec(x-y)\\right)\\,dx\\,dy",
+      "G"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Solve the system of equations for \\(x, y \\in \\mathbb{R}\\):\n\\[\n\\begin{cases}\n\\log_4{(x^2 + y^2)} - \\log_4{(2x + 1)} = \\log_4{(x + y)} \\\\\n\\log_4{(xy + 1)} - \\log_4{(4x^2 + 2y - 2x + 4)} = \\log_4{\\frac{x}{y}} - 1\n\\end{cases}\n\\]",
+    "problem_fa": "دستگاه معادلات زیر را برای [LATEX_1] حل کنید:\n[LATEX_2]",
+    "latex": [
+      "x, y \\in \\mathbb{R}",
+      "\\begin{cases}\n\\log_4\\left(x^2+y^2\\right)-\\log_4\\left(2x+1\\right)=\\log_4\\left(x+y\\right) \\\\\n\\log_4\\left(xy+1\\right)-\\log_4\\left(4x^2+2y-2x+4\\right)=\\log_4\\left(\\frac{x}{y}\\right)-1\n\\end{cases}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find \\( x^2 + y^2 \\) where \\( x \\) and \\( y \\) satisfy the system:\n\\[ x(x^2 - 3y^2) = \\sqrt{414} \\]\n\\[ y(y^2 - 3x^2) = 40 \\]",
+    "problem_fa": "مقدار [LATEX_1] را بیابید، به‌طوری‌که [LATEX_2] و [LATEX_3] دستگاه معادلات زیر را ارضا کنند:\n[LATEX_4]\n[LATEX_5]",
+    "latex": [
+      "x^2 + y^2",
+      "x",
+      "y",
+      "x(x^2 - 3y^2) = \\sqrt{414}",
+      "y(y^2 - 3x^2) = 40"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\( x, y > 0 \\) and \\( x^2y^2 = 2(x^2 + y^2) \\) (or \\( x^2y^2 = x^2 + y^2 + 8 \\)). Calculate the minimum value of the expression\n\\[ \\frac{x^2 + y^2 + x + y}{(x+1)(y+1)} + \\frac{1}{\\sqrt{x^2 + y^2}}. \\]",
+    "problem_fa": "فرض کنید [LATEX_1] و [LATEX_2] (یا [LATEX_3]) باشند. کمینهٔ مقدار عبارت [LATEX_4] را محاسبه کنید.",
+    "latex": [
+      "x,y>0",
+      "x^2y^2=2(x^2+y^2)",
+      "x^2y^2=x^2+y^2+8",
+      "\\frac{x^2+y^2+x+y}{(x+1)(y+1)}+\\frac{1}{\\sqrt{x^2+y^2}}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Evaluate the expression \\(\\frac{(2^{3}-1)(3^{3}-1)\\cdots(n^{3}-1)}{(2^{3}+1)(3^{3}+1)\\cdots(n^{3}+1)}\\).",
+    "problem_fa": "مقدار عبارت [LATEX_1] را به‌دست آورید.",
+    "latex": [
+      "\\frac{(2^{3}-1)(3^{3}-1)\\cdots(n^{3}-1)}{(2^{3}+1)(3^{3}+1)\\cdots(n^{3}+1)}"
+    ]
+  },
+  {
+    "problem_source": "MATH_training_set",
+    "problem_en": "For what real value of $v$ is $\\frac{-21-\\sqrt{301}}{10}$ a root of $5x^2+21x+v$?",
+    "problem_fa": "برای کدام مقدار حقیقیِ [LATEX_1]، [LATEX_2] ریشهٔ چندجمله‌ایِ [LATEX_3] است؟",
+    "latex": [
+      "v",
+      "\\frac{-21-\\sqrt{301}}{10}",
+      "5x^2+21x+v"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Given that $f(x \\times y) = f(x) + f(y)$ and $f(2) = a$, express $f(256)$ in terms of $a$.",
+    "problem_fa": "با توجه به اینکه [LATEX_1] و [LATEX_2] است، [LATEX_3] را بر حسب [LATEX_4] بیان کنید.",
+    "latex": [
+      "f(x \\times y) = f(x) + f(y)",
+      "f(2) = a",
+      "f(256)",
+      "a"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "For what $\\alpha$ is there a constant $C_\\alpha > 0$ such that for each odd positive integer $n$, every rich subset $A \\subset \\mathbb{Z}_n$ has at least $C_\\alpha n^\\alpha$ elements? Here, a subset $A$ of the cyclic group $(\\mathbb{Z}_n,+)$ is called [i]rich[/i] if for all $x,y \\in \\mathbb{Z}_n$, there exists $r \\in \\mathbb{Z}_n$ such that $x-r, x+r, y-r, y+r$ are all in $A$.",
+    "problem_fa": "برای کدام مقدار [LATEX_1] ثابتی [LATEX_2] وجود دارد به‌طوری‌که برای هر عدد صحیح مثبتِ فرد [LATEX_3]، هر زیرمجموعهٔ غنی [LATEX_4] از [LATEX_5] دست‌کم [LATEX_6] عضو داشته باشد؟ در اینجا، زیرمجموعهٔ [LATEX_7] از گروه دوری [LATEX_8] را «غنی» می‌نامیم اگر برای همهٔ [LATEX_9] و [LATEX_10] در [LATEX_11]، عنصری [LATEX_12] در [LATEX_13] وجود داشته باشد به‌طوری‌که [LATEX_14] همگی در [LATEX_15] باشند.",
+    "latex": [
+      "\\alpha",
+      "C_\\alpha>0",
+      "n",
+      "A",
+      "\\mathbb{Z}_n",
+      "|A|\\ge C_\\alpha n^\\alpha",
+      "A\\subset\\mathbb{Z}_n",
+      "(\\mathbb{Z}_n,+)",
+      "x",
+      "y",
+      "\\mathbb{Z}_n",
+      "r",
+      "\\mathbb{Z}_n",
+      "x-r,\\ x+r,\\ y-r,\\ y+r",
+      "A"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Let \\( x_1, x_2, x_3 \\) be the roots of the polynomial equation \\( x^3 - x^2 - 2x + 4 = 0 \\) with \\( |x_1| \\geq |x_2| \\geq |x_3| \\). Find the polynomial \\( f \\in \\mathbb{Z}[x] \\) of minimal degree that has \\( x_1^5 + x_2^3 + x_3^2 \\) as a root.",
+    "problem_fa": "فرض کنید [LATEX_1] ریشه‌های معادلهٔ چندجمله‌ای [LATEX_2] باشند، به‌طوری‌که [LATEX_3]. چندجمله‌ای [LATEX_4] با کمترین درجه را بیابید که [LATEX_5] را به‌عنوان یکی از ریشه‌های خود داشته باشد.",
+    "latex": [
+      "x_1, x_2, x_3",
+      "x^3 - x^2 - 2x + 4 = 0",
+      "|x_1| \\geq |x_2| \\geq |x_3|",
+      "f \\in \\mathbb{Z}[x]",
+      "x_1^5 + x_2^3 + x_3^2"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "For any two positive real numbers \\( x \\) and \\( y \\), the operation \\( x \\star y \\) is defined as \\( x \\star y = \\frac{x}{xy + 1} \\). Find the value of \n\\[ (((\\ldots(((100 \\star 99) \\star 98) \\star 97) \\star \\ldots) \\star 3) \\star 2) \\star 1. \\]",
+    "problem_fa": "برای هر دو عدد حقیقی مثبت [LATEX_1] و [LATEX_2]، عمل [LATEX_3] به‌صورت [LATEX_4] تعریف می‌شود. مقدار [LATEX_5] را بیابید.",
+    "latex": [
+      "x",
+      "y",
+      "x \\star y",
+      "x \\star y = \\frac{x}{xy + 1}",
+      "(((\\ldots(((100 \\star 99) \\star 98) \\star 97) \\star \\ldots) \\star 3) \\star 2) \\star 1"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Let \\( x, y, z > 0 \\) satisfy \\( 2x + 4y + 7z = 2xyz \\). Find the minimum value of \\( P = x + y + z \\).",
+    "problem_fa": "فرض کنید [LATEX_1] اعداد حقیقی مثبت باشند و رابطهٔ [LATEX_2] را برقرار کنند. کمینهٔ مقدار [LATEX_3] را بیابید.",
+    "latex": [
+      "x,y,z>0",
+      "2x+4y+7z=2xyz",
+      "P=x+y+z"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Let $\\triangle{ABC}$ be a triangle with $\\angle{BIO} = 90^\\circ$, where $I$ is the incenter and $O$ is the circumcenter. Find the ratio $\\frac{[ABC]}{[AIC]}$.",
+    "problem_fa": "مثلث [LATEX_1] را در نظر بگیرید که [LATEX_2] باشد؛ در این‌جا [LATEX_3] مرکز داخلی و [LATEX_4] مرکز دایرهٔ محیطی مثلث هستند. نسبت [LATEX_5] را بیابید.",
+    "latex": [
+      "\\triangle ABC",
+      "\\angle BIO = 90^\\circ",
+      "I",
+      "O",
+      "\\frac{[ABC]}{[AIC]}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find all surjective functions \\(f: \\mathbb{R} \\to \\mathbb{R}\\) such that for every \\(x, y \\in \\mathbb{R}\\), we have\n\\[ f(x + f(x) + 2f(y)) = f(2x) + f(2y). \\]",
+    "problem_fa": "همهٔ توابع پوشای [LATEX_1] را بیابید؛ به‌طوری‌که برای هر [LATEX_2] رابطهٔ [LATEX_3] برقرار باشد.",
+    "latex": [
+      "f:\\mathbb{R} \\to \\mathbb{R}",
+      "x,y\\in\\mathbb{R}",
+      "f\\bigl(x+f(x)+2f(y)\\bigr)=f(2x)+f(2y)"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "For non-negative integers \\( m \\) and \\( n \\), calculate the value of the expression\n\\[\n\\sum_{k=0}^n \\frac{(-1)^k \\binom{n}{k}}{m+k+1} + \\sum_{k=0}^m \\frac{(-1)^k \\binom{m}{k}}{n+k+1}\n\\]\nwhen \\( m = 5 \\) and \\( n = 7 \\).",
+    "problem_fa": "برای اعداد صحیح نامنفی [LATEX_1] و [LATEX_2]، مقدار عبارت [LATEX_3] را هنگامی که [LATEX_4] و [LATEX_5] هستند، محاسبه کنید.",
+    "latex": [
+      "m",
+      "n",
+      "\\sum_{k=0}^n \\frac{(-1)^k \\binom{n}{k}}{m+k+1} + \\sum_{k=0}^m \\frac{(-1)^k \\binom{m}{k}}{n+k+1}",
+      "m=5",
+      "n=7"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Determine the smallest number of edges in a graph with $n$ nodes such that adding any new edge results in a 4-clique (a set of 4 nodes all pairwise connected by edges).",
+    "problem_fa": "کمترین تعداد یال‌های گرافی با [LATEX_1] رأس را تعیین کنید، به‌گونه‌ای که افزودن هر یال جدید، به تشکیل یک [LATEX_2] منجر شود؛ یعنی مجموعه‌ای از [LATEX_3] رأس که هر دو رأس آن به‌وسیلهٔ یک یال به یکدیگر متصل باشند.",
+    "latex": [
+      "n",
+      "K_4",
+      "4"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Evaluate the integral \\( \\int_{\\pi/6}^{\\pi/3} \\sum_{n=1}^{\\infty} \\frac{1}{2^n} \\tan \\frac{x}{2^n} \\, dx \\).",
+    "problem_fa": "انتگرال [LATEX_1] را محاسبه کنید.",
+    "latex": [
+      "\\int_{\\pi/6}^{\\pi/3} \\sum_{n=1}^{\\infty} \\frac{1}{2^n} \\tan \\frac{x}{2^n} \\, dx"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Given the sequence \\(a_{n+1} = \\frac{a_{n-1}}{1+na_{n-1}a_n}\\) with initial conditions \\(a_0 = a_1 = 1\\), find the value of \\(\\frac{1}{a_{199}a_{200}}\\).",
+    "problem_fa": "دنبالهٔ [LATEX_1] با شرایط اولیهٔ [LATEX_2] داده شده است. مقدار [LATEX_3] را بیابید.",
+    "latex": [
+      "a_{n+1} = \\frac{a_{n-1}}{1+na_{n-1}a_n}",
+      "a_0 = a_1 = 1",
+      "\\frac{1}{a_{199}a_{200}}"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "The game of Chomp is played with a 5 x 7 board. Each player alternately takes a bite out of the board by removing a square and any other squares above and/or to the left of it. How many possible subsets of the 5 x 7 board (including the original board and the empty set) can be obtained by a sequence of bites?",
+    "problem_fa": "بازی چوپ روی صفحه‌ای با ابعاد [LATEX_1] انجام می‌شود. هر بازیکن به‌نوبت با برداشتن یک مربع و هر مربع دیگری که بالای آن و/یا در سمت چپ آن قرار دارد، بخشی از صفحه را حذف می‌کند. چند زیرمجموعهٔ ممکن از صفحهٔ [LATEX_1] را می‌توان با دنباله‌ای از این حرکت‌ها به دست آورد؛ به‌طوری‌که صفحهٔ اصلی و [LATEX_2] نیز در شمارش منظور شوند؟",
+    "latex": [
+      "5 \\times 7",
+      "\\varnothing"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Compute the integral $\\int_{1}^{3}\\frac{e^x}{x^2} \\, dx$.",
+    "problem_fa": "انتگرال [LATEX_1] را محاسبه کنید.",
+    "latex": [
+      "\\int_{1}^{3}\\frac{e^x}{x^2}\\,dx"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Given a prime number \\( p \\) and a natural number \\( n \\) such that \\( p \\mid n^3 - 1 \\) and \\( n \\mid p - 1 \\), find the value of \\( 4p - 3 \\) when \\( p \\) is the smallest prime satisfying these conditions.",
+    "problem_fa": "یک عدد اول [LATEX_1] و یک عدد طبیعی [LATEX_2] در نظر بگیرید، به‌طوری‌که [LATEX_3] و [LATEX_4] باشد. اگر [LATEX_1] کوچک‌ترین عدد اولی باشد که این شرایط را برآورده می‌کند، مقدار [LATEX_5] را بیابید.",
+    "latex": [
+      "p",
+      "n",
+      "p \\mid n^3 - 1",
+      "n \\mid p - 1",
+      "4p - 3"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find all prime numbers \\( p \\) such that \\( p^2 \\mid 2^p - 2 \\).",
+    "problem_fa": "تمام اعداد اول [LATEX_1] را بیابید که شرط [LATEX_2] را ارضا می‌کنند.",
+    "latex": [
+      "p",
+      "p^2 \\mid 2^p - 2"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Calculate the limit\n\\[\n\\lim_{\\delta \\to 0^{+}} \\iint_{D_\\delta} \\frac{f\\left(\\sqrt{x^2 + y^2}\\right)}{x^2 + y^2} \\, dx \\, dy,\n\\]\nwhere \\(D_\\delta = \\{(x,y) \\in \\mathbb{R}^2 \\, ; \\, a^2 \\delta^2 \\le x^2 + y^2 \\le b^2 \\delta^2\\}\\) and \\(0 < a < b\\).",
+    "problem_fa": "حد زیر را محاسبه کنید:\n[LATEX_1]\nکه در آن [LATEX_2] و [LATEX_3].",
+    "latex": [
+      "\\lim_{\\delta \\to 0^{+}} \\iint_{D_\\delta} \\frac{f\\left(\\sqrt{x^2 + y^2}\\right)}{x^2 + y^2} \\, dx \\, dy",
+      "D_\\delta = \\{(x,y) \\in \\mathbb{R}^2 \\, ; \\, a^2 \\delta^2 \\le x^2 + y^2 \\le b^2 \\delta^2\\}",
+      "0 < a < b"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find the set of all quadruplets $(x, y, z, w)$ of non-zero real numbers which satisfy the equation\n$$1 + \\frac{1}{x} + \\frac{2(x + 1)}{xy} + \\frac{3(x + 1)(y + 2)}{xyz} + \\frac{4(x + 1)(y + 2)(z + 3)}{xyzw} = 0.$$",
+    "problem_fa": "مجموعهٔ تمام چهارتایی‌های [LATEX_1] از اعداد حقیقیِ ناصفر را که معادلهٔ [LATEX_2] را ارضا می‌کنند، بیابید.",
+    "latex": [
+      "(x,y,z,w)",
+      "1 + \\frac{1}{x} + \\frac{2(x+1)}{xy} + \\frac{3(x+1)(y+2)}{xyz} + \\frac{4(x+1)(y+2)(z+3)}{xyzw} = 0"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find the limit of the function \\( f(x) = \\frac{x}{x+1} + \\frac{x}{(x+1)(2x+1)} + \\frac{x}{(2x+1)(3x+1)} + \\cdots \\) as \\( x \\to 0 \\).",
+    "problem_fa": "حد تابع [LATEX_1] را هنگامی که [LATEX_2] به دست آورید.",
+    "latex": [
+      "f(x)=\\frac{x}{x+1}+\\frac{x}{(x+1)(2x+1)}+\\frac{x}{(2x+1)(3x+1)}+\\cdots",
+      "x\\to 0"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "A bird named Rainbow has $n$ colors and its colors in two consecutive days are not equal. There doesn't exist four days $a, b, c, d$ such that $a < b < c < d$ and the bird has the same color on days $a$ and $c$, and the same color on days $b$ and $d$, different from the colors on days $a$ and $c$. What is the maximum number of days Rainbow can live in terms of $n$?",
+    "problem_fa": "پرنده‌ای به نام رنگین‌کمان [LATEX_1] رنگ دارد و رنگ آن در دو روز متوالی یکسان نیست. هیچ چهار روز [LATEX_2] وجود ندارند که [LATEX_3] برقرار باشد؛ به عبارت دیگر، پرنده در روزهای اول و سوم رنگ یکسانی دارد، در روزهای دوم و چهارم نیز رنگ یکسانی دارد، و این دو رنگ با یکدیگر متفاوت‌اند. حداکثر تعداد روزهایی که رنگین‌کمان می‌تواند زنده بماند، بر حسب [LATEX_4] چقدر است؟",
+    "latex": [
+      "n",
+      "a,b,c,d",
+      "a<b<c<d,\\quad \\operatorname{col}(a)=\\operatorname{col}(c),\\quad \\operatorname{col}(b)=\\operatorname{col}(d),\\quad \\operatorname{col}(a)\\ne\\operatorname{col}(b)",
+      "n"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Find the coordinates of the point $Q$ on the circle $(x-6)^2 + (y-5)^2 = 25$ such that $Q$ is nearest to the point $(-2, 11)$.",
+    "problem_fa": "مختصات نقطهٔ [LATEX_1] روی دایرهٔ [LATEX_2] را بیابید، به‌گونه‌ای که [LATEX_3] نزدیک‌ترین نقطه به [LATEX_4] باشد.",
+    "latex": [
+      "Q",
+      "(x-6)^2 + (y-5)^2 = 25",
+      "Q",
+      "(-2, 11)"
+    ]
+  },
+  {
+    "problem_source": "MATH_training_set",
+    "problem_en": "If $f(x) = -\\dfrac{1}{x},$ what is $f(f(f(f(f(6)))))$?",
+    "problem_fa": "اگر [LATEX_1] باشد، مقدار [LATEX_2] چیست؟",
+    "latex": [
+      "f(x) = -\\dfrac{1}{x}",
+      "f(f(f(f(f(6)))))"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Given the function \\( f: \\mathbb{R}_{+}^{0} \\rightarrow \\mathbb{R} \\) such that for all \\( x > 0 \\), \\( 2f(x) + 3f\\left(\\frac{2010}{x}\\right) = 5x \\), find \\( f(6) \\).",
+    "problem_fa": "تابع [LATEX_1] را در نظر بگیرید؛ به‌طوری‌که برای هر [LATEX_2] رابطهٔ [LATEX_3] برقرار باشد. مقدار [LATEX_4] را بیابید.",
+    "latex": [
+      "f:\\mathbb{R}_{+}^{0}\\rightarrow\\mathbb{R}",
+      "x>0",
+      "2f(x)+3f\\left(\\frac{2010}{x}\\right)=5x",
+      "f(6)"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Two distinct points D and E are chosen randomly from 15 points equally spaced around a circle centered at O such that each pair of points D and E has the same probability of being chosen. The probability that the perpendicular bisectors of OD and OE intersect strictly inside the circle can be expressed as a/b, where a and b are relatively prime positive integers. Find a + b.",
+    "problem_fa": "دو نقطهٔ متمایز [LATEX_1] و [LATEX_2] به‌طور تصادفی از میان [LATEX_3] نقطه‌ای که با فاصله‌های مساوی پیرامون دایره‌ای به مرکز [LATEX_4] قرار گرفته‌اند، انتخاب می‌شوند؛ به‌گونه‌ای که هر جفت نقطهٔ [LATEX_1] و [LATEX_2] احتمال یکسانی برای انتخاب شدن دارد. احتمال اینکه عمودمنصف‌های پاره‌خط‌های [LATEX_5] و [LATEX_6] در نقطه‌ای کاملاً درون دایره یکدیگر را قطع کنند، به‌صورت [LATEX_7] بیان می‌شود؛ در اینجا [LATEX_8] و [LATEX_9] اعداد صحیح مثبتِ نسبتاً اول هستند. مقدار [LATEX_10] را بیابید.",
+    "latex": [
+      "D",
+      "E",
+      "15",
+      "O",
+      "\\overline{OD}",
+      "\\overline{OE}",
+      "\\frac{a}{b}",
+      "a",
+      "b",
+      "a+b"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "A railway line is divided into 10 sections by the stations $A, B, C, D, E, F, G, H, I, J,$ and $K$. The distance between $A$ and $K$ is $56$ km. A trip along two successive sections never exceeds $12$ km. A trip along three successive sections is at least $17$ km. What is the distance between $B$ and $G$?",
+    "problem_fa": "یک خط راه‌آهن به‌وسیلهٔ ایستگاه‌های [LATEX_1] به [LATEX_2] بخش تقسیم شده است. فاصلهٔ بین ایستگاه‌های A و K برابر با [LATEX_3] است. مسافت پیموده‌شده در هر دو بخش متوالی، هرگز از [LATEX_4] بیشتر نیست. مسافت پیموده‌شده در هر سه بخش متوالی، دست‌کم [LATEX_5] است. فاصلهٔ بین ایستگاه‌های B و G چقدر است؟",
+    "latex": [
+      "A, B, C, D, E, F, G, H, I, J, K",
+      "10",
+      "56\\ \\mathrm{km}",
+      "12\\ \\mathrm{km}",
+      "17\\ \\mathrm{km}"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Creative Math and Pepemath are playing a game on the unit circle. Initially, Creative Math places 2022 frogs on the circumference. On each turn, Pepemath removes one frog and makes another frog jump 60 degrees clockwise. Then, Creative Math adds a new frog to the circumference. Pepemath wins if, at the end of any turn, the center of mass of the 2022 frogs is less than $\\frac{1}{1000}$ unit distance from the origin. If Pepemath cannot win within 69420 turns, Creative Math wins. Who has a winning strategy?",
+    "problem_fa": "کریتیو مث و پپمَث روی دایرهٔ واحد بازی می‌کنند. در ابتدا، کریتیو مث [LATEX_1] قورباغه روی محیط دایره قرار می‌دهد. در هر نوبت، پپمَث یک قورباغه را برمی‌دارد و قورباغهٔ دیگری را [LATEX_2] درجه در جهت عقربه‌های ساعت به حرکت درمی‌آورد. سپس کریتیو مث قورباغهٔ جدیدی به محیط دایره اضافه می‌کند. اگر در پایان هر نوبت، فاصلهٔ مرکز جرم [LATEX_3] قورباغه از مبدأ کمتر از [LATEX_4] واحد باشد، پپمَث برنده می‌شود. اگر پپمَث نتواند ظرف [LATEX_5] نوبت برنده شود، کریتیو مث برنده خواهد شد. کدام‌یک از آن‌ها راهبردی برای پیروزی دارد؟",
+    "latex": [
+      "2022",
+      "60^\\circ",
+      "2022",
+      "\\frac{1}{1000}",
+      "69420"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Find all parameter \\( m \\in \\mathbb{R} \\) such that the system of equations has real solutions.\n\\[\n\\left\\{\n\\begin{matrix}\nx^2 + 3xz + z^2 = 1 \\\\\n3y^2 + 3yz + z^2 = 4 \\\\\nx^2 - xy + y^2 = m\n\\end{matrix}\n\\right.\n\\]\nWhere \\( x, y, z \\) are variables.",
+    "problem_fa": "تمام پارامترهای [LATEX_1] را بیابید، به‌طوری‌که دستگاه معادلات [LATEX_2] دارای جواب‌های حقیقی باشد. در این دستگاه، [LATEX_3] متغیر هستند.",
+    "latex": [
+      "m \\in \\mathbb{R}",
+      "\\left\\{\\begin{aligned} x^2+3xz+z^2&=1 \\\\ 3y^2+3yz+z^2&=4 \\\\ x^2-xy+y^2&=m \\end{aligned}\\right.",
+      "x,\\ y,\\ z"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Solve the equation \\(\\sqrt{4 - \\sqrt{4 - x}} = x\\) for \\(x > 0\\).",
+    "problem_fa": "معادلهٔ [LATEX_1] را برای [LATEX_2] حل کنید.",
+    "latex": [
+      "\\sqrt{4 - \\sqrt{4 - x}} = x",
+      "x > 0"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "What is the value of the product \\(1 - \\cos x \\cos 2x \\cos 3x \\cos 4x \\cdots \\cos nx\\)?",
+    "problem_fa": "مقدار حاصل‌ضرب [LATEX_1] چیست؟",
+    "latex": [
+      "1 - \\cos x \\cos 2x \\cos 3x \\cos 4x \\cdots \\cos nx"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "In a right triangle \\(ABC\\) with \\(\\widehat{A} = 90^\\circ\\), \\(BI\\) and \\(CI\\) are the angle bisectors of \\(\\widehat{ABC}\\) and \\(\\widehat{ACB}\\) respectively. Given that \\(AB = 5\\) and \\(IC = 6\\), find the length of \\(BC\\).",
+    "problem_fa": "در مثلث قائم‌الزاویه [LATEX_1] که در آن [LATEX_2] است، [LATEX_3] و [LATEX_4] به‌ترتیب نیمسازهای زاویه‌های [LATEX_5] و [LATEX_6] هستند. اگر [LATEX_7] و [LATEX_8] باشد، طول [LATEX_9] را بیابید.",
+    "latex": [
+      "\\triangle ABC",
+      "\\widehat{A}=90^\\circ",
+      "BI",
+      "CI",
+      "\\widehat{ABC}",
+      "\\widehat{ACB}",
+      "AB=5",
+      "IC=6",
+      "BC"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Evaluate the limit \\(\\lim_{t\\to1^{-}}(1-t)\\sum_{k=1}^{\\infty}\\frac{t^{k}}{1+t^{k}}\\).",
+    "problem_fa": "حد [LATEX_1] را محاسبه کنید.",
+    "latex": [
+      "\\lim_{t\\to 1^-}(1-t)\\sum_{k=1}^{\\infty}\\frac{t^k}{1+t^k}"
+    ]
+  },
+  {
+    "problem_source": "MATH_training_set",
+    "problem_en": "A point $P$ is randomly selected from the square region with vertices at $(\\pm 2, \\pm 2)$. What is the probability that $P$ is within one unit of the origin? Express your answer as a common fraction in terms of $\\pi$.",
+    "problem_fa": "نقطهٔ [LATEX_1] به‌طور تصادفی از ناحیهٔ مربعی با رئوسی در نقاط [LATEX_2] انتخاب می‌شود. احتمال اینکه [LATEX_1] در فاصلهٔ یک واحدی از مبدأ باشد، چقدر است؟ پاسخ خود را به‌صورت یک کسر معمولی بر حسب [LATEX_3] بیان کنید.",
+    "latex": [
+      "P",
+      "(\\pm 2,\\pm 2)",
+      "\\pi"
+    ]
+  },
+  {
+    "problem_source": "aops_c6_high_school_olympiads",
+    "problem_en": "Solve for \\(a\\), \\(b\\), and \\(c\\) in the equation \\(\\sqrt[3]{\\sqrt[3]{2} - 1} = \\sqrt[3]{a} + \\sqrt[3]{b} + \\sqrt[3]{c}\\).",
+    "problem_fa": "مقادیر [LATEX_1]، [LATEX_2] و [LATEX_3] را در معادلهٔ زیر بیابید: [LATEX_4]",
+    "latex": [
+      "a",
+      "b",
+      "c",
+      "\\sqrt[3]{\\sqrt[3]{2} - 1} = \\sqrt[3]{a} + \\sqrt[3]{b} + \\sqrt[3]{c}"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "Define a domino to be an ordered pair of distinct positive integers. A proper sequence of dominos is a list of distinct dominos in which the first coordinate of each pair after the first equals the second coordinate of the immediately preceding pair, and in which (i, j) and (j, i) do not both appear for any i and j. Let D<sub>40</sub> be the set of all dominos whose coordinates are no larger than 40. Find the length of the longest proper sequence of dominos that can be formed using the dominos of D<sub>40</sub>.",
+    "problem_fa": "دومینو را یک جفت مرتب از دو عدد صحیح مثبت متمایز، به شکل [LATEX_1]، تعریف می‌کنیم. یک دنبالهٔ درست از دومینوها، فهرستی از دومینوهای متمایز است که در آن، مؤلفهٔ اول هر جفت پس از جفت نخست، با مؤلفهٔ دوم جفت بلافاصله پیش از آن برابر است و نیز، برای هیچ دو عدد صحیح مثبت متمایز [LATEX_2]، هر دو جفت [LATEX_3] و [LATEX_4] در آن ظاهر نمی‌شوند. بگذارید مجموعهٔ [LATEX_5] مجموعهٔ همهٔ دومینوهایی باشد که مختصاتشان از [LATEX_6] بزرگ‌تر نیستند. طولانی‌ترین دنبالهٔ درستِ دومینوها را که می‌توان با استفاده از دومینوهای این مجموعه تشکیل داد، بیابید.",
+    "latex": [
+      "(a,b)",
+      "i,j",
+      "(i,j)",
+      "(j,i)",
+      "D_{40}",
+      "40"
+    ]
+  },
+  {
+    "problem_source": "aops_c7_college_math",
+    "problem_en": "Find all \\(3 \\times 3\\) real matrices \\(M\\) such that \\(M^2 + M^T = I_3\\) and \\(\\text{Trace}(M) = 0\\), where \\(M^T\\) is the transpose of \\(M\\) and \\(I_3\\) is the \\(3 \\times 3\\) identity matrix.",
+    "problem_fa": "تمام ماتریس‌های حقیقی [LATEX_1] را بیابید که در آن‌ها [LATEX_2] و [LATEX_3] برقرار باشد؛ در اینجا [LATEX_4] ترانهادهٔ [LATEX_5] و [LATEX_6] ماتریس همانی [LATEX_7] است.",
+    "latex": [
+      "3 \\times 3",
+      "M^2 + M^T = I_3",
+      "\\operatorname{Trace}(M) = 0",
+      "M^T",
+      "M",
+      "I_3",
+      "3 \\times 3"
+    ]
+  },
+  {
+    "problem_source": "MATH_training_set",
+    "problem_en": "Let $x,$ $y,$ and $z$ be positive real numbers such that $x + y + z = 6.$  Find the minimum value of\n\\[\\frac{x^2 + y^2}{x + y} + \\frac{x^2 + z^2}{x + z} + \\frac{y^2 + z^2}{y + z}.\\]",
+    "problem_fa": "فرض کنید [LATEX_1] اعداد حقیقی مثبت باشند و [LATEX_2]. کمینهٔ عبارت زیر را بیابید:",
+    "latex": [
+      "x,\\ y,\\ z",
+      "x+y+z=6",
+      "\\frac{x^2+y^2}{x+y}+\\frac{x^2+z^2}{x+z}+\\frac{y^2+z^2}{y+z}"
+    ]
+  },
+  {
+    "problem_source": "aops_c4_high_school_math",
+    "problem_en": "If \\( r, s, t \\) are prime numbers and \\(\\text{lcm}(p,q) = r^2 t^4 s^2\\) where \\( p, q \\in \\mathbb{Z}^{+} \\), find the number of ordered pairs \\((p, q)\\).",
+    "problem_fa": "اگر [LATEX_1] اعداد اول باشند و [LATEX_2]، که در آن [LATEX_3]، تعداد زوج‌های مرتب [LATEX_4] را بیابید.",
+    "latex": [
+      "r,s,t",
+      "\\operatorname{lcm}(p,q)=r^2t^4s^2",
+      "p,q\\in\\mathbb{Z}^{+}",
+      "(p,q)"
+    ]
+  }
+]
