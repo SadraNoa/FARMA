@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "جهان ای پسر ملک جاوید نیست / ز دنیا وفاداری امید نیست",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعل",
+    "gold_meter_name": "بحر متقارب مثمن محذوف",
+    "poet": "سعدی",
+    "source": "بوستان، باب اول، بخش ۲۴"
+  },
+  {
+    "id": 2,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "چو خشم آیدت بر گناه کسی / تأمل کنش در عقوبت بسی",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعل",
+    "gold_meter_name": "بحر متقارب مثمن محذوف",
+    "poet": "سعدی",
+    "source": "بوستان، باب اول، بخش ۱"
+  },
+  {
+    "id": 3,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "گرت خویش دشمن شود دوستدار / ز تلبیسش ایمن مشو زینهار",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعل",
+    "gold_meter_name": "بحر متقارب مثمن محذوف",
+    "poet": "سعدی",
+    "source": "بوستان، باب اول، بخش ۴۰"
+  },
+  {
+    "id": 4,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "خبرداری از خسروان عجم / که کردند بر زیردستان ستم",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعل",
+    "gold_meter_name": "بحر متقارب مثمن محذوف",
+    "poet": "سعدی",
+    "source": "بوستان، باب اول، بخش ۱۵"
+  },
+  {
+    "id": 5,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "خبر یافت گردن‌کشی در عراق / که می‌گفت مسکینی از زیر طاق",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعل",
+    "gold_meter_name": "بحر متقارب مثمن محذوف",
+    "poet": "سعدی",
+    "source": "بوستان، باب اول، بخش ۷"
+  },
+  {
+    "id": 6,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "بیا ساقی! آن مِی که حال آورد / کرامت فزاید، کمال آورد",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعل",
+    "gold_meter_name": "بحر متقارب مثمن محذوف",
+    "poet": "حافظ",
+    "source": "ساقی‌نامه"
+  },
+  {
+    "id": 7,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "فریدون چو شد بر جهان کامگار / ندانست جز خویشتن شهریار",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعل",
+    "gold_meter_name": "بحر متقارب مثمن محذوف",
+    "poet": "فردوسی",
+    "source": "شاهنامه، داستان فریدون، بخش ۱"
+  },
+  {
+    "id": 8,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "ز مهرش مبادا تهی ایچ دل / ز فرمانش خالی مباد ایچ مرج",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعل",
+    "gold_meter_name": "بحر متقارب مثمن محذوف",
+    "poet": "رودکی",
+    "source": "ابیات پراکنده، شمارهٔ ۳۶"
+  },
+  {
+    "id": 9,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "ندانم چه افتاد مال ترا / که چون خاطرت در پراکندگیست",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعل",
+    "gold_meter_name": "بحر متقارب مثمن محذوف",
+    "poet": "کمال‌الدین اسماعیل",
+    "source": "قطعات، شمارهٔ ۱۷"
+  },
+  {
+    "id": 10,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "ز دریای دست توای نامدار / کسی را چون من کار مشکل نشد",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعل",
+    "gold_meter_name": "بحر متقارب مثمن محذوف",
+    "poet": "کمال‌الدین اسماعیل",
+    "source": "قطعات، شمارهٔ ۱۳۳"
+  },
+  {
+    "id": 11,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "دلم ز آتش غم چنان می‌گدازد / که شکر در آب روان می‌گدازد",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعولن",
+    "gold_meter_name": "بحر متقارب مثمن سالم",
+    "poet": "کمال‌الدین اسماعیل",
+    "source": "غزلیات، شمارهٔ ۶۳"
+  },
+  {
+    "id": 12,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "دل من ز اندوه ننگی ندارد / چو داند که شادی درنگی ندارد",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعولن",
+    "gold_meter_name": "بحر متقارب مثمن سالم",
+    "poet": "کمال‌الدین اسماعیل",
+    "source": "غزلیات، شمارهٔ ۵۱"
+  },
+  {
+    "id": 13,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "دل غنچه را باز این غم گرفتست / که پشت بنفشه چرا خم گرفتست",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعولن",
+    "gold_meter_name": "بحر متقارب مثمن سالم",
+    "poet": "کمال‌الدین اسماعیل",
+    "source": "غزلیات، شمارهٔ ۱۱"
+  },
+  {
+    "id": 14,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "دلم هر شب از عشق چندان بنالد / که از آه او چرخ گردان بنالد",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعولن",
+    "gold_meter_name": "بحر متقارب مثمن سالم",
+    "poet": "کمال‌الدین اسماعیل",
+    "source": "غزلیات، شمارهٔ ۷۴"
+  },
+  {
+    "id": 15,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "چنان خوب‌رویی بدان دلربایی / دریغت نیاید بهر کس نمایی",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعولن",
+    "gold_meter_name": "بحر متقارب مثمن سالم",
+    "poet": "کمال‌الدین اسماعیل",
+    "source": "غزلیات، شمارهٔ ۱۵۸"
+  },
+  {
+    "id": 16,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "نگارم چو کرد گلستان برآید / خروش دلم تا به کیوان برآید",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعولن",
+    "gold_meter_name": "بحر متقارب مثمن سالم",
+    "poet": "کمال‌الدین اسماعیل",
+    "source": "غزلیات، شمارهٔ ۹۲"
+  },
+  {
+    "id": 17,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "برآمد ز گلزار باد بهاری / بیاور می ارغوانی، چه داری",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعولن",
+    "gold_meter_name": "بحر متقارب مثمن سالم",
+    "poet": "کمال‌الدین اسماعیل",
+    "source": "غزلیات، شمارهٔ ۱۴۶"
+  },
+  {
+    "id": 18,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "ز لعلت زکاتی شکر می‌ستاند / ز رویت براتی قمر می‌ستاند",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعولن",
+    "gold_meter_name": "بحر متقارب مثمن سالم",
+    "poet": "عطار",
+    "source": "دیوان اشعار، غزل شمارهٔ ۲۹۰"
+  },
+  {
+    "id": 19,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "چو بگسست زنجیر اشک از بر دل / جز آه مسلسل، که با آن برآید",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعولن",
+    "gold_meter_name": "بحر متقارب مثمن سالم",
+    "poet": "کمال‌الدین اسماعیل",
+    "source": "غزلیات، شمارهٔ ۹۲"
+  },
+  {
+    "id": 20,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "مرا مهر آن چهره و لعل میگون / فرو رفت با شیر و با جان برآید",
+    "gold_meter_pattern": "فعولن فعولن فعولن فعولن",
+    "gold_meter_name": "بحر متقارب مثمن سالم",
+    "poet": "کمال‌الدین اسماعیل",
+    "source": "غزلیات، شمارهٔ ۹۲"
+  },
+  {
+    "id": 21,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "آن شبِ قدری که گویند اهلِ خلوت امشب است / یا رب این تأثیرِ دولت در کدامین کوکب است؟",
+    "gold_meter_pattern": "فاعلاتن فاعلاتن فاعلاتن فاعلن",
+    "gold_meter_name": "بحر رمل مثمن محذوف",
+    "poet": "حافظ",
+    "source": "غزل شمارهٔ ۳۱"
+  },
+  {
+    "id": 22,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "تا به گیسویِ تو دستِ ناسزایان کم رسد / هر دلی از حلقه‌ای در ذکرِ یارب یارب است",
+    "gold_meter_pattern": "فاعلاتن فاعلاتن فاعلاتن فاعلن",
+    "gold_meter_name": "بحر رمل مثمن محذوف",
+    "poet": "حافظ",
+    "source": "غزل شمارهٔ ۳۱"
+  },
+  {
+    "id": 23,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "کشته چاه زنخدان توام کز هر طرف / صد هزارش گردنِ جان زیرِ طوقِ غَبغَب است",
+    "gold_meter_pattern": "فاعلاتن فاعلاتن فاعلاتن فاعلن",
+    "gold_meter_name": "بحر رمل مثمن محذوف",
+    "poet": "حافظ",
+    "source": "غزل شمارهٔ ۳۱"
+  },
+  {
+    "id": 24,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "عشق جانان همچو شمعم از قدم تا سر بسوخت / مرغ جان را نیز چون پروانه بال و پر بسوخت",
+    "gold_meter_pattern": "فاعلاتن فاعلاتن فاعلاتن فاعلن",
+    "gold_meter_name": "بحر رمل مثمن محذوف",
+    "poet": "عطار",
+    "source": "غزل شمارهٔ ۲۲"
+  },
+  {
+    "id": 25,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "عشقش آتش بود کردم مجمرش از دل چو عود / آتش سوزنده بر هم عود و هم مجمر بسوخت",
+    "gold_meter_pattern": "فاعلاتن فاعلاتن فاعلاتن فاعلن",
+    "gold_meter_name": "بحر رمل مثمن محذوف",
+    "poet": "عطار",
+    "source": "غزل شمارهٔ ۲۲"
+  },
+  {
+    "id": 26,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "زآتش رویش چو یک اخگر به صحرا اوفتاد / هر دو عالم همچو خاشاکی از آن اخگر بسوخت",
+    "gold_meter_pattern": "فاعلاتن فاعلاتن فاعلاتن فاعلن",
+    "gold_meter_name": "بحر رمل مثمن محذوف",
+    "poet": "عطار",
+    "source": "غزل شمارهٔ ۲۲"
+  },
+  {
+    "id": 27,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "خواستم تا پیش جانان پیشکش جان آورم / پیش دستی کرد عشق و جانم اندر بر بسوخت",
+    "gold_meter_pattern": "فاعلاتن فاعلاتن فاعلاتن فاعلن",
+    "gold_meter_name": "بحر رمل مثمن محذوف",
+    "poet": "عطار",
+    "source": "غزل شمارهٔ ۲۲"
+  },
+  {
+    "id": 28,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "زان که چشمش‌ هرکجا کوری‌ست بینا می‌کند / دل به مستی یک شب از دستم به عیاری ربود",
+    "gold_meter_pattern": "فاعلاتن فاعلاتن فاعلاتن فاعلن",
+    "gold_meter_name": "بحر رمل مثمن محذوف",
+    "poet": "قاآنی",
+    "source": "غزل شمارهٔ ۲۸"
+  },
+  {
+    "id": 29,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "بوسهٔ جان‌بخش و چشم جان‌سِتانش هر نَفَس / کار عزرائیل و اعجاز مسیحا می‌کند",
+    "gold_meter_pattern": "فاعلاتن فاعلاتن فاعلاتن فاعلن",
+    "gold_meter_name": "بحر رمل مثمن محذوف",
+    "poet": "قاآنی",
+    "source": "غزل شمارهٔ ۲۸"
+  },
+  {
+    "id": 30,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "از جمال اوست قاآنی چنین شیرین‌زبان / جلوهٔ آیینه طوطی را شکرخا می‌کند",
+    "gold_meter_pattern": "فاعلاتن فاعلاتن فاعلاتن فاعلن",
+    "gold_meter_name": "بحر رمل مثمن محذوف",
+    "poet": "قاآنی",
+    "source": "غزل شمارهٔ ۲۸"
+  },
+  {
+    "id": 31,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "در دلت چیست عجب که چو شکر می‌خندی / دوش شب با کی بدی که چو سحر می‌خندی",
+    "gold_meter_pattern": "فعلاتن فعلاتن فعلاتن فعلن",
+    "gold_meter_name": "بحر رمل مثمن مخبون محذوف",
+    "poet": "مولانا",
+    "source": "دیوان شمس، غزل ۲۸۶۸"
+  },
+  {
+    "id": 32,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "چند دل تلخی غم را شکرستان داند / خاک را بر سر سودازده سامان داند",
+    "gold_meter_pattern": "فعلاتن فعلاتن فعلاتن فعلن",
+    "gold_meter_name": "بحر رمل مثمن مخبون محذوف",
+    "poet": "کلیم",
+    "source": "غزل ۲۸۲"
+  },
+  {
+    "id": 33,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "گنج دردش که به جز ناله نگهبانش نیست / مخزنی بهتر ازین سینه ویرانش نیست",
+    "gold_meter_pattern": "فعلاتن فعلاتن فعلاتن فعلن",
+    "gold_meter_name": "بحر رمل مثمن مخبون محذوف",
+    "poet": "کلیم",
+    "source": "غزل ۱۰۸"
+  },
+  {
+    "id": 34,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "نیست یکشب که سرشکم گل بستر نشود / تا در پیرهنم رشته گوهر نشود",
+    "gold_meter_pattern": "فعلاتن فعلاتن فعلاتن فعلن",
+    "gold_meter_name": "بحر رمل مثمن مخبون محذوف",
+    "poet": "کلیم",
+    "source": "غزل ۲۵۹"
+  },
+  {
+    "id": 35,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "آن نه رویست که یک باغ گل و نسرینست / وان نه خالست که یک چرخ مه و پروینست",
+    "gold_meter_pattern": "فعلاتن فعلاتن فعلاتن فعلن",
+    "gold_meter_name": "بحر رمل مثمن مخبون محذوف",
+    "poet": "قاآنی",
+    "source": "غزل ۱۵"
+  },
+  {
+    "id": 36,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "سخن از بوسهٔ آن لعل لب نوش افتاد / به میان بار دگر خون سیاوش افتاد",
+    "gold_meter_pattern": "فعلاتن فعلاتن فعلاتن فعلن",
+    "gold_meter_name": "بحر رمل مثمن مخبون محذوف",
+    "poet": "قاآنی",
+    "source": "غزل ۲۰"
+  },
+  {
+    "id": 37,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "این چه حالست که از سر کله انداخته‌ای / مست و بیخود شده از خانه برون تاخته‌ای",
+    "gold_meter_pattern": "فعلاتن فعلاتن فعلاتن فعلن",
+    "gold_meter_name": "بحر رمل مثمن مخبون محذوف",
+    "poet": "قاآنی",
+    "source": "غزل ۷۵"
+  },
+  {
+    "id": 38,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "خلق را قصهٔ حسن پری از یاد رود / هر کجا ذکری از آن شوخ پری‌زاد رود",
+    "gold_meter_pattern": "فعلاتن فعلاتن فعلاتن فعلن",
+    "gold_meter_name": "بحر رمل مثمن مخبون محذوف",
+    "poet": "قاآنی",
+    "source": "غزل ۳۲"
+  },
+  {
+    "id": 39,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "چون کسی نیست که از عشق تو فریاد رسد / چه کنم صبر کنم گر ز تو بیداد رسد",
+    "gold_meter_pattern": "فعلاتن فعلاتن فعلاتن فعلن",
+    "gold_meter_name": "بحر رمل مثمن مخبون محذوف",
+    "poet": "انوری",
+    "source": "غزل ۹۵"
+  },
+  {
+    "id": 40,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "قُرطه بگشای و زمانی بنشین بیش مگوی / روی بنمای که امروز چنین دارد روی",
+    "gold_meter_pattern": "فعلاتن فعلاتن فعلاتن فعلن",
+    "gold_meter_name": "بحر رمل مثمن مخبون محذوف",
+    "poet": "انوری",
+    "source": "غزل ۳۲۱"
+  },
+  {
+    "id": 41,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "دلی که دید، که پیرامُن خطر می‌گشت؟ / چو شمع زار و چو پروانه در به در می‌گشت",
+    "gold_meter_pattern": "مفاعلن فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر مجتث مثمن مخبون محذوف",
+    "poet": "سعدی",
+    "source": "غزل شمارهٔ ۱۳۴"
+  },
+  {
+    "id": 42,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "جزای آن که نگفتیم شکر روز وصال / شب فراق نخفتیم لاجرم ز خیال",
+    "gold_meter_pattern": "مفاعلن فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر مجتث مثمن مخبون محذوف",
+    "poet": "سعدی",
+    "source": "غزل شمارهٔ ۳۴۷"
+  },
+  {
+    "id": 43,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "مرا به عاقبت این شوخ سیمتن بکشد / چو شمع سوخته روزی در انجمن بکشد",
+    "gold_meter_pattern": "مفاعلن فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر مجتث مثمن مخبون محذوف",
+    "poet": "سعدی",
+    "source": "غزل شمارهٔ ۲۰۸"
+  },
+  {
+    "id": 44,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "به بوی آن که شبی در حرم بیاسایند / هزار بادیه سهلست اگر بپیمایند",
+    "gold_meter_pattern": "مفاعلن فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر مجتث مثمن مخبون محذوف",
+    "poet": "سعدی",
+    "source": "غزل شمارهٔ ۲۵۳"
+  },
+  {
+    "id": 45,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "به عمر خویش ندیدم شبی که مرغ دلم / نخواند بر گل رویت چه جای بلبل باغ",
+    "gold_meter_pattern": "مفاعلن فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر مجتث مثمن مخبون محذوف",
+    "poet": "سعدی",
+    "source": "غزل شمارهٔ ۳۴۳"
+  },
+  {
+    "id": 46,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "تو آن نه‌ای که دل از صحبت تو برگیرند / و گر ملول شوی صاحبی دگر گیرند",
+    "gold_meter_pattern": "مفاعلن فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر مجتث مثمن مخبون محذوف",
+    "poet": "سعدی",
+    "source": "غزل شمارهٔ ۲۳۱"
+  },
+  {
+    "id": 47,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "صلاح کار کجا و من خراب کجا؟ / ببین تفاوت ره کز کجاست تا به کجا",
+    "gold_meter_pattern": "مفاعلن فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر مجتث مثمن مخبون محذوف",
+    "poet": "حافظ",
+    "source": "غزل شمارهٔ ۲"
+  },
+  {
+    "id": 48,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "چو بر شکست صبا زلف عنبرافشانش / به هر شکسته که پیوست تازه شد جانش",
+    "gold_meter_pattern": "مفاعلن فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر مجتث مثمن مخبون محذوف",
+    "poet": "حافظ",
+    "source": "غزل شمارهٔ ۲۸۰"
+  },
+  {
+    "id": 49,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "به کوی میکده یا رب سحر چه مشغله بود؟ / که جوش شاهد و ساقی و شمع و مشعله بود",
+    "gold_meter_pattern": "مفاعلن فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر مجتث مثمن مخبون محذوف",
+    "poet": "حافظ",
+    "source": "غزل شمارهٔ ۲۱۵"
+  },
+  {
+    "id": 50,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "به گوش دل پنهانی بگفت رحمت کل / که هر چه خواهی می‌کن ولی ز ما مسکل",
+    "gold_meter_pattern": "مفاعلن فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر مجتث مثمن مخبون محذوف",
+    "poet": "مولانا",
+    "source": "دیوان شمس، غزل شمارهٔ ۱۳۵۸"
+  },
+  {
+    "id": 51,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "ساقی بیا که یار ز رخ پرده برگرفت / کار چراغ خلوتیان باز درگرفت",
+    "gold_meter_pattern": "مفعول فاعلات مفاعیل فاعلن",
+    "gold_meter_name": "بحر مضارع مثمن اخرب مکفوف محذوف",
+    "poet": "حافظ",
+    "source": "غزل ۸۶"
+  },
+  {
+    "id": 52,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "شکرشکن شوند همه طوطیان هند / زین قند پارسی که به بنگاله می‌رود",
+    "gold_meter_pattern": "مفعول فاعلات مفاعیل فاعلن",
+    "gold_meter_name": "بحر مضارع مثمن اخرب مکفوف محذوف",
+    "poet": "حافظ",
+    "source": "غزل ۲۲۵"
+  },
+  {
+    "id": 53,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "رو بر رهش نهادم و بر من گذر نکرد / صد لطف چشم داشتم و یک نظر نکرد",
+    "gold_meter_pattern": "مفعول فاعلات مفاعیل فاعلن",
+    "gold_meter_name": "بحر مضارع مثمن اخرب مکفوف محذوف",
+    "poet": "حافظ",
+    "source": "غزل ۱۳۹"
+  },
+  {
+    "id": 54,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "حاشا که من به موسم گل ترک می کنم / من لاف عقل می‌زنم این کار کی کنم",
+    "gold_meter_pattern": "مفعول فاعلات مفاعیل فاعلن",
+    "gold_meter_name": "بحر مضارع مثمن اخرب مکفوف محذوف",
+    "poet": "حافظ",
+    "source": "غزل ۳۵۱"
+  },
+  {
+    "id": 55,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "ای آفتاب سایه ز ما برمدار هم / چون آب روی لاله و گل فیض حسن توست",
+    "gold_meter_pattern": "مفعول فاعلات مفاعیل فاعلن",
+    "gold_meter_name": "بحر مضارع مثمن اخرب مکفوف محذوف",
+    "poet": "حافظ",
+    "source": "غزل ۳۶۲"
+  },
+  {
+    "id": 56,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "آن سنگدل که شیشه جان‌هاست جای او / آتش زند در آب و گل ما هوای او",
+    "gold_meter_pattern": "مفعول فاعلات مفاعیل فاعلن",
+    "gold_meter_name": "بحر مضارع مثمن اخرب مکفوف محذوف",
+    "poet": "قاآنی",
+    "source": "غزل ۵۵"
+  },
+  {
+    "id": 57,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "زین پس به کار ناید رطل و سبو مرا / ساقی به خم می بنشان تا گلو مرا",
+    "gold_meter_pattern": "مفعول فاعلات مفاعیل فاعلن",
+    "gold_meter_name": "بحر مضارع مثمن اخرب مکفوف محذوف",
+    "poet": "قاآنی",
+    "source": "غزل ۲"
+  },
+  {
+    "id": 58,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "ضحاک‌وار کشته بسی بی‌گناه را / بر دوش تا فکنده دو مار سیاه را",
+    "gold_meter_pattern": "مفعول فاعلات مفاعیل فاعلن",
+    "gold_meter_name": "بحر مضارع مثمن اخرب مکفوف محذوف",
+    "poet": "قاآنی",
+    "source": "غزل ۴"
+  },
+  {
+    "id": 59,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "حیران کند جمال تو ماه دو هفته را / خجلت دهد رخ تو گل نو شکفته را",
+    "gold_meter_pattern": "مفعول فاعلات مفاعیل فاعلن",
+    "gold_meter_name": "بحر مضارع مثمن اخرب مکفوف محذوف",
+    "poet": "قاآنی",
+    "source": "غزل ۵"
+  },
+  {
+    "id": 60,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "از وهم قطرگی‌ست که در خود گمیم ما / اما چو وارسیم همان قلزمیم ما",
+    "gold_meter_pattern": "مفعول فاعلات مفاعیل فاعلن",
+    "gold_meter_name": "بحر مضارع مثمن اخرب مکفوف محذوف",
+    "poet": "غالب دهلوی",
+    "source": "غزل ۳۴"
+  },
+  {
+    "id": 61,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "سپاس و شکر بی‌پایان خدا را / برین نعمت که نعمت نیست ما را",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن فعولن",
+    "gold_meter_name": "بحر هزج مسدس محذوف",
+    "poet": "سعدی",
+    "source": "مواعظ، مثنویات، شمارهٔ ۳۲"
+  },
+  {
+    "id": 62,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "چه سرپوشیدگان مرد بودند / که گوی نخوت از مردان ربودند",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن فعولن",
+    "gold_meter_name": "بحر هزج مسدس محذوف",
+    "poet": "سعدی",
+    "source": "مواعظ، مثنویات، شمارهٔ ۸"
+  },
+  {
+    "id": 63,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "حدیث پادشاهان عجم را / حکایت‌نامهٔ ضحاک و جم را",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن فعولن",
+    "gold_meter_name": "بحر هزج مسدس محذوف",
+    "poet": "سعدی",
+    "source": "مواعظ، مثنویات، شمارهٔ ۳۳"
+  },
+  {
+    "id": 64,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "هر آن نقشی که بر دیده کشیدیم / به جز نور جمال او ندیدیم",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن فعولن",
+    "gold_meter_name": "بحر هزج مسدس محذوف",
+    "poet": "شاه نعمت‌الله ولی",
+    "source": "غزل شمارهٔ ۱۱۵۳"
+  },
+  {
+    "id": 65,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "چو قطره غرق بحر عشق گشتیم / محیطی را به یک دم در کشیدیم",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن فعولن",
+    "gold_meter_name": "بحر هزج مسدس محذوف",
+    "poet": "شاه نعمت‌الله ولی",
+    "source": "غزل شمارهٔ ۱۱۵۳"
+  },
+  {
+    "id": 66,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "مرا سودای تو جان می‌بسوزد / چو شمعی زار و گریان می‌بسوزد",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن فعولن",
+    "gold_meter_name": "بحر هزج مسدس محذوف",
+    "poet": "عطار",
+    "source": "غزل شمارهٔ ۲۳۱"
+  },
+  {
+    "id": 67,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "دلی کز عشق جانان دردمند است / همو داند که قدر عشق چند است",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن فعولن",
+    "gold_meter_name": "بحر هزج مسدس محذوف",
+    "poet": "عطار",
+    "source": "غزل شمارهٔ ۵۳"
+  },
+  {
+    "id": 68,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "غم عشق تو از غمها نجاتست / مرا خاک درت آب حیاتست",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن فعولن",
+    "gold_meter_name": "بحر هزج مسدس محذوف",
+    "poet": "انوری",
+    "source": "غزل شمارهٔ ۱۴"
+  },
+  {
+    "id": 69,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "در این عهد از وفا بویی نمانده است / به عالم آشنارویی نمانده است",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن فعولن",
+    "gold_meter_name": "بحر هزج مسدس محذوف",
+    "poet": "خاقانی",
+    "source": "غزل شمارهٔ ۲۷"
+  },
+  {
+    "id": 70,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "چرا ننهم؟ نهم دل بر خیالت / چرا ندهم؟ دهم جان در وصالت",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن فعولن",
+    "gold_meter_name": "بحر هزج مسدس محذوف",
+    "poet": "خاقانی",
+    "source": "غزل شمارهٔ ۷۸"
+  },
+  {
+    "id": 71,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "هر آن کاو خاطر مجموع و یار نازنین دارد / سعادت همدم او گشت و دولت همنشین دارد",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن مفاعیلن مفاعیلن",
+    "gold_meter_name": "بحر هزج مثمن سالم",
+    "poet": "حافظ",
+    "source": "غزل ۱۲۱"
+  },
+  {
+    "id": 72,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "حریم عشق را درگه بسی بالاتر از عقل است / کسی آن آستان بوسد که جان در آستین دارد",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن مفاعیلن مفاعیلن",
+    "gold_meter_name": "بحر هزج مثمن سالم",
+    "poet": "حافظ",
+    "source": "غزل ۱۲۱"
+  },
+  {
+    "id": 73,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "مدامم مست می‌دارد نسیم جعد گیسویت / خرابم می‌کند هر دم فریب چشم جادویت",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن مفاعیلن مفاعیلن",
+    "gold_meter_name": "بحر هزج مثمن سالم",
+    "poet": "حافظ",
+    "source": "غزل ۹۵"
+  },
+  {
+    "id": 74,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "پس از چندین شکیبایی شبی یا رب توان دیدن / که شمع دیده افروزیم در محراب ابرویت",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن مفاعیلن مفاعیلن",
+    "gold_meter_name": "بحر هزج مثمن سالم",
+    "poet": "حافظ",
+    "source": "غزل ۹۵"
+  },
+  {
+    "id": 75,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "درخت دوستی بنشان که کام دل به بار آرد / نهال دشمنی برکن که رنج بی‌شمار آرد",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن مفاعیلن مفاعیلن",
+    "gold_meter_name": "بحر هزج مثمن سالم",
+    "poet": "حافظ",
+    "source": "غزل ۱۱۵"
+  },
+  {
+    "id": 76,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "شب صحبت غنیمت دان که بعد از روزگار ما / بسی گردش کند گردون بسی لیل و نهار آرد",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن مفاعیلن مفاعیلن",
+    "gold_meter_name": "بحر هزج مثمن سالم",
+    "poet": "حافظ",
+    "source": "غزل ۱۱۵"
+  },
+  {
+    "id": 77,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "دمی با غم به سر بردن جهان یک سر نمی‌ارزد / به می بفروش دلق ما کز این بهتر نمی‌ارزد",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن مفاعیلن مفاعیلن",
+    "gold_meter_name": "بحر هزج مثمن سالم",
+    "poet": "حافظ",
+    "source": "غزل ۱۵۱"
+  },
+  {
+    "id": 78,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "رقیبم سرزنش‌ها کرد کز این باب رخ برتاب / چه افتاد این سر ما را که خاک در نمی‌ارزد",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن مفاعیلن مفاعیلن",
+    "gold_meter_name": "بحر هزج مثمن سالم",
+    "poet": "حافظ",
+    "source": "غزل ۱۵۱"
+  },
+  {
+    "id": 79,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "اگر آن ترک شیرازی به دست آرد دل ما را / به خال هندویش بخشم سمرقند و بخارا را",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن مفاعیلن مفاعیلن",
+    "gold_meter_name": "بحر هزج مثمن سالم",
+    "poet": "حافظ",
+    "source": "غزل ۳"
+  },
+  {
+    "id": 80,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "ز عشق ناتمام ما جمال یار مستغنی است / به آب و رنگ و خال و خط چه حاجت روی زیبا را",
+    "gold_meter_pattern": "مفاعیلن مفاعیلن مفاعیلن مفاعیلن",
+    "gold_meter_name": "بحر هزج مثمن سالم",
+    "poet": "حافظ",
+    "source": "غزل ۳"
+  },
+  {
+    "id": 81,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "آن یار کز او خانهٔ ما جای پری بود / سر تا قدمش چون پری از عیب بری بود",
+    "gold_meter_pattern": "مفعول مفاعیل مفاعیل فعولن",
+    "gold_meter_name": "بحر هزج مثمن اخرب مکفوف محذوف",
+    "poet": "حافظ",
+    "source": "غزل ۲۱۶"
+  },
+  {
+    "id": 82,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "دل گفت فروکش کنم این شهر به بویش / بیچاره ندانست که یارش سفری بود",
+    "gold_meter_pattern": "مفعول مفاعیل مفاعیل فعولن",
+    "gold_meter_name": "بحر هزج مثمن اخرب مکفوف محذوف",
+    "poet": "حافظ",
+    "source": "غزل ۲۱۶"
+  },
+  {
+    "id": 83,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "تنها نه ز راز دل من پرده برافتاد / تا بود فلک شیوهٔ او پرده‌دری بود",
+    "gold_meter_pattern": "مفعول مفاعیل مفاعیل فعولن",
+    "gold_meter_name": "بحر هزج مثمن اخرب مکفوف محذوف",
+    "poet": "حافظ",
+    "source": "غزل ۲۱۶"
+  },
+  {
+    "id": 84,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "منظور خردمند من آن ماه که او را / با حسن ادب شیوهٔ صاحب‌نظری بود",
+    "gold_meter_pattern": "مفعول مفاعیل مفاعیل فعولن",
+    "gold_meter_name": "بحر هزج مثمن اخرب مکفوف محذوف",
+    "poet": "حافظ",
+    "source": "غزل ۲۱۶"
+  },
+  {
+    "id": 85,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "اوقات خوش آن بود که با دوست به سر رفت / باقی همه بی‌حاصلی و بی‌خبری بود",
+    "gold_meter_pattern": "مفعول مفاعیل مفاعیل فعولن",
+    "gold_meter_name": "بحر هزج مثمن اخرب مکفوف محذوف",
+    "poet": "حافظ",
+    "source": "غزل ۲۱۶"
+  },
+  {
+    "id": 86,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "در کنج دماغم مطلب جای نصیحت / کاین گوشه پر از زمزمهٔ چنگ و رباب است",
+    "gold_meter_pattern": "مفعول مفاعیل مفاعیل فعولن",
+    "gold_meter_name": "بحر هزج مثمن اخرب مکفوف محذوف",
+    "poet": "حافظ",
+    "source": "غزل ۲۹"
+  },
+  {
+    "id": 87,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "حافظ چه شد ار عاشق و رند است و نظرباز / بس طور عجب لازم ایام شباب است",
+    "gold_meter_pattern": "مفعول مفاعیل مفاعیل فعولن",
+    "gold_meter_name": "بحر هزج مثمن اخرب مکفوف محذوف",
+    "poet": "حافظ",
+    "source": "غزل ۲۹"
+  },
+  {
+    "id": 88,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "از ننگ چه گویی که مرا نام ز ننگ است / وز نام چه پرسی که مرا ننگ ز نام است",
+    "gold_meter_pattern": "مفعول مفاعیل مفاعیل فعولن",
+    "gold_meter_name": "بحر هزج مثمن اخرب مکفوف محذوف",
+    "poet": "حافظ",
+    "source": "غزل ۴۶"
+  },
+  {
+    "id": 89,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "می‌خواره و سرگشته و رندیم و نظرباز / وان کس که چو ما نیست در این شهر کدام است",
+    "gold_meter_pattern": "مفعول مفاعیل مفاعیل فعولن",
+    "gold_meter_name": "بحر هزج مثمن اخرب مکفوف محذوف",
+    "poet": "حافظ",
+    "source": "غزل ۴۶"
+  },
+  {
+    "id": 90,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "گر دست رسد در سر زلفین تو بازم / چون گوی چه سرها که به چوگان تو بازم",
+    "gold_meter_pattern": "مفعول مفاعیل مفاعیل فعولن",
+    "gold_meter_name": "بحر هزج مثمن اخرب مکفوف محذوف",
+    "poet": "حافظ",
+    "source": "غزل ۳۳۴"
+  },
+  {
+    "id": 91,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "مرد یک موی تو فلک نبود / محرم کوی تو ملک نبود",
+    "gold_meter_pattern": "فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر خفیف مسدس مخبون",
+    "poet": "عطار",
+    "source": "غزل ۳۳۱"
+  },
+  {
+    "id": 92,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "ماه دو هفته گرچه هست تمام / از جمال تو هفت یک نبود",
+    "gold_meter_pattern": "فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر خفیف مسدس مخبون",
+    "poet": "عطار",
+    "source": "غزل ۳۳۱"
+  },
+  {
+    "id": 93,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "چون جمال تو آشکار شود / همه باشی تو هیچ شک نبود",
+    "gold_meter_pattern": "فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر خفیف مسدس مخبون",
+    "poet": "عطار",
+    "source": "غزل ۳۳۱"
+  },
+  {
+    "id": 94,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "ملک حسن آفتاب روی تو را / با کسی نیز مشترک نبود",
+    "gold_meter_pattern": "فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر خفیف مسدس مخبون",
+    "poet": "عطار",
+    "source": "غزل ۳۳۱"
+  },
+  {
+    "id": 95,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "نتوان دید ذره‌ای رخ تو / تا دو عالم دو مردمک نبود",
+    "gold_meter_pattern": "فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر خفیف مسدس مخبون",
+    "poet": "عطار",
+    "source": "غزل ۳۳۱"
+  },
+  {
+    "id": 96,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "آنچه عطار در صفات تو گفت / بر محک جاودانش حک نبود",
+    "gold_meter_pattern": "فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر خفیف مسدس مخبون",
+    "poet": "عطار",
+    "source": "غزل ۳۳۱"
+  },
+  {
+    "id": 97,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "بنده‌وار آمدم به زنهارت / که ندارم سلاح پیکارت",
+    "gold_meter_pattern": "فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر خفیف مسدس مخبون",
+    "poet": "سعدی",
+    "source": "غزل ۳۶"
+  },
+  {
+    "id": 98,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "متفق می‌شوم که دل ندهم / معتقد می‌شوم دگر بارت",
+    "gold_meter_pattern": "فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر خفیف مسدس مخبون",
+    "poet": "سعدی",
+    "source": "غزل ۳۶"
+  },
+  {
+    "id": 99,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "خلق را دور و برکنار نهاد / رحمتش آه عاشقان بشنید",
+    "gold_meter_pattern": "فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر خفیف مسدس مخبون",
+    "poet": "مولانا",
+    "source": "دیوان شمس، غزل ۹۶۷"
+  },
+  {
+    "id": 100,
+    "task_type": "aroozi",
+    "subtype": "meter_identification",
+    "verse": "رسم نو بین که شهریار نهاد / قبله‌مان سوی شهر یار نهاد",
+    "gold_meter_pattern": "فعلاتن مفاعلن فعلن",
+    "gold_meter_name": "بحر خفیف مسدس مخبون",
+    "poet": "مولانا",
+    "source": "دیوان شمس، غزل ۹۶۷"
+  }
+]

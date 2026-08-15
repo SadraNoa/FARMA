@@ -4,11 +4,11 @@ A benchmark framework for evaluating language models fine-tuned for Persian
 (built on top of `gpt-oss-20b`), with special focus on the quality and
 stability of Persian chain-of-thought (CoT) reasoning.
 
-## Current status: infrastructure + Math + BBH-lite + Jalali calendar + IFEval-lite tasks
+## Current status: infrastructure + Math + BBH-lite + Jalali calendar + IFEval-lite + Aroozi tasks
 
 This version includes the **shared infrastructure** of the project plus
-four **Phase 1 tasks**: Math, BBH-lite (logic), Jalali calendar, and
-IFEval-lite.
+five **Phase 1 tasks**: Math, BBH-lite (logic), Jalali calendar,
+IFEval-lite, and Aroozi (Persian classical meter).
 
 ### Math task
 - 199 problems from OpenMathReasoning, translated to Persian (1 sample was
@@ -73,6 +73,24 @@ and scoring methodology.
 See `docs/tasks/ifeval_task.md` for full details on data format and
 scoring methodology.
 
+### Aroozi (Persian classical meter) task
+- 100 hand-curated real verses from canonical poets (حافظ، سعدی، مولانا و...),
+  drawn from 10 distinct classical عروضی meters (~10 verses per meter).
+- Each verse is converted into a **multiple-choice** question: the model
+  must pick the correct meter out of `--num-options` candidates (1 correct
+  + distractors sampled from the other meters present in the dataset), so
+  `gold_answer` is always a single option letter (`الف`/`ب`/`ج`/`د`/...).
+  `correctness` is computed automatically by the runner via exact-match,
+  the same as BBH-lite and Jalali calendar — no runner changes were
+  needed. `persian_stability` is applied; `verifiable_reasoning` is not.
+- `scripts/prepare_aroozi_task.py` converts the raw hand-curated data
+  (`data/raw_sources/aroozi_meter_fa_raw.json`) into the executable
+  `data/tasks/aroozi_meter_fa.jsonl` format, generating distractor options
+  deterministically (seeded per-sample) so option sets are reproducible.
+
+See `docs/tasks/aroozi_task.md` for full details on data format and
+scoring methodology.
+
 ## Project structure
 
 ```
@@ -103,7 +121,8 @@ FARMA/
 │   ├── generate_jalali_calendar_data.py    # Generates the raw Jalali calendar data
 │   ├── prepare_jalali_task.py              # Converts raw Jalali calendar data into task-ready jsonl
 │   ├── generate_ifeval_lite_data.py        # Generates the raw IFEval-lite data
-│   └── prepare_ifeval_task.py              # Converts raw IFEval-lite data into task-ready jsonl
+│   ├── prepare_ifeval_task.py              # Converts raw IFEval-lite data into task-ready jsonl
+│   └── prepare_aroozi_task.py              # Converts raw Aroozi data into task-ready multiple-choice jsonl
 ├── data/
 │   ├── raw_sources/      # Raw, unprocessed source data per task
 │   ├── tasks/            # Task-ready jsonl files (input to the runner)
@@ -113,7 +132,8 @@ FARMA/
 │   └── tasks/             # One methodology doc per task
 ├── tests/
 │   ├── test_text_utils.py
-│   └── test_instruction_utils.py
+│   ├── test_instruction_utils.py
+│   └── test_prepare_aroozi_task.py
 ├── requirements.txt
 ├── .env.example
 └── .gitignore
@@ -180,7 +200,7 @@ pytest tests/ -v
 - [x] Phase 1 — BBH-lite (logic) (done)
 - [x] Phase 1 — Jalali calendar (done)
 - [x] Phase 1 — IFEval-lite (done)
-- [ ] Phase 1 — Aroozi (meter)
+- [x] Phase 1 — Aroozi (meter) (done)
 - [ ] Phase 2 — MMLU-lite, script disambiguation, proverbs, wordplay (ieham)
 - [ ] Phase 3 — Minimal pairs, contradiction & consistency, abstention, paraphrase robustness, multi-constraint
 - [ ] Phase 4 — Persian controllability, deep brainstorm
