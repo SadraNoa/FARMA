@@ -91,6 +91,23 @@ scoring methodology.
 See `docs/tasks/aroozi_task.md` for full details on data format and
 scoring methodology.
 
+### MMLU-lite task (Phase 2, in progress)
+- Sourced from the gated HF dataset `raia-center/khayyam-challenge`
+  (PersianMMLU). **This dataset's CC-ND license explicitly forbids building
+  a derivative benchmarking dataset from it**, so unlike every task above,
+  no raw or task-ready data for this task is committed to the repo. Data
+  stays entirely local under `data/local_only/` (gitignored); running it
+  requires your own `HF_TOKEN` after accepting the dataset's license form.
+- `scripts/prepare_mmlu_task.py` lets you choose, per topic, how many
+  samples to draw (`--samples-per-topic`, `--topic-samples-json`, or
+  interactively) before conversion. Each question becomes a multiple-choice
+  `TaskSample` with `gold_answer` = the correct option letter, reusing the
+  same exact-match scoring path as BBH-lite/Jalali/Aroozi — no runner
+  changes needed.
+
+See `docs/tasks/mmlu_task.md` for full details, including the licensing
+constraints and required setup.
+
 ## Project structure
 
 ```
@@ -122,12 +139,14 @@ FARMA/
 │   ├── prepare_jalali_task.py              # Converts raw Jalali calendar data into task-ready jsonl
 │   ├── generate_ifeval_lite_data.py        # Generates the raw IFEval-lite data
 │   ├── prepare_ifeval_task.py              # Converts raw IFEval-lite data into task-ready jsonl
-│   └── prepare_aroozi_task.py              # Converts raw Aroozi data into task-ready multiple-choice jsonl
+│   ├── prepare_aroozi_task.py              # Converts raw Aroozi data into task-ready multiple-choice jsonl
+│   └── prepare_mmlu_task.py                # Fetches/samples Khayyam Challenge (PersianMMLU), local-only (see docs/tasks/mmlu_task.md)
 ├── data/
-│   ├── raw_sources/      # Raw, unprocessed source data per task
-│   ├── tasks/            # Task-ready jsonl files (input to the runner)
+│   ├── raw_sources/      # Raw, unprocessed source data per task (committed, except MMLU-lite)
+│   ├── tasks/            # Task-ready jsonl files (input to the runner; committed, except MMLU-lite)
 │   ├── raw_outputs/      # Raw model outputs (gitignored)
-│   └── scored_results/   # Scored results (gitignored)
+│   ├── scored_results/   # Scored results (gitignored)
+│   └── local_only/       # MMLU-lite raw cache + task jsonl only — gitignored, never committed (CC-ND license)
 ├── docs/
 │   └── tasks/             # One methodology doc per task
 ├── tests/
@@ -201,6 +220,7 @@ pytest tests/ -v
 - [x] Phase 1 — Jalali calendar (done)
 - [x] Phase 1 — IFEval-lite (done)
 - [x] Phase 1 — Aroozi (meter) (done)
-- [ ] Phase 2 — MMLU-lite, script disambiguation, proverbs, wordplay (ieham)
+- [x] Phase 2 — MMLU-lite (done; data stays local-only, see `docs/tasks/mmlu_task.md`)
+- [ ] Phase 2 — script disambiguation, proverbs, wordplay (ieham)
 - [ ] Phase 3 — Minimal pairs, contradiction & consistency, abstention, paraphrase robustness, multi-constraint
 - [ ] Phase 4 — Persian controllability, deep brainstorm
