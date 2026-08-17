@@ -22,8 +22,11 @@ from src.providers.factory import get_candidate_provider, get_judge_provider, lo
 from src.pipeline.schemas import TaskSample, ModelGeneration, ScoredResult
 from src.judges.rubric_judge import VerifiableReasoningJudge
 from src.judges.persian_stability_judge import PersianStabilityJudge
+from src.judges.deep_brainstorm_judge import DeepBrainstormJudge
+from src.judges.persian_controllability_judge import PersianControllabilityJudge
 from src.utils.text_utils import extract_final_answer, normalize_fa_text
 from src.utils.instruction_utils import check_constraint
+from src.utils.controllability_utils import check_rule_constraint, RULE_CHECKABLE_TYPES
 
 DEFAULT_SYSTEM_PROMPT_FA = (
     "تو یک دستیار هوشمند فارسی‌زبان هستی. به سوال زیر با دقت و به زبان فارسی پاسخ بده. "
@@ -61,6 +64,8 @@ def score_sample(
     generation: ModelGeneration,
     vr_judge: VerifiableReasoningJudge | None,
     ps_judge: PersianStabilityJudge | None,
+    db_judge: DeepBrainstormJudge | None = None,
+    pc_judge: PersianControllabilityJudge | None = None,
 ) -> ScoredResult:
     result = ScoredResult(
         sample_id=sample.sample_id,
@@ -81,6 +86,57 @@ def score_sample(
         passed, reason_fa = check_constraint(generation.raw_output, sample.extra["constraint"])
         result.correctness = int(passed)
         result.notes = reason_fa
+
+    # محدودیت‌های چندگانه Persian Controllability: بخشی rule-based،
+    # بخشی judge-based. نتیجه در فیلدهای controllability_* ذخیره می‌شود،
+    # نه correctness -- چون این تسک به‌جای یک جواب درست/غلط، نرخ رعایت
+    # چند قید هم‌زمان را می‌سنجد.
+    elif sample.extra.get("constraints") is not None:
+        all_constraints = sample.extra["constraints"]
+        rule_constraints = [c for c in all_constraints if c["type"] in RULE_CHECKABLE_TYPES]
+        judge_constraint_types = pc_judge.judge_checkable_constraints(all_constraints) if pc_judge else []
+
+        satisfied = 0
+        hard_fail = False
+        breakdown = []
+
+        for c in rule_constraints:
+            passed, reason_fa = check_rule_constraint(generation.raw_output, c)
+            breakdown.append({"type": c["type"], "value": c["value"], "satisfied": passed, "reason_fa": reason_fa})
+            if passed:
+                satisfied += 1
+            elif c.get("hard"):
+                hard_fail = True
+
+        semantic_fidelity = None
+        if pc_judge is not None:
+            pc_score = pc_judge.score(
+                prompt=sample.problem_fa,
+                response=generation.raw_output,
+                constraints=judge_constraint_types,
+            )
+            if pc_score is not None and pc_score.parse_success:
+                semantic_fidelity = pc_score.semantic_fidelity
+                for i, c in enumerate(judge_constraint_types):
+                    cr = next((r for r in pc_score.constraint_results if r.index == i), None)
+                    passed = cr.satisfied if cr is not None else False
+                    breakdown.append({
+                        "type": c["type"], "value": c["value"], "satisfied": passed,
+                        "arabic_origin_words": cr.arabic_origin_words if cr is not None else [],
+                    })
+                    if passed:
+                        satisfied += 1
+                    elif c.get("hard"):
+                        hard_fail = True
+
+        total_constraints = len(all_constraints)
+        rate = satisfied / total_constraints if total_constraints else 0.0
+
+        result.controllability_hard_fail = hard_fail
+        result.controllability_satisfaction_rate = rate
+        result.controllability_semantic_fidelity = semantic_fidelity
+        result.controllability_breakdown = {"constraints": breakdown}
+        result.correctness = 0 if hard_fail else None
 
     # اعمال rubric استدلال قابل‌راستی‌آزمایی
     if sample.apply_verifiable_reasoning_rubric and vr_judge is not None:
@@ -113,6 +169,18 @@ def score_sample(
             "parse_success": ps_score.parse_success,
         }
 
+    # اعمال rubric برین‌استورم عمیق (تنوع ایده، خوداصلاحی، بومی‌سازی)
+    if sample.apply_deep_brainstorm_rubric and db_judge is not None:
+        db_score = db_judge.score(problem=sample.problem_fa, cot=generation.raw_output)
+        result.deep_brainstorm_total = db_score.total
+        result.deep_brainstorm_breakdown = {
+            "idea_diversity": db_score.idea_diversity,
+            "self_correction": db_score.self_correction,
+            "cultural_grounding": db_score.cultural_grounding,
+            "brief_reason_fa": db_score.brief_reason_fa,
+            "parse_success": db_score.parse_success,
+        }
+
     return result
 
 
@@ -123,22 +191,30 @@ def run(task_file: str, model_name: str, output_file: str,
 
     needs_vr = any(s.apply_verifiable_reasoning_rubric for s in samples)
     needs_ps = any(s.apply_persian_stability_rubric for s in samples)
+    needs_db = any(s.apply_deep_brainstorm_rubric for s in samples)
+    needs_pc = any(s.apply_persian_controllability_rubric for s in samples)
 
     vr_judge = None
     ps_judge = None
-    if needs_vr or needs_ps:
+    db_judge = None
+    pc_judge = None
+    if needs_vr or needs_ps or needs_db or needs_pc:
         judge_provider = get_judge_provider(judge_name, config_path)
         if needs_vr:
             vr_judge = VerifiableReasoningJudge(judge_provider)
         if needs_ps:
             ps_judge = PersianStabilityJudge(judge_provider)
+        if needs_db:
+            db_judge = DeepBrainstormJudge(judge_provider)
+        if needs_pc:
+            pc_judge = PersianControllabilityJudge(judge_provider)
 
     Path(os.path.dirname(output_file)).mkdir(parents=True, exist_ok=True)
 
     with open(output_file, "w", encoding="utf-8") as out_f:
         for sample in tqdm(samples, desc=f"در حال اجرای {model_name} روی {task_file}"):
             generation = generate_for_sample(candidate_provider, sample)
-            scored = score_sample(sample, generation, vr_judge, ps_judge)
+            scored = score_sample(sample, generation, vr_judge, ps_judge, db_judge, pc_judge)
             out_f.write(scored.model_dump_json() + "\n")
 
     print(f"نتایج ذخیره شد در: {output_file}")

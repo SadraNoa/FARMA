@@ -21,6 +21,8 @@ class TaskSample(BaseModel):
     requires_cot_judging: bool = False
     apply_verifiable_reasoning_rubric: bool = False
     apply_persian_stability_rubric: bool = False
+    apply_deep_brainstorm_rubric: bool = False
+    apply_persian_controllability_rubric: bool = False
     system_prompt_fa: Optional[str] = None
     answer_extraction_regex: str = r"پاسخ نهایی:\s*(.+)"
     extra: dict[str, Any] = Field(default_factory=dict)
@@ -48,6 +50,14 @@ class ScoredResult(BaseModel):
     code_switch_rate: Optional[float] = None
     persian_script_ratio: Optional[float] = None
     persian_stability_breakdown: Optional[dict[str, Any]] = None
+
+    deep_brainstorm_total: Optional[int] = None
+    deep_brainstorm_breakdown: Optional[dict[str, Any]] = None
+
+    controllability_hard_fail: Optional[bool] = None
+    controllability_satisfaction_rate: Optional[float] = None
+    controllability_semantic_fidelity: Optional[int] = None
+    controllability_breakdown: Optional[dict[str, Any]] = None
 
     raw_output: str = ""
     notes: Optional[str] = None

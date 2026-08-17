@@ -1,0 +1,64 @@
+[
+  {
+    "id": "pc_001",
+    "prompt_fa": "یک اطلاعیه اداری کوتاه درباره تعطیلی دفتر به مناسبت تعمیرات بنویس.",
+    "constraints": [
+      {"type": "register", "value": "formal_official", "hard": false},
+      {"type": "paragraph_count", "value": "1", "hard": true}
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "id": "pc_002",
+    "prompt_fa": "درباره اهمیت آب توضیح بده، اما فقط از واژگان فارسی سره استفاده کن (بدون هیچ واژه عربی).",
+    "constraints": [
+      {"type": "lexical", "value": "pure_persian_only", "hard": true}
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "pc_003",
+    "prompt_fa": "یک متن رسمی اداری در دقیقاً سه پاراگراف درباره فرآیند درخواست مرخصی بنویس، بدون استفاده از واژگان عربی پرکاربرد اداری.",
+    "constraints": [
+      {"type": "register", "value": "formal_official", "hard": false},
+      {"type": "paragraph_count", "value": "3", "hard": true},
+      {"type": "lexical", "value": "pure_persian_only", "hard": true}
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "pc_004",
+    "prompt_fa": "یک پاراگراف با لهجه دری (افغانستان) درباره فصل بهار بنویس.",
+    "constraints": [
+      {"type": "dialect", "value": "dari", "hard": false}
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "pc_005",
+    "prompt_fa": "یک متن کوتاه بنویس که در آن هر جمله حتماً با فعل پایان یابد و از جملات مرکب با «که» استفاده نشود.",
+    "constraints": [
+      {"type": "sentence_structure", "value": "verb_final", "hard": true},
+      {"type": "sentence_structure", "value": "no_ke_clauses", "hard": false}
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "pc_006",
+    "prompt_fa": "یک پاراگراف با لهجه تاجیکی درباره غذای محلی بنویس.",
+    "constraints": [
+      {"type": "dialect", "value": "tajik", "hard": false}
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "pc_007",
+    "prompt_fa": "یک متن ادبی کهن‌گرا در دقیقاً دو پاراگراف درباره پاییز بنویس که در آن هیچ واژه عربی به کار نرفته باشد.",
+    "constraints": [
+      {"type": "register", "value": "literary", "hard": false},
+      {"type": "paragraph_count", "value": "2", "hard": true},
+      {"type": "lexical", "value": "pure_persian_only", "hard": true}
+    ],
+    "difficulty": "hard"
+  }
+]

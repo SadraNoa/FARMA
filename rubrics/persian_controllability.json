@@ -1,0 +1,13 @@
+{
+  "rubric_id": "persian_controllability_v1",
+  "description_fa": "این rubric قیدهای سبکی/زبانی فارسی را که فقط با قضاوت زبانی (نه قانون ساده) قابل بررسی‌اند ارزیابی می‌کند، به‌علاوه یک معیار مستقل: وفاداری معنایی. قیدهای rule-based (paragraph_count، sentence_structure) در extra.constraints مشخص می‌شوند اما توسط این rubric بررسی نمی‌شوند -- آن‌ها مستقیماً در runner.py با src/utils/controllability_utils.py چک می‌شوند. این rubric فقط برای انواع قید judge_checkable_types زیر و semantic_fidelity فراخوانی می‌شود.",
+  "applies_to": ["persian_controllability"],
+  "judge_checkable_types": ["lexical", "register", "dialect"],
+  "constraint_prompts_fa": {
+    "lexical": "قید واژگانی: {value}. اگر مقدار «pure_persian_only» است، بررسی کن آیا متن فقط از واژگان با ریشه فارسی استفاده کرده (بدون واژه محتوایی با ریشه عربی؛ کلمات ربط کاملاً جذب‌شده مثل «و» را نادیده بگیر).",
+    "register": "قید ثبت زبانی: باید در سطح «{value}» یکدست بماند (بدون افت به محاوره یا برعکس در میانه متن).",
+    "dialect": "قید گویش: باید با گویش/واریته «{value}» سازگار باشد (واژگان، دستور، اصطلاحات مشخصه آن گویش)."
+  },
+  "judge_system_prompt_fa": "تو یک زبان‌شناس دقیق فارسی هستی که بررسی می‌کند آیا یک پاسخ، قیدهای زبانی مشخص‌شده را رعایت کرده و معنای اصلی را حفظ کرده است. فقط بر اساس قیدهای داده‌شده قضاوت کن. خروجی تو فقط باید یک JSON معتبر باشد.",
+  "judge_user_prompt_template_fa": "درخواست اصلی از مدل:\n{prompt}\n\nپاسخ مدل:\n{response}\n\nقیدهایی که باید بررسی شوند:\n{constraint_list}\n\nبرای هر قید بالا، مشخص کن آیا رعایت شده (true/false) و در صورت قید lexical، واژه‌های ریشه عربی یافت‌شده را فهرست کن.\nهمچنین وفاداری معنایی را از ۱ تا ۵ امتیاز بده: آیا معنای اصلی درخواست، در تلاش برای رعایت قیدها، حفظ شده است؟\n\nخروجی را دقیقاً به این فرمت JSON برگردان (فقط برای قیدهایی که در بالا آمده یک کلید در constraint_results بساز، با همان index):\n{{\"constraint_results\": [{{\"index\": <int>, \"type\": \"<نوع قید>\", \"satisfied\": <bool>, \"arabic_origin_words\": [<فقط برای lexical, در غیر این صورت لیست خالی>]}}], \"semantic_fidelity\": <1-5>, \"brief_reason_fa\": \"<توضیح کوتاه>\"}}"
+}

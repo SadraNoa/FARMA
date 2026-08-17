@@ -108,6 +108,38 @@ scoring methodology.
 See `docs/tasks/mmlu_task.md` for full details, including the licensing
 constraints and required setup.
 
+### Deep Brainstorm task (Phase 4)
+- 4 hand-authored open-ended Persian prompts across 4 categories
+  (`open_problem_solving`, `creative_ideation`, `policy_or_social`,
+  `product_or_design`).
+- No `gold_answer` — scored entirely through three stacked LLM-judge
+  rubrics: the existing `verifiable_reasoning` (already listed
+  `deep_brainstorm` in its `applies_to`), the existing `persian_stability`,
+  and a new `deep_brainstorm` rubric (`rubrics/deep_brainstorm.json`)
+  covering idea diversity, self-correction, and cultural grounding —
+  dimensions the two generic rubrics don't reach.
+- `scripts/prepare_deep_brainstorm_task.py` converts the raw prompts into
+  the executable `data/tasks/deep_brainstorm_fa.jsonl` format.
+
+See `docs/tasks/deep_brainstorm_task.md` for full details.
+
+### Persian Controllability task (Phase 4)
+- 7 hand-authored samples testing whether the model can satisfy multiple
+  Persian-specific stylistic constraints simultaneously (register,
+  pure-Persian lexicon, sentence structure, paragraph count, dialect),
+  including hard-constraint and multi-constraint-combined cases.
+- Each sample carries a *list* of constraints (`extra.constraints`), split
+  between rule-checked types (`paragraph_count`, `sentence_structure` —
+  `src/utils/controllability_utils.py`) and judge-checked types (`lexical`,
+  `register`, `dialect` — `rubrics/persian_controllability.json` +
+  `src/judges/persian_controllability_judge.py`), plus an independent
+  semantic-fidelity score. Violating any `hard: true` constraint forces
+  `controllability_hard_fail = true` for that sample.
+- `scripts/prepare_persian_controllability_task.py` converts the raw
+  samples into `data/tasks/persian_controllability_fa.jsonl`.
+
+See `docs/tasks/persian_controllability_task.md` for full details.
+
 ## Project structure
 
 ```
@@ -116,7 +148,9 @@ FARMA/
 │   └── models.yaml          # Candidate models (vLLM) and judge models (OpenRouter/GapGPT)
 ├── rubrics/
 │   ├── verifiable_reasoning.json   # Logical quality of reasoning chain (0-12)
-│   └── persian_stability.json      # Persian language stability (rule-based + LLM, 0-8)
+│   ├── persian_stability.json      # Persian language stability (rule-based + LLM, 0-8)
+│   ├── deep_brainstorm.json        # Idea diversity, self-correction, cultural grounding (0-8)
+│   └── persian_controllability.json # Judge-checkable constraints (lexical/register/dialect) + semantic fidelity
 ├── src/
 │   ├── providers/
 │   │   ├── base.py                 # Abstract Provider class
@@ -124,10 +158,13 @@ FARMA/
 │   │   └── factory.py              # Builds a provider from configs/models.yaml
 │   ├── judges/
 │   │   ├── rubric_judge.py             # Judge for the verifiable_reasoning rubric
-│   │   └── persian_stability_judge.py  # Judge for the persian_stability rubric
+│   │   ├── persian_stability_judge.py  # Judge for the persian_stability rubric
+│   │   ├── deep_brainstorm_judge.py    # Judge for the deep_brainstorm rubric
+│   │   └── persian_controllability_judge.py  # Dynamic per-sample judge for controllability constraints
 │   ├── utils/
 │   │   ├── text_utils.py           # Rule-based helpers: code-switching, answer extraction, normalization
-│   │   └── instruction_utils.py    # Rule-based IFEval-lite constraint checkers
+│   │   ├── instruction_utils.py    # Rule-based IFEval-lite constraint checkers
+│   │   └── controllability_utils.py # Rule-based checkers for Persian Controllability (paragraph_count, sentence_structure)
 │   └── pipeline/
 │       ├── schemas.py              # Data models (TaskSample, ModelGeneration, ScoredResult)
 │       ├── runner.py               # Generic runner: generates model output + applies rubrics
@@ -140,7 +177,9 @@ FARMA/
 │   ├── generate_ifeval_lite_data.py        # Generates the raw IFEval-lite data
 │   ├── prepare_ifeval_task.py              # Converts raw IFEval-lite data into task-ready jsonl
 │   ├── prepare_aroozi_task.py              # Converts raw Aroozi data into task-ready multiple-choice jsonl
-│   └── prepare_mmlu_task.py                # Fetches/samples Khayyam Challenge (PersianMMLU), local-only (see docs/tasks/mmlu_task.md)
+│   ├── prepare_mmlu_task.py                # Fetches/samples Khayyam Challenge (PersianMMLU), local-only (see docs/tasks/mmlu_task.md)
+│   ├── prepare_deep_brainstorm_task.py     # Converts raw Deep Brainstorm prompts into task-ready jsonl
+│   └── prepare_persian_controllability_task.py  # Converts raw Persian Controllability samples into task-ready jsonl
 ├── data/
 │   ├── raw_sources/      # Raw, unprocessed source data per task (committed, except MMLU-lite)
 │   ├── tasks/            # Task-ready jsonl files (input to the runner; committed, except MMLU-lite)
@@ -223,4 +262,5 @@ pytest tests/ -v
 - [x] Phase 2 — MMLU-lite (done; data stays local-only, see `docs/tasks/mmlu_task.md`)
 - [ ] Phase 2 — script disambiguation, proverbs, wordplay (ieham)
 - [ ] Phase 3 — Minimal pairs, contradiction & consistency, abstention, paraphrase robustness, multi-constraint
-- [ ] Phase 4 — Persian controllability, deep brainstorm
+- [x] Phase 4 — Persian controllability (done; see `docs/tasks/persian_controllability_task.md`)
+- [x] Phase 4 — Deep brainstorm (done; see `docs/tasks/deep_brainstorm_task.md`)
