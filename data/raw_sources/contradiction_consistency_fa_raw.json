@@ -1,0 +1,542 @@
+[
+  {
+    "id": 1,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 1,
+    "premise": "علی هر روز صبح دو کیلومتر می‌دود.",
+    "hypothesis": "علی ورزش می‌کند.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 2,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 1,
+    "premise": "علی هر روز صبح دو کیلومتر می‌دود.",
+    "hypothesis": "علی هرگز ورزش نمی‌کند.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 3,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 1,
+    "premise": "علی هر روز صبح دو کیلومتر می‌دود.",
+    "hypothesis": "علی صبحانه‌ی سبکی می‌خورد.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 4,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 2,
+    "premise": "مریم دیروز کتابی درباره‌ی تاریخ ایران خرید.",
+    "hypothesis": "مریم دیروز خرید کرد.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 5,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 2,
+    "premise": "مریم دیروز کتابی درباره‌ی تاریخ ایران خرید.",
+    "hypothesis": "مریم دیروز هیچ چیزی نخرید.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 6,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 2,
+    "premise": "مریم دیروز کتابی درباره‌ی تاریخ ایران خرید.",
+    "hypothesis": "مریم علاقه‌ی زیادی به تاریخ دارد.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 7,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 3,
+    "premise": "همه‌ی دانش‌آموزان کلاس در امتحان قبول شدند.",
+    "hypothesis": "هیچ‌کدام از دانش‌آموزان کلاس در امتحان رد نشدند.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 8,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 3,
+    "premise": "همه‌ی دانش‌آموزان کلاس در امتحان قبول شدند.",
+    "hypothesis": "برخی از دانش‌آموزان کلاس در امتحان رد شدند.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 9,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 3,
+    "premise": "همه‌ی دانش‌آموزان کلاس در امتحان قبول شدند.",
+    "hypothesis": "امتحان کلاس بسیار سخت بود.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 10,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 4,
+    "premise": "باران تمام روز باریده و خیابان‌ها خیس هستند.",
+    "hypothesis": "خیابان‌ها خشک نیستند.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 11,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 4,
+    "premise": "باران تمام روز باریده و خیابان‌ها خیس هستند.",
+    "hypothesis": "خیابان‌ها کاملاً خشک هستند.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 12,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 4,
+    "premise": "باران تمام روز باریده و خیابان‌ها خیس هستند.",
+    "hypothesis": "امروز هوا سرد است.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 13,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 5,
+    "premise": "درآمد شرکت نسبت به سال قبل رشد کرده است.",
+    "hypothesis": "سود شرکت امسال از پارسال بیشتر بود.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 14,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 5,
+    "premise": "درآمد شرکت نسبت به سال قبل رشد کرده است.",
+    "hypothesis": "سود شرکت امسال نسبت به پارسال کاهش یافت.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 15,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 5,
+    "premise": "درآمد شرکت نسبت به سال قبل رشد کرده است.",
+    "hypothesis": "شرکت قصد استخدام نیروی جدید دارد.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 16,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 6,
+    "premise": "کتابخانه‌ی شهر هر روز از ساعت ۸ صبح تا ۸ شب باز است، به‌جز جمعه‌ها.",
+    "hypothesis": "کتابخانه‌ی شهر روزهای جمعه تعطیل است.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 17,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 6,
+    "premise": "کتابخانه‌ی شهر هر روز از ساعت ۸ صبح تا ۸ شب باز است، به‌جز جمعه‌ها.",
+    "hypothesis": "کتابخانه‌ی شهر هر روز هفته باز است.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 18,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 6,
+    "premise": "کتابخانه‌ی شهر هر روز از ساعت ۸ صبح تا ۸ شب باز است، به‌جز جمعه‌ها.",
+    "hypothesis": "کتابخانه‌ی شهر کتاب‌های زیادی درباره‌ی علم دارد.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 19,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 7,
+    "premise": "سارا سریع‌تر از حسین دوید و برنده‌ی مسابقه شد.",
+    "hypothesis": "حسین از سارا کندتر دوید.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 20,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 7,
+    "premise": "سارا سریع‌تر از حسین دوید و برنده‌ی مسابقه شد.",
+    "hypothesis": "حسین سریع‌تر از سارا دوید.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 21,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 7,
+    "premise": "سارا سریع‌تر از حسین دوید و برنده‌ی مسابقه شد.",
+    "hypothesis": "سارا هر روز تمرین می‌کند.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 22,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 8,
+    "premise": "تمام پنجره‌های خانه بسته بودند.",
+    "hypothesis": "هیچ پنجره‌ای باز نبود.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 23,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 8,
+    "premise": "تمام پنجره‌های خانه بسته بودند.",
+    "hypothesis": "یکی از پنجره‌های خانه باز بود.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 24,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 8,
+    "premise": "تمام پنجره‌های خانه بسته بودند.",
+    "hypothesis": "هوا آن روز بسیار سرد بود.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 25,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 9,
+    "premise": "جمعیت این شهر در ده سال گذشته دو برابر شده است.",
+    "hypothesis": "جمعیت این شهر افزایش یافته است.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 26,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 9,
+    "premise": "جمعیت این شهر در ده سال گذشته دو برابر شده است.",
+    "hypothesis": "جمعیت این شهر در ده سال گذشته کاهش یافته است.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 27,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 9,
+    "premise": "جمعیت این شهر در ده سال گذشته دو برابر شده است.",
+    "hypothesis": "این شهر دارای اقتصاد قوی است.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 28,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 10,
+    "premise": "احمد بلندترین دانش‌آموز کلاس است.",
+    "hypothesis": "هیچ دانش‌آموزی در کلاس از احمد بلندتر نیست.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 29,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 10,
+    "premise": "احمد بلندترین دانش‌آموز کلاس است.",
+    "hypothesis": "یکی از دانش‌آموزان کلاس از احمد بلندتر است.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 30,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 10,
+    "premise": "احمد بلندترین دانش‌آموز کلاس است.",
+    "hypothesis": "احمد در فوتبال مهارت زیادی دارد.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 31,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 11,
+    "premise": "فروشگاه امروز به دلیل تعمیرات تعطیل است.",
+    "hypothesis": "امروز نمی‌توان از این فروشگاه خرید کرد.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 32,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 11,
+    "premise": "فروشگاه امروز به دلیل تعمیرات تعطیل است.",
+    "hypothesis": "فروشگاه امروز باز است و مشتریان در حال خریدند.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 33,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 11,
+    "premise": "فروشگاه امروز به دلیل تعمیرات تعطیل است.",
+    "hypothesis": "فروشگاه محصولات متنوعی می‌فروشد.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 34,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 12,
+    "premise": "دمای هوا امروز به زیر صفر درجه رسیده است.",
+    "hypothesis": "امروز هوا یخ‌زده و سرد است.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 35,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 12,
+    "premise": "دمای هوا امروز به زیر صفر درجه رسیده است.",
+    "hypothesis": "امروز هوا گرم است.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 36,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 12,
+    "premise": "دمای هوا امروز به زیر صفر درجه رسیده است.",
+    "hypothesis": "بسیاری از مردم امروز چتر همراه دارند.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 37,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 13,
+    "premise": "او در دانشگاه تهران رشته‌ی پزشکی می‌خواند.",
+    "hypothesis": "او دانشجوی دانشگاه تهران است.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 38,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 13,
+    "premise": "او در دانشگاه تهران رشته‌ی پزشکی می‌خواند.",
+    "hypothesis": "او هرگز در هیچ دانشگاهی ثبت‌نام نکرده است.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 39,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 13,
+    "premise": "او در دانشگاه تهران رشته‌ی پزشکی می‌خواند.",
+    "hypothesis": "او در آینده می‌خواهد پزشک متخصص قلب شود.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 40,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 14,
+    "premise": "قیمت بلیت هواپیما نسبت به ماه پیش سه برابر شده است.",
+    "hypothesis": "قیمت بلیت هواپیما افزایش یافته است.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 41,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 14,
+    "premise": "قیمت بلیت هواپیما نسبت به ماه پیش سه برابر شده است.",
+    "hypothesis": "قیمت بلیت هواپیما نسبت به ماه پیش ثابت مانده است.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 42,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 14,
+    "premise": "قیمت بلیت هواپیما نسبت به ماه پیش سه برابر شده است.",
+    "hypothesis": "بسیاری از مسافران از این افزایش قیمت ناراضی‌اند.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 43,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 15,
+    "premise": "او پیش از رفتن به سر کار، همیشه یک فنجان قهوه می‌نوشد.",
+    "hypothesis": "او هر روز پیش از کار قهوه مصرف می‌کند.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 44,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 15,
+    "premise": "او پیش از رفتن به سر کار، همیشه یک فنجان قهوه می‌نوشد.",
+    "hypothesis": "او هرگز قبل از کار قهوه نمی‌نوشد.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 45,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 15,
+    "premise": "او پیش از رفتن به سر کار، همیشه یک فنجان قهوه می‌نوشد.",
+    "hypothesis": "او در محل کارش مدیر بخش فروش است.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 46,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 16,
+    "premise": "این رستوران فقط غذاهای گیاهی سرو می‌کند.",
+    "hypothesis": "این رستوران هیچ غذای گوشتی سرو نمی‌کند.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 47,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 16,
+    "premise": "این رستوران فقط غذاهای گیاهی سرو می‌کند.",
+    "hypothesis": "این رستوران انواع غذاهای گوشتی نیز سرو می‌کند.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 48,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 16,
+    "premise": "این رستوران فقط غذاهای گیاهی سرو می‌کند.",
+    "hypothesis": "این رستوران در مرکز شهر واقع شده است.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 49,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 17,
+    "premise": "قد رضا از قد برادرش کوتاه‌تر است.",
+    "hypothesis": "برادر رضا از او بلندتر است.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 50,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 17,
+    "premise": "قد رضا از قد برادرش کوتاه‌تر است.",
+    "hypothesis": "قد رضا و برادرش یکسان است.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 51,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 17,
+    "premise": "قد رضا از قد برادرش کوتاه‌تر است.",
+    "hypothesis": "رضا و برادرش هر دو ورزشکارند.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 52,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 18,
+    "premise": "شرکت هواپیمایی به‌دلیل توفان شدید همه‌ی پروازهای امروز را لغو کرد.",
+    "hypothesis": "امروز هیچ پروازی از این شرکت انجام نمی‌شود.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 53,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 18,
+    "premise": "شرکت هواپیمایی به‌دلیل توفان شدید همه‌ی پروازهای امروز را لغو کرد.",
+    "hypothesis": "پروازهای امروز این شرکت طبق برنامه انجام شد.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 54,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 18,
+    "premise": "شرکت هواپیمایی به‌دلیل توفان شدید همه‌ی پروازهای امروز را لغو کرد.",
+    "hypothesis": "مسافران زیادی در فرودگاه منتظر بودند.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 55,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 19,
+    "premise": "او در مسابقه‌ی شنا مقام اول را کسب کرد.",
+    "hypothesis": "او در مسابقه‌ی شنا برنده شد.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 56,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 19,
+    "premise": "او در مسابقه‌ی شنا مقام اول را کسب کرد.",
+    "hypothesis": "او در مسابقه‌ی شنا شکست خورد.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 57,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 19,
+    "premise": "او در مسابقه‌ی شنا مقام اول را کسب کرد.",
+    "hypothesis": "او هر روز صبح تمرین شنا می‌کند.",
+    "gold_relation": "neutral"
+  },
+  {
+    "id": 58,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 20,
+    "premise": "بودجه‌ی آموزش‌وپرورش امسال نسبت به سال قبل کاهش یافت.",
+    "hypothesis": "بودجه‌ی آموزش‌وپرورش امسال از سال قبل بیشتر نشد.",
+    "gold_relation": "entailment"
+  },
+  {
+    "id": 59,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 20,
+    "premise": "بودجه‌ی آموزش‌وپرورش امسال نسبت به سال قبل کاهش یافت.",
+    "hypothesis": "بودجه‌ی آموزش‌وپرورش امسال نسبت به سال قبل افزایش یافت.",
+    "gold_relation": "contradiction"
+  },
+  {
+    "id": 60,
+    "task_type": "contradiction_consistency",
+    "subtype": "nli_relation",
+    "premise_group": 20,
+    "premise": "بودجه‌ی آموزش‌وپرورش امسال نسبت به سال قبل کاهش یافت.",
+    "hypothesis": "معلمان از وضعیت آموزش ناراضی هستند.",
+    "gold_relation": "neutral"
+  }
+]

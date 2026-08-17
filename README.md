@@ -108,6 +108,34 @@ scoring methodology.
 See `docs/tasks/mmlu_task.md` for full details, including the licensing
 constraints and required setup.
 
+### Minimal pairs task (Phase 3)
+- 64 hand-authored Persian sentence pairs across 8 grammatical phenomena
+  (subject-verb agreement, verb-final word order, the «را» definite-object
+  marker, negation-prefix placement, tense/adverb agreement, plural
+  double-marking, the comparative suffix «تر», and locative preposition
+  compatibility) — one sentence per pair is grammatical, the other a
+  minimally-edited ungrammatical variant.
+- `scripts/prepare_minimal_pairs_task.py` deterministically randomizes
+  which sentence is labeled الف vs. ب per sample, then produces a 2-option
+  `TaskSample` with `gold_answer` = the grammatical sentence's letter —
+  reusing the same exact-match scoring path as every prior closed-set task.
+  No distractor pool needed (unlike Aroozi/MMLU-lite), since the pair
+  itself is already a fixed 2-way choice.
+
+See `docs/tasks/minimal_pairs_task.md` for full details.
+
+### Contradiction & consistency task (Phase 3)
+- Standard 3-way NLI (entailment / contradiction / neutral), built from 20
+  hand-authored premises, each paired with one entailed, one contradicting,
+  and one neutral hypothesis (60 samples, perfectly balanced 20/20/20).
+- `scripts/prepare_contradiction_consistency_task.py` presents the premise,
+  hypothesis, and all three relation labels (order deterministically
+  shuffled per sample) as a `TaskSample` with `gold_answer` = the correct
+  label's letter — same exact-match scoring path as every prior closed-set
+  task; no distractor pool needed since the label set is fixed at 3.
+
+See `docs/tasks/contradiction_consistency_task.md` for full details.
+
 ### Deep Brainstorm task (Phase 4)
 - 4 hand-authored open-ended Persian prompts across 4 categories
   (`open_problem_solving`, `creative_ideation`, `policy_or_social`,
@@ -178,6 +206,8 @@ FARMA/
 │   ├── prepare_ifeval_task.py              # Converts raw IFEval-lite data into task-ready jsonl
 │   ├── prepare_aroozi_task.py              # Converts raw Aroozi data into task-ready multiple-choice jsonl
 │   ├── prepare_mmlu_task.py                # Fetches/samples Khayyam Challenge (PersianMMLU), local-only (see docs/tasks/mmlu_task.md)
+│   ├── prepare_minimal_pairs_task.py       # Converts raw grammaticality-judgment pairs into task-ready jsonl
+│   ├── prepare_contradiction_consistency_task.py  # Converts raw NLI premise/hypothesis triples into task-ready jsonl
 │   ├── prepare_deep_brainstorm_task.py     # Converts raw Deep Brainstorm prompts into task-ready jsonl
 │   └── prepare_persian_controllability_task.py  # Converts raw Persian Controllability samples into task-ready jsonl
 ├── data/
@@ -191,7 +221,13 @@ FARMA/
 ├── tests/
 │   ├── test_text_utils.py
 │   ├── test_instruction_utils.py
-│   └── test_prepare_aroozi_task.py
+│   ├── test_controllability_utils.py
+│   ├── test_prepare_aroozi_task.py
+│   ├── test_prepare_mmlu_task.py
+│   ├── test_prepare_minimal_pairs_task.py
+│   ├── test_prepare_contradiction_consistency_task.py
+│   ├── test_prepare_deep_brainstorm_task.py
+│   └── test_prepare_persian_controllability_task.py
 ├── requirements.txt
 ├── .env.example
 └── .gitignore
@@ -261,6 +297,8 @@ pytest tests/ -v
 - [x] Phase 1 — Aroozi (meter) (done)
 - [x] Phase 2 — MMLU-lite (done; data stays local-only, see `docs/tasks/mmlu_task.md`)
 - [ ] Phase 2 — script disambiguation, proverbs, wordplay (ieham)
-- [ ] Phase 3 — Minimal pairs, contradiction & consistency, abstention, paraphrase robustness, multi-constraint
+- [x] Phase 3 — Minimal pairs (done; see `docs/tasks/minimal_pairs_task.md`)
+- [x] Phase 3 — Contradiction & consistency (done; see `docs/tasks/contradiction_consistency_task.md`)
+- [ ] Phase 3 — abstention, paraphrase robustness, multi-constraint
 - [x] Phase 4 — Persian controllability (done; see `docs/tasks/persian_controllability_task.md`)
 - [x] Phase 4 — Deep brainstorm (done; see `docs/tasks/deep_brainstorm_task.md`)
