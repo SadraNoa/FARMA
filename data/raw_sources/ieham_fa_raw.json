@@ -3,30 +3,510 @@
     "id": 1,
     "task_type": "ieham",
     "subtype": "double_meaning_identification",
-    "verse": "دلم رمیده‌ی لولی‌وشیست شورانگیز / دروغ‌وعده و قتال و غمزه‌ریز، ای دل",
-    "ambiguous_word": "شورانگیز",
-    "gold_meaning_near": "هیجان‌انگیز و پرشور (در وصف زیبایی معشوق)",
-    "gold_meaning_far": "اشاره‌ی ایهامی به مزه‌ی تلخ/شور، در تناسب با تصویر لولی‌وش و بازیگر",
+    "verse": "ز گریه مردم چشمم نشسته در خون است / ببین که در طلبت حال مردمان چون است",
+    "ambiguous_word": "مردمان",
+    "gold_meaning_near": "مردم و انسان‌ها",
+    "gold_meaning_far": "مردمک‌های چشم",
     "manual_distractors": [
-      {"near": "غم‌انگیز و اندوهناک", "far": "اشاره به رنگ سیاه لباس عزا"},
-      {"near": "خشمگین‌کننده", "far": "اشاره به آتش جنگ در شعرهای حماسی"}
+      {"near": "یاران و دوستان", "far": "اشک‌های چشم"},
+      {"near": "اهالی شهر", "far": "سیاهی چشم"}
     ],
     "poet": "حافظ",
-    "source": null
+    "source": "دیوان حافظ، غزل ۵۴"
   },
   {
     "id": 2,
     "task_type": "ieham",
     "subtype": "double_meaning_identification",
-    "verse": "ساقی به نور باده برافروز جام ما / مطرب بگو که کار جهان شد به کام ما",
-    "ambiguous_word": "جام",
-    "gold_meaning_near": "پیاله‌ی شراب",
-    "gold_meaning_far": "اشاره‌ی ایهامی به جام جهان‌نمای جمشید (نماد بینایی/آگاهی)",
+    "verse": "ما در پیاله عکس رخ یار دیده‌ایم / ای بی‌خبر ز لذت شرب مدام ما",
+    "ambiguous_word": "مدام",
+    "gold_meaning_near": "پیوسته و همیشگی",
+    "gold_meaning_far": "شراب",
     "manual_distractors": [
-      {"near": "ظرف غذاخوری معمولی", "far": "اشاره به نوعی سلاح در حماسه‌های کهن"},
-      {"near": "نام شهر جام در خراسان", "far": "اشاره به شاعر معروف جامی"}
+      {"near": "گاهی و گهگاه", "far": "آب گوارا"},
+      {"near": "همواره", "far": "مستی"}
     ],
     "poet": "حافظ",
-    "source": null
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 3,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "امشب صدای تیشه از بیستون نیامد / شاید به خواب شیرین فرهاد رفته باشد",
+    "ambiguous_word": "شیرین",
+    "gold_meaning_near": "خوشایند و دلپذیر",
+    "gold_meaning_far": "شیرین، معشوقهٔ فرهاد",
+    "manual_distractors": [
+      {"near": "شیرین‌مزه", "far": "لیلی"},
+      {"near": "دلنشین", "far": "معشوقهٔ خسرو"}
+    ],
+    "poet": "حزین لاهیجی",
+    "source": "بیت مشهور در منابع آموزشی ایهام"
+  },
+  {
+    "id": 4,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "خانه زندان است و تنهایی ضلال / هر که چون سعدی گلستانیش نیست",
+    "ambiguous_word": "گلستان",
+    "gold_meaning_near": "باغ و بوستان",
+    "gold_meaning_far": "کتاب گلستان سعدی",
+    "manual_distractors": [
+      {"near": "باغ پرگل", "far": "بوستان سعدی"},
+      {"near": "باغ سلطنتی", "far": "دیوان سعدی"}
+    ],
+    "poet": "سعدی",
+    "source": "دیوان سعدی"
+  },
+  {
+    "id": 5,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "به راستی که نه همبازی تو بودم من / تو شوخ‌دیده مگس بین که می‌کند بازی",
+    "ambiguous_word": "بازی",
+    "gold_meaning_near": "بازی و شوخی",
+    "gold_meaning_far": "باز، پرندهٔ شکاری",
+    "manual_distractors": [
+      {"near": "سرگرمی", "far": "مگس"},
+      {"near": "شوخی و تفریح", "far": "کبوتر"}
+    ],
+    "poet": "سعدی",
+    "source": "دیوان سعدی"
+  },
+  {
+    "id": 6,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "مه را که خرد؟ که من به کرّات / مه دیدم و مشتری ندیدم",
+    "ambiguous_word": "مشتری",
+    "gold_meaning_near": "خریدار",
+    "gold_meaning_far": "سیارهٔ مشتری",
+    "manual_distractors": [
+      {"near": "فروشنده", "far": "سیارهٔ زهره"},
+      {"near": "طلبکار", "far": "ماه"}
+    ],
+    "poet": "سعدی",
+    "source": "دیوان سعدی، غزل ۳۸۲"
+  },
+  {
+    "id": 7,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "اگر تو مشترییی گرد مه گرد بگرد گنبد دوار امشب",
+    "ambiguous_word": "مشتری",
+    "gold_meaning_near": "خریدار و طالب",
+    "gold_meaning_far": "سیارهٔ مشتری",
+    "manual_distractors": [
+      {"near": "فروشنده", "far": "ماه"},
+      {"near": "خواهان و جوینده", "far": "ستارهٔ قطبی"}
+    ],
+    "poet": "مولانا",
+    "source": "دیوان شمس"
+  },
+  {
+    "id": 8,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "بی مهر رخت روز مرا نور نماندست / وز عمر مرا جز شب دیجور نماندست",
+    "ambiguous_word": "مهر",
+    "gold_meaning_near": "محبت و عشق",
+    "gold_meaning_far": "خورشید",
+    "manual_distractors": [
+      {"near": "پیمان", "far": "ماه"},
+      {"near": "عاطفه", "far": "ستاره"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 9,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "اشک من رنگ شفق یافت ز بی‌مهری دوست / طالع بی‌شفقت بین که درین کار چه کرد",
+    "ambiguous_word": "طالع",
+    "gold_meaning_near": "بخت و اقبال",
+    "gold_meaning_far": "جرم آسمانیِ طلوع‌کننده",
+    "manual_distractors": [
+      {"near": "سرنوشت", "far": "ماه"},
+      {"near": "اقبال", "far": "ستارهٔ شب"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 10,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "گویند سنگ لعل شود در مقام صبر / آری شود ولیک به خون جگر شود",
+    "ambiguous_word": "صبر",
+    "gold_meaning_near": "شکیبایی و بردباری",
+    "gold_meaning_far": "گیاه صبر",
+    "manual_distractors": [
+      {"near": "تحمل", "far": "زهر"},
+      {"near": "انتظار", "far": "گیاه تلخ دیگر"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 11,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "بهرام که گور می‌گرفتی همه عمر / دیدی که چگونه گور بهرام گرفت",
+    "ambiguous_word": "گور",
+    "gold_meaning_near": "گورخر",
+    "gold_meaning_far": "قبر و آرامگاه",
+    "manual_distractors": [
+      {"near": "حیوان وحشی", "far": "کاخ"},
+      {"near": "گورخر", "far": "مقبرهٔ شاه"}
+    ],
+    "poet": "فرخی یزدی",
+    "source": "دیوان فرخی یزدی"
+  },
+  {
+    "id": 12,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "دوش وقت سحر از غصه نجاتم دادند / واندر آن ظلمت شب آب حیاتم دادند",
+    "ambiguous_word": "آب حیات",
+    "gold_meaning_near": "آب افسانه‌ایِ جاودانگی",
+    "gold_meaning_far": "مایهٔ نجات و زندگی",
+    "manual_distractors": [
+      {"near": "آب چشمه", "far": "شراب"},
+      {"near": "آب برای رفع تشنگی", "far": "دانش"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 13,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "در خموشی حرف‌های مختلف یک نقطه‌اند / می‌کند این جمع را تیغ زبان از هم جدا",
+    "ambiguous_word": "حرف",
+    "gold_meaning_near": "سخن و گفتار",
+    "gold_meaning_far": "حرف الفبا",
+    "manual_distractors": [
+      {"near": "آواز", "far": "نقطه‌گذاری"},
+      {"near": "گفت‌وگو", "far": "جمله"}
+    ],
+    "poet": "صائب تبریزی",
+    "source": "دیوان صائب"
+  },
+  {
+    "id": 14,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "تا چه بازی رخ نماید بیدقی خواهیم راند / عرصه شطرنج رندان را مجال شاه نیست",
+    "ambiguous_word": "رخ",
+    "gold_meaning_near": "چهره و روی",
+    "gold_meaning_far": "مهرهٔ رخ در شطرنج",
+    "manual_distractors": [
+      {"near": "گونه", "far": "مهرهٔ سرباز"},
+      {"near": "سیما", "far": "مهرهٔ شاه"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 15,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "این مطرب از کجاست که راه عراق ساخت / آهنگ بازگشت ز راه حجاز کرد",
+    "ambiguous_word": "عراق",
+    "gold_meaning_near": "سرزمین عراق",
+    "gold_meaning_far": "مقام موسیقایی عراق",
+    "manual_distractors": [
+      {"near": "بغداد", "far": "راه حجاز"},
+      {"near": "کشور عراق", "far": "آهنگ عربی"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 16,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "ترسم که اشک در غم ما پرده‌در شود / وین راز سر به مهر به عالم سمر شود",
+    "ambiguous_word": "پرده‌در",
+    "gold_meaning_near": "پرده‌در و آشکارکننده",
+    "gold_meaning_far": "افشاکنندهٔ راز",
+    "manual_distractors": [
+      {"near": "کنارزنندهٔ پرده", "far": "رازدار"},
+      {"near": "پاره‌کنندهٔ پارچه", "far": "داستان‌گو"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 17,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "زهره سازی خوش نمی‌سازد، مگر عودش بسوخت؟ / کس ندارد ذوق مستی، می‌گساران را چه شد؟",
+    "ambiguous_word": "زهره",
+    "gold_meaning_near": "سیارهٔ زهره",
+    "gold_meaning_far": "جرئت و توان",
+    "manual_distractors": [
+      {"near": "ستاره", "far": "ترس"},
+      {"near": "سیارهٔ درخشان", "far": "شجاعت جنگی"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 18,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "گفتم غم تو دارم گفتا غمت سر آید / گفتم که ماه من شو گفتا اگر برآید",
+    "ambiguous_word": "برآید",
+    "gold_meaning_near": "طلوع کند و برآید",
+    "gold_meaning_far": "ممکن شود و از عهده برآید",
+    "manual_distractors": [
+      {"near": "تمام شود", "far": "بیرون برود"},
+      {"near": "طلوع کند", "far": "شکست بخورد"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 19,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "دوش دیدم که ملائک در میخانه زدند / گل آدم بسرشتند و به پیمانه زدند",
+    "ambiguous_word": "پیمانه",
+    "gold_meaning_near": "جام و ظرف شراب",
+    "gold_meaning_far": "اندازه و مقدار",
+    "manual_distractors": [
+      {"near": "جام", "far": "پیمان"},
+      {"near": "ظرف آب", "far": "ابزار وزن‌کردن"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 20,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "نه من بر آن گل عارض غزل‌سرایم و بس / که عندلیب تو از هر طرف هزارانند",
+    "ambiguous_word": "عندلیب",
+    "gold_meaning_near": "بلبل",
+    "gold_meaning_far": "آوازخوان و غزل‌سرا",
+    "manual_distractors": [
+      {"near": "پرندهٔ شکاری", "far": "شاعر حماسی"},
+      {"near": "مرغ مهاجر", "far": "خوانندهٔ موسیقی"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 21,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "خانه زندان است و تنهایی ضلال / هر که چون سعدی گلستانیش نیست",
+    "ambiguous_word": "سعدی",
+    "gold_meaning_near": "سعدی به‌عنوان شخص",
+    "gold_meaning_far": "کتاب گلستانِ سعدی",
+    "manual_distractors": [
+      {"near": "شاعر دیگری", "far": "بوستان سعدی"},
+      {"near": "نویسنده", "far": "دیوان غزل"}
+    ],
+    "poet": "سعدی",
+    "source": "دیوان سعدی"
+  },
+  {
+    "id": 22,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "خط عذار یار که بگرفت ماه ازو / خوش حلقه‌ایست لیک به در نیست راه ازو",
+    "ambiguous_word": "خط",
+    "gold_meaning_near": "خط و نوشته",
+    "gold_meaning_far": "خط و موی تازه‌روییده بر چهره",
+    "manual_distractors": [
+      {"near": "نامه", "far": "زلف بلند"},
+      {"near": "نوشته", "far": "چشم و ابرو"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 23,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "درد عاشق را دوایی بهتر از معشوق نیست / شربت بیماری فرهاد را شیرین کنید",
+    "ambiguous_word": "شیرین",
+    "gold_meaning_near": "دلپذیر و خوشایند",
+    "gold_meaning_far": "شیرین، معشوقهٔ فرهاد",
+    "manual_distractors": [
+      {"near": "شیرین‌مزه", "far": "لیلی"},
+      {"near": "دلنشین", "far": "معشوقهٔ خسرو"}
+    ],
+    "poet": "حافظ",
+    "source": "بیت مشهور در منابع آموزشی ایهام"
+  },
+  {
+    "id": 25,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "ز گریه مردم چشمم نشسته در خون است / ببین که در طلبت حال مردمان چون است",
+    "ambiguous_word": "مردم",
+    "gold_meaning_near": "مردم و انسان‌ها",
+    "gold_meaning_far": "مردمک چشم",
+    "manual_distractors": [
+      {"near": "دوستان", "far": "اشک"},
+      {"near": "آدمیان", "far": "سیاهی چشم"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ، غزل ۵۴"
+  },
+  {
+    "id": 26,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "ما در پیاله عکس رخ یار دیده‌ایم / ای بی‌خبر ز لذت شرب مدام ما",
+    "ambiguous_word": "شرب",
+    "gold_meaning_near": "نوشیدن",
+    "gold_meaning_far": "شراب و باده",
+    "manual_distractors": [
+      {"near": "آشامیدن آب", "far": "مستی"},
+      {"near": "خوردن", "far": "جام"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 27,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "ز گریه مردم چشمم نشسته در خون است / ببین که در طلبت حال مردمان چون است",
+    "ambiguous_word": "چشم",
+    "gold_meaning_near": "چشم به‌عنوان اندام بینایی",
+    "gold_meaning_far": "چشم به معنای انتظار و امید",
+    "manual_distractors": [
+      {"near": "دیدگان", "far": "نگرانی"},
+      {"near": "چهره", "far": "حسرت"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 28,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "بی مهر رخت روز مرا نور نماندست / وز عمر مرا جز شب دیجور نماندست",
+    "ambiguous_word": "نور",
+    "gold_meaning_near": "روشنایی",
+    "gold_meaning_far": "روشنی و هدایت معنوی",
+    "manual_distractors": [
+      {"near": "تابش خورشید", "far": "گرما"},
+      {"near": "روشنایی چراغ", "far": "آتش"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 29,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "صدهزاران گل شکفت و بانگ مرغی برنخاست / عندلیبان را چه پیش آمد؟ هزاران را چه شد؟",
+    "ambiguous_word": "هزاران",
+    "gold_meaning_near": "بلبلان",
+    "gold_meaning_far": "هزاران و تعداد بسیار",
+    "manual_distractors": [
+      {"near": "مرغان شکاری", "far": "صدها"},
+      {"near": "بلبلان عاشق", "far": "یک هزار نفر"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ، غزل ۱۶۹"
+  },
+  {
+    "id": 30,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "برو طواف دلی کن که کعبه مخفی است / که آن خلیل بنا کرد و این خدا خود ساخت",
+    "ambiguous_word": "خلیل",
+    "gold_meaning_near": "دوست و یار",
+    "gold_meaning_far": "خلیل‌الله، لقب حضرت ابراهیم",
+    "manual_distractors": [
+      {"near": "یار صمیمی", "far": "حضرت اسماعیل"},
+      {"near": "دوست نزدیک", "far": "حضرت موسی"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 31,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "این مطرب از کجاست که راه عراق ساخت / آهنگ بازگشت ز راه حجاز کرد",
+    "ambiguous_word": "راه",
+    "gold_meaning_near": "مسیر و جاده",
+    "gold_meaning_far": "راه و شیوهٔ موسیقایی",
+    "manual_distractors": [
+      {"near": "جاده", "far": "آواز"},
+      {"near": "مسیر سفر", "far": "ساز"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 32,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "تا چه بازی رخ نماید بیدقی خواهیم راند / عرصه شطرنج رندان را مجال شاه نیست",
+    "ambiguous_word": "بیدق",
+    "gold_meaning_near": "پرچم",
+    "gold_meaning_far": "مهرهٔ پیادهٔ شطرنج",
+    "manual_distractors": [
+      {"near": "پارچهٔ پرچم", "far": "مهرهٔ رخ"},
+      {"near": "علامت و نشانه", "far": "مهرهٔ شاه"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 33,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "گفتم که بوی زلفت گمراه عالمم کرد / گفتا اگر بدانی هم اوت رهبر آید",
+    "ambiguous_word": "بوی",
+    "gold_meaning_near": "رایحه و عطر",
+    "gold_meaning_far": "نشانه و اثر",
+    "manual_distractors": [
+      {"near": "عطر", "far": "صدا"},
+      {"near": "رایحهٔ خوش", "far": "تصویر"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 34,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "مهرم به جان رسید و به عیوق بر شدم",
+    "ambiguous_word": "مهر",
+    "gold_meaning_near": "محبت و عشق",
+    "gold_meaning_far": "خورشید",
+    "manual_distractors": [
+      {"near": "علاقه", "far": "ماه"},
+      {"near": "محبت", "far": "ستاره"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
+  },
+  {
+    "id": 35,
+    "task_type": "ieham",
+    "subtype": "double_meaning_identification",
+    "verse": "خواهم از زلف بتان نافه‌گشایی کردن / فکر دور است همانا که خطا می‌بینم",
+    "ambiguous_word": "خطا",
+    "gold_meaning_near": "اشتباه و خطا",
+    "gold_meaning_far": "خطا/ختا، ناحیهٔ ختن",
+    "manual_distractors": [
+      {"near": "اشتباه", "far": "چین"},
+      {"near": "لغزش", "far": "هندوستان"}
+    ],
+    "poet": "حافظ",
+    "source": "دیوان حافظ"
   }
 ]

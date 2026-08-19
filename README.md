@@ -140,6 +140,21 @@ See `docs/tasks/script_disambiguation_task.md` for full details.
 
 See `docs/tasks/proverbs_task.md` for full details.
 
+### Ieham / Wordplay task (Phase 2)
+- 34 hand-authored samples (`double_meaning_identification`), each a
+  classical Persian verse with an MCQ over the correct (near-meaning,
+  far-meaning) pair for a specified ambiguous word.
+- Like Script Disambiguation, distractors are **same-word-only** (a
+  per-word pool keyed on the far-meaning, not the full pair, to avoid
+  paraphrase-variance duplicates) — a dataset-wide pool would offer
+  trivially-unrelated meaning pairs. Option count is variable (mostly
+  3-option; up to 4-option for the 3 repeated words). `correctness` is
+  computed automatically by the runner via exact-match on the option
+  letter — no runner changes needed.
+- `persian_stability` is applied; `verifiable_reasoning` is not.
+
+See `docs/tasks/ieham_task.md` for full details.
+
 ### Deep Brainstorm task (Phase 4)
 - 4 hand-authored open-ended Persian prompts across 4 categories
   (`open_problem_solving`, `creative_ideation`, `policy_or_social`,
@@ -294,7 +309,7 @@ pytest tests/ -v
 - [x] Phase 2 — MMLU-lite (done; data stays local-only, see `docs/tasks/mmlu_task.md`)
 - [x] Phase 2 — Script disambiguation (done; see `docs/tasks/script_disambiguation_task.md`)
 - [x] Phase 2 — Proverbs (done; see `docs/tasks/proverbs_task.md`)
-- [ ] Phase 2 — wordplay (ieham)
+- [x] Phase 2 — Wordplay / ieham (done; see `docs/tasks/ieham_task.md`)
 - [ ] Phase 3 — Minimal pairs, contradiction & consistency, abstention, paraphrase robustness, multi-constraint
 - [x] Phase 4 — Persian controllability (done; see `docs/tasks/persian_controllability_task.md`)
 - [x] Phase 4 — Deep brainstorm (done; see `docs/tasks/deep_brainstorm_task.md`)
