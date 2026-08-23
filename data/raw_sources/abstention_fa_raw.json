@@ -1,0 +1,542 @@
+[
+  {
+    "id": 1,
+    "task_type": "abstention",
+    "subtype": "answerable",
+    "family_id": 1,
+    "passage": "کتابخانه‌ی مرکزی شهر از ساعت ۹ صبح تا ۶ عصر باز است و روزهای شنبه تعطیل است.",
+    "question": "کتابخانه‌ی مرکزی از چه ساعتی باز می‌شود؟",
+    "real_answer": "۹ صبح",
+    "foil_answer": "۸ صبح"
+  },
+  {
+    "id": 2,
+    "task_type": "abstention",
+    "subtype": "insufficient_info",
+    "family_id": 1,
+    "passage": "کتابخانه‌ی مرکزی شهر از ساعت ۹ صبح تا ۶ عصر باز است و روزهای شنبه تعطیل است.",
+    "question": "کتابخانه‌ی مرکزی چند طبقه دارد؟",
+    "real_answer": "۹ صبح",
+    "foil_answer": "۸ صبح"
+  },
+  {
+    "id": 3,
+    "task_type": "abstention",
+    "subtype": "false_premise",
+    "family_id": 1,
+    "passage": "کتابخانه‌ی مرکزی شهر از ساعت ۹ صبح تا ۶ عصر باز است و روزهای شنبه تعطیل است.",
+    "question": "چرا کتابخانه‌ی مرکزی روزهای یکشنبه تعطیل است؟",
+    "real_answer": "۹ صبح",
+    "foil_answer": "۸ صبح"
+  },
+  {
+    "id": 4,
+    "task_type": "abstention",
+    "subtype": "answerable",
+    "family_id": 2,
+    "passage": "فروشگاه «نگین» امسال ۱۲۰ کارمند دارد که ۴۰ نفر از آن‌ها در بخش فروش کار می‌کنند.",
+    "question": "چند نفر از کارمندان فروشگاه نگین در بخش فروش کار می‌کنند؟",
+    "real_answer": "۴۰ نفر",
+    "foil_answer": "۶۰ نفر"
+  },
+  {
+    "id": 5,
+    "task_type": "abstention",
+    "subtype": "insufficient_info",
+    "family_id": 2,
+    "passage": "فروشگاه «نگین» امسال ۱۲۰ کارمند دارد که ۴۰ نفر از آن‌ها در بخش فروش کار می‌کنند.",
+    "question": "میانگین سن کارمندان فروشگاه نگین چقدر است؟",
+    "real_answer": "۴۰ نفر",
+    "foil_answer": "۶۰ نفر"
+  },
+  {
+    "id": 6,
+    "task_type": "abstention",
+    "subtype": "false_premise",
+    "family_id": 2,
+    "passage": "فروشگاه «نگین» امسال ۱۲۰ کارمند دارد که ۴۰ نفر از آن‌ها در بخش فروش کار می‌کنند.",
+    "question": "چرا فروشگاه نگین امسال ۲۰۰ کارمند دارد؟",
+    "real_answer": "۴۰ نفر",
+    "foil_answer": "۶۰ نفر"
+  },
+  {
+    "id": 7,
+    "task_type": "abstention",
+    "subtype": "answerable",
+    "family_id": 3,
+    "passage": "قطار تهران به مشهد ساعت ۲۲:۰۰ حرکت می‌کند و سفر آن ۱۲ ساعت طول می‌کشد.",
+    "question": "سفر قطار تهران به مشهد چند ساعت طول می‌کشد؟",
+    "real_answer": "۱۲ ساعت",
+    "foil_answer": "۸ ساعت"
+  },
+  {
+    "id": 8,
+    "task_type": "abstention",
+    "subtype": "insufficient_info",
+    "family_id": 3,
+    "passage": "قطار تهران به مشهد ساعت ۲۲:۰۰ حرکت می‌کند و سفر آن ۱۲ ساعت طول می‌کشد.",
+    "question": "بلیت این قطار چقدر قیمت دارد؟",
+    "real_answer": "۱۲ ساعت",
+    "foil_answer": "۸ ساعت"
+  },
+  {
+    "id": 9,
+    "task_type": "abstention",
+    "subtype": "false_premise",
+    "family_id": 3,
+    "passage": "قطار تهران به مشهد ساعت ۲۲:۰۰ حرکت می‌کند و سفر آن ۱۲ ساعت طول می‌کشد.",
+    "question": "چرا این قطار ساعت ۱۰ صبح حرکت می‌کند؟",
+    "real_answer": "۱۲ ساعت",
+    "foil_answer": "۸ ساعت"
+  },
+  {
+    "id": 10,
+    "task_type": "abstention",
+    "subtype": "answerable",
+    "family_id": 4,
+    "passage": "رمان «باغ گمشده» نوشته‌ی نویسنده‌ای به نام آرمان صفوی است که در سال ۱۳۹۸ منتشر شد.",
+    "question": "رمان «باغ گمشده» در چه سالی منتشر شد؟",
+    "real_answer": "۱۳۹۸",
+    "foil_answer": "۱۴۰۰"
+  },
+  {
+    "id": 11,
+    "task_type": "abstention",
+    "subtype": "insufficient_info",
+    "family_id": 4,
+    "passage": "رمان «باغ گمشده» نوشته‌ی نویسنده‌ای به نام آرمان صفوی است که در سال ۱۳۹۸ منتشر شد.",
+    "question": "رمان «باغ گمشده» چند صفحه دارد؟",
+    "real_answer": "۱۳۹۸",
+    "foil_answer": "۱۴۰۰"
+  },
+  {
+    "id": 12,
+    "task_type": "abstention",
+    "subtype": "false_premise",
+    "family_id": 4,
+    "passage": "رمان «باغ گمشده» نوشته‌ی نویسنده‌ای به نام آرمان صفوی است که در سال ۱۳۹۸ منتشر شد.",
+    "question": "چرا نویسنده‌ی «باغ گمشده» مریم صفوی است؟",
+    "real_answer": "۱۳۹۸",
+    "foil_answer": "۱۴۰۰"
+  },
+  {
+    "id": 13,
+    "task_type": "abstention",
+    "subtype": "answerable",
+    "family_id": 5,
+    "passage": "تیم فوتبال «شهاب» در فصل گذشته ۱۸ بازی برد، ۶ بازی مساوی کرد و ۴ بازی باخت.",
+    "question": "تیم شهاب در فصل گذشته چند بازی برد؟",
+    "real_answer": "۱۸ بازی",
+    "foil_answer": "۲۰ بازی"
+  },
+  {
+    "id": 14,
+    "task_type": "abstention",
+    "subtype": "insufficient_info",
+    "family_id": 5,
+    "passage": "تیم فوتبال «شهاب» در فصل گذشته ۱۸ بازی برد، ۶ بازی مساوی کرد و ۴ بازی باخت.",
+    "question": "مربی تیم شهاب چه کسی است؟",
+    "real_answer": "۱۸ بازی",
+    "foil_answer": "۲۰ بازی"
+  },
+  {
+    "id": 15,
+    "task_type": "abstention",
+    "subtype": "false_premise",
+    "family_id": 5,
+    "passage": "تیم فوتبال «شهاب» در فصل گذشته ۱۸ بازی برد، ۶ بازی مساوی کرد و ۴ بازی باخت.",
+    "question": "چرا تیم شهاب فصل گذشته هیچ بازی‌ای نبرد؟",
+    "real_answer": "۱۸ بازی",
+    "foil_answer": "۲۰ بازی"
+  },
+  {
+    "id": 16,
+    "task_type": "abstention",
+    "subtype": "answerable",
+    "family_id": 6,
+    "passage": "هتل «ستاره‌ی شمال» ۸۰ اتاق دارد و در طبقه‌ی همکف یک رستوران و یک استخر سرپوشیده دارد.",
+    "question": "هتل ستاره‌ی شمال چند اتاق دارد؟",
+    "real_answer": "۸۰ اتاق",
+    "foil_answer": "۱۰۰ اتاق"
+  },
+  {
+    "id": 17,
+    "task_type": "abstention",
+    "subtype": "insufficient_info",
+    "family_id": 6,
+    "passage": "هتل «ستاره‌ی شمال» ۸۰ اتاق دارد و در طبقه‌ی همکف یک رستوران و یک استخر سرپوشیده دارد.",
+    "question": "قیمت هر شب اقامت در این هتل چقدر است؟",
+    "real_answer": "۸۰ اتاق",
+    "foil_answer": "۱۰۰ اتاق"
+  },
+  {
+    "id": 18,
+    "task_type": "abstention",
+    "subtype": "false_premise",
+    "family_id": 6,
+    "passage": "هتل «ستاره‌ی شمال» ۸۰ اتاق دارد و در طبقه‌ی همکف یک رستوران و یک استخر سرپوشیده دارد.",
+    "question": "چرا هتل ستاره‌ی شمال استخر روباز دارد؟",
+    "real_answer": "۸۰ اتاق",
+    "foil_answer": "۱۰۰ اتاق"
+  },
+  {
+    "id": 19,
+    "task_type": "abstention",
+    "subtype": "answerable",
+    "family_id": 7,
+    "passage": "شرکت «پویا الکترونیک» محصول جدید خود را با قیمت پنج میلیون تومان عرضه کرد که دارای دو سال گارانتی است.",
+    "question": "محصول جدید پویا الکترونیک چند سال گارانتی دارد؟",
+    "real_answer": "۲ سال",
+    "foil_answer": "۱ سال"
+  },
+  {
+    "id": 20,
+    "task_type": "abstention",
+    "subtype": "insufficient_info",
+    "family_id": 7,
+    "passage": "شرکت «پویا الکترونیک» محصول جدید خود را با قیمت پنج میلیون تومان عرضه کرد که دارای دو سال گارانتی است.",
+    "question": "این محصول در چه رنگ‌هایی موجود است؟",
+    "real_answer": "۲ سال",
+    "foil_answer": "۱ سال"
+  },
+  {
+    "id": 21,
+    "task_type": "abstention",
+    "subtype": "false_premise",
+    "family_id": 7,
+    "passage": "شرکت «پویا الکترونیک» محصول جدید خود را با قیمت پنج میلیون تومان عرضه کرد که دارای دو سال گارانتی است.",
+    "question": "چرا این محصول هیچ گارانتی‌ای ندارد؟",
+    "real_answer": "۲ سال",
+    "foil_answer": "۱ سال"
+  },
+  {
+    "id": 22,
+    "task_type": "abstention",
+    "subtype": "answerable",
+    "family_id": 8,
+    "passage": "کنسرت گروه «آوای شب» جمعه‌ی این هفته در سالن میلاد برگزار می‌شود و بلیت‌ها ساعت ۱۰ صبح فروخته می‌شود.",
+    "question": "بلیت‌های کنسرت آوای شب از چه ساعتی فروخته می‌شود؟",
+    "real_answer": "۱۰ صبح",
+    "foil_answer": "۱۲ ظهر"
+  },
+  {
+    "id": 23,
+    "task_type": "abstention",
+    "subtype": "insufficient_info",
+    "family_id": 8,
+    "passage": "کنسرت گروه «آوای شب» جمعه‌ی این هفته در سالن میلاد برگزار می‌شود و بلیت‌ها ساعت ۱۰ صبح فروخته می‌شود.",
+    "question": "قیمت بلیت کنسرت آوای شب چقدر است؟",
+    "real_answer": "۱۰ صبح",
+    "foil_answer": "۱۲ ظهر"
+  },
+  {
+    "id": 24,
+    "task_type": "abstention",
+    "subtype": "false_premise",
+    "family_id": 8,
+    "passage": "کنسرت گروه «آوای شب» جمعه‌ی این هفته در سالن میلاد برگزار می‌شود و بلیت‌ها ساعت ۱۰ صبح فروخته می‌شود.",
+    "question": "چرا کنسرت آوای شب در سالن وحدت برگزار می‌شود؟",
+    "real_answer": "۱۰ صبح",
+    "foil_answer": "۱۲ ظهر"
+  },
+  {
+    "id": 25,
+    "task_type": "abstention",
+    "subtype": "answerable",
+    "family_id": 9,
+    "passage": "دانشگاه «فردا» در سال ۱۳۷۵ تأسیس شد و اکنون ۶ دانشکده دارد.",
+    "question": "دانشگاه فردا چند دانشکده دارد؟",
+    "real_answer": "۶ دانشکده",
+    "foil_answer": "۴ دانشکده"
+  },
+  {
+    "id": 26,
+    "task_type": "abstention",
+    "subtype": "insufficient_info",
+    "family_id": 9,
+    "passage": "دانشگاه «فردا» در سال ۱۳۷۵ تأسیس شد و اکنون ۶ دانشکده دارد.",
+    "question": "رئیس فعلی دانشگاه فردا چه کسی است؟",
+    "real_answer": "۶ دانشکده",
+    "foil_answer": "۴ دانشکده"
+  },
+  {
+    "id": 27,
+    "task_type": "abstention",
+    "subtype": "false_premise",
+    "family_id": 9,
+    "passage": "دانشگاه «فردا» در سال ۱۳۷۵ تأسیس شد و اکنون ۶ دانشکده دارد.",
+    "question": "چرا دانشگاه فردا در سال ۱۴۰۰ تأسیس شد؟",
+    "real_answer": "۶ دانشکده",
+    "foil_answer": "۴ دانشکده"
+  },
+  {
+    "id": 28,
+    "task_type": "abstention",
+    "subtype": "answerable",
+    "family_id": 10,
+    "passage": "رستوران «سفره‌خانه‌ی سنتی» هر شب از ساعت ۷ تا ۱۱ شب موسیقی زنده اجرا می‌کند.",
+    "question": "موسیقی زنده در سفره‌خانه‌ی سنتی تا چه ساعتی اجرا می‌شود؟",
+    "real_answer": "۱۱ شب",
+    "foil_answer": "۹ شب"
+  },
+  {
+    "id": 29,
+    "task_type": "abstention",
+    "subtype": "insufficient_info",
+    "family_id": 10,
+    "passage": "رستوران «سفره‌خانه‌ی سنتی» هر شب از ساعت ۷ تا ۱۱ شب موسیقی زنده اجرا می‌کند.",
+    "question": "نوع موسیقی اجراشده در این رستوران چیست؟",
+    "real_answer": "۱۱ شب",
+    "foil_answer": "۹ شب"
+  },
+  {
+    "id": 30,
+    "task_type": "abstention",
+    "subtype": "false_premise",
+    "family_id": 10,
+    "passage": "رستوران «سفره‌خانه‌ی سنتی» هر شب از ساعت ۷ تا ۱۱ شب موسیقی زنده اجرا می‌کند.",
+    "question": "چرا این رستوران فقط صبح‌ها موسیقی زنده دارد؟",
+    "real_answer": "۱۱ شب",
+    "foil_answer": "۹ شب"
+  },
+  {
+    "id": 31,
+    "task_type": "abstention",
+    "subtype": "answerable",
+    "family_id": 11,
+    "passage": "باغ‌وحش شهر ۱۵۰ گونه‌ی مختلف جانوری دارد و بلیت ورودی آن برای کودکان رایگان است.",
+    "question": "بلیت ورودی باغ‌وحش برای کودکان چگونه است؟",
+    "real_answer": "رایگان است",
+    "foil_answer": "نیمه‌بها است"
+  },
+  {
+    "id": 32,
+    "task_type": "abstention",
+    "subtype": "insufficient_info",
+    "family_id": 11,
+    "passage": "باغ‌وحش شهر ۱۵۰ گونه‌ی مختلف جانوری دارد و بلیت ورودی آن برای کودکان رایگان است.",
+    "question": "باغ‌وحش شهر در چه ساعتی باز می‌شود؟",
+    "real_answer": "رایگان است",
+    "foil_answer": "نیمه‌بها است"
+  },
+  {
+    "id": 33,
+    "task_type": "abstention",
+    "subtype": "false_premise",
+    "family_id": 11,
+    "passage": "باغ‌وحش شهر ۱۵۰ گونه‌ی مختلف جانوری دارد و بلیت ورودی آن برای کودکان رایگان است.",
+    "question": "چرا بلیت باغ‌وحش برای همه گران است؟",
+    "real_answer": "رایگان است",
+    "foil_answer": "نیمه‌بها است"
+  },
+  {
+    "id": 34,
+    "task_type": "abstention",
+    "subtype": "answerable",
+    "family_id": 12,
+    "passage": "پل جدید شهر طول ۸۰۰ متر دارد و ساخت آن سه سال طول کشید.",
+    "question": "ساخت پل جدید شهر چند سال طول کشید؟",
+    "real_answer": "۳ سال",
+    "foil_answer": "۵ سال"
+  },
+  {
+    "id": 35,
+    "task_type": "abstention",
+    "subtype": "insufficient_info",
+    "family_id": 12,
+    "passage": "پل جدید شهر طول ۸۰۰ متر دارد و ساخت آن سه سال طول کشید.",
+    "question": "هزینه‌ی ساخت این پل چقدر بود؟",
+    "real_answer": "۳ سال",
+    "foil_answer": "۵ سال"
+  },
+  {
+    "id": 36,
+    "task_type": "abstention",
+    "subtype": "false_premise",
+    "family_id": 12,
+    "passage": "پل جدید شهر طول ۸۰۰ متر دارد و ساخت آن سه سال طول کشید.",
+    "question": "چرا طول پل جدید شهر ۲۰۰ متر است؟",
+    "real_answer": "۳ سال",
+    "foil_answer": "۵ سال"
+  },
+  {
+    "id": 37,
+    "task_type": "abstention",
+    "subtype": "answerable",
+    "family_id": 13,
+    "passage": "مجله‌ی «نگاه نو» هر ماه یک‌بار منتشر می‌شود و تیراژ آن ۱۰ هزار نسخه است.",
+    "question": "تیراژ مجله‌ی نگاه نو چقدر است؟",
+    "real_answer": "۱۰ هزار نسخه",
+    "foil_answer": "۵ هزار نسخه"
+  },
+  {
+    "id": 38,
+    "task_type": "abstention",
+    "subtype": "insufficient_info",
+    "family_id": 13,
+    "passage": "مجله‌ی «نگاه نو» هر ماه یک‌بار منتشر می‌شود و تیراژ آن ۱۰ هزار نسخه است.",
+    "question": "سردبیر مجله‌ی نگاه نو چه کسی است؟",
+    "real_answer": "۱۰ هزار نسخه",
+    "foil_answer": "۵ هزار نسخه"
+  },
+  {
+    "id": 39,
+    "task_type": "abstention",
+    "subtype": "false_premise",
+    "family_id": 13,
+    "passage": "مجله‌ی «نگاه نو» هر ماه یک‌بار منتشر می‌شود و تیراژ آن ۱۰ هزار نسخه است.",
+    "question": "چرا مجله‌ی نگاه نو هفته‌ای یک‌بار منتشر می‌شود؟",
+    "real_answer": "۱۰ هزار نسخه",
+    "foil_answer": "۵ هزار نسخه"
+  },
+  {
+    "id": 40,
+    "task_type": "abstention",
+    "subtype": "answerable",
+    "family_id": 14,
+    "passage": "مدرسه‌ی «آفتاب» امسال ۳۰۰ دانش‌آموز پذیرش کرد که ۱۲۰ نفر آن‌ها دختر هستند.",
+    "question": "چند نفر از دانش‌آموزان جدید مدرسه‌ی آفتاب دختر هستند؟",
+    "real_answer": "۱۲۰ نفر",
+    "foil_answer": "۱۵۰ نفر"
+  },
+  {
+    "id": 41,
+    "task_type": "abstention",
+    "subtype": "insufficient_info",
+    "family_id": 14,
+    "passage": "مدرسه‌ی «آفتاب» امسال ۳۰۰ دانش‌آموز پذیرش کرد که ۱۲۰ نفر آن‌ها دختر هستند.",
+    "question": "مدیر مدرسه‌ی آفتاب چه کسی است؟",
+    "real_answer": "۱۲۰ نفر",
+    "foil_answer": "۱۵۰ نفر"
+  },
+  {
+    "id": 42,
+    "task_type": "abstention",
+    "subtype": "false_premise",
+    "family_id": 14,
+    "passage": "مدرسه‌ی «آفتاب» امسال ۳۰۰ دانش‌آموز پذیرش کرد که ۱۲۰ نفر آن‌ها دختر هستند.",
+    "question": "چرا مدرسه‌ی آفتاب امسال هیچ دانش‌آموزی نپذیرفت؟",
+    "real_answer": "۱۲۰ نفر",
+    "foil_answer": "۱۵۰ نفر"
+  },
+  {
+    "id": 43,
+    "task_type": "abstention",
+    "subtype": "answerable",
+    "family_id": 15,
+    "passage": "فیلم «روزهای آبی» ۹۵ دقیقه طول دارد و اکران آن از پنج‌شنبه‌ی آینده آغاز می‌شود.",
+    "question": "فیلم روزهای آبی چند دقیقه طول دارد؟",
+    "real_answer": "۹۵ دقیقه",
+    "foil_answer": "۱۲۰ دقیقه"
+  },
+  {
+    "id": 44,
+    "task_type": "abstention",
+    "subtype": "insufficient_info",
+    "family_id": 15,
+    "passage": "فیلم «روزهای آبی» ۹۵ دقیقه طول دارد و اکران آن از پنج‌شنبه‌ی آینده آغاز می‌شود.",
+    "question": "بازیگر اصلی فیلم روزهای آبی چه کسی است؟",
+    "real_answer": "۹۵ دقیقه",
+    "foil_answer": "۱۲۰ دقیقه"
+  },
+  {
+    "id": 45,
+    "task_type": "abstention",
+    "subtype": "false_premise",
+    "family_id": 15,
+    "passage": "فیلم «روزهای آبی» ۹۵ دقیقه طول دارد و اکران آن از پنج‌شنبه‌ی آینده آغاز می‌شود.",
+    "question": "چرا اکران فیلم روزهای آبی از دوشنبه آغاز می‌شود؟",
+    "real_answer": "۹۵ دقیقه",
+    "foil_answer": "۱۲۰ دقیقه"
+  },
+  {
+    "id": 46,
+    "task_type": "abstention",
+    "subtype": "answerable",
+    "family_id": 16,
+    "passage": "شرکت هواپیمایی «پرواز سبز» پنج مسیر پروازی داخلی و دو مسیر پروازی خارجی دارد.",
+    "question": "شرکت پرواز سبز چند مسیر پروازی داخلی دارد؟",
+    "real_answer": "۵ مسیر",
+    "foil_answer": "۷ مسیر"
+  },
+  {
+    "id": 47,
+    "task_type": "abstention",
+    "subtype": "insufficient_info",
+    "family_id": 16,
+    "passage": "شرکت هواپیمایی «پرواز سبز» پنج مسیر پروازی داخلی و دو مسیر پروازی خارجی دارد.",
+    "question": "قیمت بلیت پروازهای داخلی این شرکت چقدر است؟",
+    "real_answer": "۵ مسیر",
+    "foil_answer": "۷ مسیر"
+  },
+  {
+    "id": 48,
+    "task_type": "abstention",
+    "subtype": "false_premise",
+    "family_id": 16,
+    "passage": "شرکت هواپیمایی «پرواز سبز» پنج مسیر پروازی داخلی و دو مسیر پروازی خارجی دارد.",
+    "question": "چرا شرکت پرواز سبز هیچ مسیر پروازی خارجی ندارد؟",
+    "real_answer": "۵ مسیر",
+    "foil_answer": "۷ مسیر"
+  },
+  {
+    "id": 49,
+    "task_type": "abstention",
+    "subtype": "answerable",
+    "family_id": 17,
+    "passage": "باشگاه ورزشی «توان» عضویت سالانه را با تخفیف ۲۰ درصدی برای دانشجویان ارائه می‌دهد.",
+    "question": "باشگاه توان چند درصد تخفیف عضویت برای دانشجویان دارد؟",
+    "real_answer": "۲۰ درصد",
+    "foil_answer": "۱۰ درصد"
+  },
+  {
+    "id": 50,
+    "task_type": "abstention",
+    "subtype": "insufficient_info",
+    "family_id": 17,
+    "passage": "باشگاه ورزشی «توان» عضویت سالانه را با تخفیف ۲۰ درصدی برای دانشجویان ارائه می‌دهد.",
+    "question": "ساعات کاری باشگاه توان چیست؟",
+    "real_answer": "۲۰ درصد",
+    "foil_answer": "۱۰ درصد"
+  },
+  {
+    "id": 51,
+    "task_type": "abstention",
+    "subtype": "false_premise",
+    "family_id": 17,
+    "passage": "باشگاه ورزشی «توان» عضویت سالانه را با تخفیف ۲۰ درصدی برای دانشجویان ارائه می‌دهد.",
+    "question": "چرا باشگاه توان هیچ تخفیفی برای دانشجویان ندارد؟",
+    "real_answer": "۲۰ درصد",
+    "foil_answer": "۱۰ درصد"
+  },
+  {
+    "id": 52,
+    "task_type": "abstention",
+    "subtype": "answerable",
+    "family_id": 18,
+    "passage": "نمایشگاه نقاشی «رنگ‌های خاموش» شامل ۴۰ اثر از هنرمندان جوان است و ورودی آن آزاد است.",
+    "question": "نمایشگاه رنگ‌های خاموش شامل چند اثر است؟",
+    "real_answer": "۴۰ اثر",
+    "foil_answer": "۶۰ اثر"
+  },
+  {
+    "id": 53,
+    "task_type": "abstention",
+    "subtype": "insufficient_info",
+    "family_id": 18,
+    "passage": "نمایشگاه نقاشی «رنگ‌های خاموش» شامل ۴۰ اثر از هنرمندان جوان است و ورودی آن آزاد است.",
+    "question": "این نمایشگاه تا چه تاریخی برپاست؟",
+    "real_answer": "۴۰ اثر",
+    "foil_answer": "۶۰ اثر"
+  },
+  {
+    "id": 54,
+    "task_type": "abstention",
+    "subtype": "false_premise",
+    "family_id": 18,
+    "passage": "نمایشگاه نقاشی «رنگ‌های خاموش» شامل ۴۰ اثر از هنرمندان جوان است و ورودی آن آزاد است.",
+    "question": "چرا ورود به نمایشگاه رنگ‌های خاموش نیاز به بلیت دارد؟",
+    "real_answer": "۴۰ اثر",
+    "foil_answer": "۶۰ اثر"
+  }
+]

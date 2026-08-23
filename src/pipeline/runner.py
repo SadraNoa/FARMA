@@ -87,6 +87,24 @@ def score_sample(
         result.correctness = int(passed)
         result.notes = reason_fa
 
+    # درستی مبتنی بر چند محدودیتِ هم‌زمانِ قابل‌راستی‌آزمایی با قانون
+    # (Multi-Constraint، فاز۳). برخلاف Persian Controllability که کلید
+    # مشابهی (extra.constraints) دارد و به judge وصل می‌شود، این تسک از
+    # کلید مستقل extra.rule_constraints استفاده می‌کند و کاملاً rule-based
+    # است: هر قید با همان check_constraint موجود از IFEval-lite بررسی
+    # می‌شود و correctness فقط وقتی ۱ است که همه‌ی قیدها هم‌زمان برقرار
+    # باشند.
+    elif sample.extra.get("rule_constraints") is not None:
+        per_constraint_reasons = []
+        all_passed = True
+        for c in sample.extra["rule_constraints"]:
+            passed, reason_fa = check_constraint(generation.raw_output, c)
+            per_constraint_reasons.append(reason_fa)
+            if not passed:
+                all_passed = False
+        result.correctness = int(all_passed)
+        result.notes = " | ".join(per_constraint_reasons)
+
     # محدودیت‌های چندگانه Persian Controllability: بخشی rule-based،
     # بخشی judge-based. نتیجه در فیلدهای controllability_* ذخیره می‌شود،
     # نه correctness -- چون این تسک به‌جای یک جواب درست/غلط، نرخ رعایت

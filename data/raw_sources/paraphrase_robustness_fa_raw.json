@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 1,
+    "paraphrase_index": 1,
+    "passage": "شرکت «راهکار» ۲۵۰ کارمند دارد که ۶۰ نفر از آن‌ها در بخش فنی مشغول به کار هستند.",
+    "question": "چند نفر از کارمندان شرکت راهکار در بخش فنی کار می‌کنند؟",
+    "correct_answer": "۶۰ نفر",
+    "foils": [
+      "۴۰ نفر",
+      "۸۰ نفر",
+      "۱۰۰ نفر"
+    ]
+  },
+  {
+    "id": 2,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 1,
+    "paraphrase_index": 2,
+    "passage": "شرکت «راهکار» ۲۵۰ کارمند دارد که ۶۰ نفر از آن‌ها در بخش فنی مشغول به کار هستند.",
+    "question": "تعداد کارمندانی که در بخش فنی شرکت راهکار مشغولند چند نفر است؟",
+    "correct_answer": "۶۰ نفر",
+    "foils": [
+      "۴۰ نفر",
+      "۸۰ نفر",
+      "۱۰۰ نفر"
+    ]
+  },
+  {
+    "id": 3,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 1,
+    "paraphrase_index": 3,
+    "passage": "شرکت «راهکار» ۲۵۰ کارمند دارد که ۶۰ نفر از آن‌ها در بخش فنی مشغول به کار هستند.",
+    "question": "بخش فنی شرکت راهکار چند کارمند دارد؟",
+    "correct_answer": "۶۰ نفر",
+    "foils": [
+      "۴۰ نفر",
+      "۸۰ نفر",
+      "۱۰۰ نفر"
+    ]
+  },
+  {
+    "id": 4,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 1,
+    "paraphrase_index": 4,
+    "passage": "شرکت «راهکار» ۲۵۰ کارمند دارد که ۶۰ نفر از آن‌ها در بخش فنی مشغول به کار هستند.",
+    "question": "از میان کارمندان شرکت راهکار، چند نفرشان در بخش فنی فعالیت می‌کنند؟",
+    "correct_answer": "۶۰ نفر",
+    "foils": [
+      "۴۰ نفر",
+      "۸۰ نفر",
+      "۱۰۰ نفر"
+    ]
+  },
+  {
+    "id": 5,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 2,
+    "paraphrase_index": 1,
+    "passage": "فروشگاه «آفتاب» هر سال‌روز تأسیس خود، به مشتریان ۱۵ درصد تخفیف ویژه می‌دهد.",
+    "question": "فروشگاه آفتاب در سال‌روز تأسیس خود چند درصد تخفیف می‌دهد؟",
+    "correct_answer": "۱۵ درصد",
+    "foils": [
+      "۱۰ درصد",
+      "۲۰ درصد",
+      "۲۵ درصد"
+    ]
+  },
+  {
+    "id": 6,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 2,
+    "paraphrase_index": 2,
+    "passage": "فروشگاه «آفتاب» هر سال‌روز تأسیس خود، به مشتریان ۱۵ درصد تخفیف ویژه می‌دهد.",
+    "question": "میزان تخفیف ویژه‌ی فروشگاه آفتاب در روز تأسیسش چقدر است؟",
+    "correct_answer": "۱۵ درصد",
+    "foils": [
+      "۱۰ درصد",
+      "۲۰ درصد",
+      "۲۵ درصد"
+    ]
+  },
+  {
+    "id": 7,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 2,
+    "paraphrase_index": 3,
+    "passage": "فروشگاه «آفتاب» هر سال‌روز تأسیس خود، به مشتریان ۱۵ درصد تخفیف ویژه می‌دهد.",
+    "question": "در سالگرد تأسیس فروشگاه آفتاب، مشتریان چند درصد تخفیف می‌گیرند؟",
+    "correct_answer": "۱۵ درصد",
+    "foils": [
+      "۱۰ درصد",
+      "۲۰ درصد",
+      "۲۵ درصد"
+    ]
+  },
+  {
+    "id": 8,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 2,
+    "paraphrase_index": 4,
+    "passage": "فروشگاه «آفتاب» هر سال‌روز تأسیس خود، به مشتریان ۱۵ درصد تخفیف ویژه می‌دهد.",
+    "question": "چند درصد تخفیف در روز سالگرد تأسیس به مشتریان فروشگاه آفتاب تعلق می‌گیرد؟",
+    "correct_answer": "۱۵ درصد",
+    "foils": [
+      "۱۰ درصد",
+      "۲۰ درصد",
+      "۲۵ درصد"
+    ]
+  },
+  {
+    "id": 9,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 3,
+    "paraphrase_index": 1,
+    "passage": "قطار سریع‌السیر بین دو شهر، مسیر ۴۵۰ کیلومتری را در سه ساعت طی می‌کند.",
+    "question": "قطار سریع‌السیر مسیر ۴۵۰ کیلومتری را در چند ساعت طی می‌کند؟",
+    "correct_answer": "سه ساعت",
+    "foils": [
+      "دو ساعت",
+      "چهار ساعت",
+      "پنج ساعت"
+    ]
+  },
+  {
+    "id": 10,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 3,
+    "paraphrase_index": 2,
+    "passage": "قطار سریع‌السیر بین دو شهر، مسیر ۴۵۰ کیلومتری را در سه ساعت طی می‌کند.",
+    "question": "طی‌کردن مسیر ۴۵۰ کیلومتری توسط قطار سریع‌السیر چقدر زمان می‌برد؟",
+    "correct_answer": "سه ساعت",
+    "foils": [
+      "دو ساعت",
+      "چهار ساعت",
+      "پنج ساعت"
+    ]
+  },
+  {
+    "id": 11,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 3,
+    "paraphrase_index": 3,
+    "passage": "قطار سریع‌السیر بین دو شهر، مسیر ۴۵۰ کیلومتری را در سه ساعت طی می‌کند.",
+    "question": "مدت‌زمان سفر قطار سریع‌السیر برای مسیر ۴۵۰ کیلومتری چند ساعت است؟",
+    "correct_answer": "سه ساعت",
+    "foils": [
+      "دو ساعت",
+      "چهار ساعت",
+      "پنج ساعت"
+    ]
+  },
+  {
+    "id": 12,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 3,
+    "paraphrase_index": 4,
+    "passage": "قطار سریع‌السیر بین دو شهر، مسیر ۴۵۰ کیلومتری را در سه ساعت طی می‌کند.",
+    "question": "این قطار برای پیمودن ۴۵۰ کیلومتر، چند ساعت وقت لازم دارد؟",
+    "correct_answer": "سه ساعت",
+    "foils": [
+      "دو ساعت",
+      "چهار ساعت",
+      "پنج ساعت"
+    ]
+  },
+  {
+    "id": 13,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 4,
+    "paraphrase_index": 1,
+    "passage": "باشگاه کتاب‌خوانی محله هر ماه یک نشست برگزار می‌کند و در حال حاضر ۳۵ عضو فعال دارد.",
+    "question": "باشگاه کتاب‌خوانی محله چند عضو فعال دارد؟",
+    "correct_answer": "۳۵ عضو",
+    "foils": [
+      "۲۵ عضو",
+      "۴۵ عضو",
+      "۵۰ عضو"
+    ]
+  },
+  {
+    "id": 14,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 4,
+    "paraphrase_index": 2,
+    "passage": "باشگاه کتاب‌خوانی محله هر ماه یک نشست برگزار می‌کند و در حال حاضر ۳۵ عضو فعال دارد.",
+    "question": "تعداد اعضای فعال باشگاه کتاب‌خوانی محله چقدر است؟",
+    "correct_answer": "۳۵ عضو",
+    "foils": [
+      "۲۵ عضو",
+      "۴۵ عضو",
+      "۵۰ عضو"
+    ]
+  },
+  {
+    "id": 15,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 4,
+    "paraphrase_index": 3,
+    "passage": "باشگاه کتاب‌خوانی محله هر ماه یک نشست برگزار می‌کند و در حال حاضر ۳۵ عضو فعال دارد.",
+    "question": "این باشگاه کتاب‌خوانی هم‌اکنون چند عضو دارد؟",
+    "correct_answer": "۳۵ عضو",
+    "foils": [
+      "۲۵ عضو",
+      "۴۵ عضو",
+      "۵۰ عضو"
+    ]
+  },
+  {
+    "id": 16,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 4,
+    "paraphrase_index": 4,
+    "passage": "باشگاه کتاب‌خوانی محله هر ماه یک نشست برگزار می‌کند و در حال حاضر ۳۵ عضو فعال دارد.",
+    "question": "چند نفر عضو فعال باشگاه کتاب‌خوانی محله هستند؟",
+    "correct_answer": "۳۵ عضو",
+    "foils": [
+      "۲۵ عضو",
+      "۴۵ عضو",
+      "۵۰ عضو"
+    ]
+  },
+  {
+    "id": 17,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 5,
+    "paraphrase_index": 1,
+    "passage": "نمایشگاه خودرو امسال در سالن بزرگ برگزار می‌شود و ورودی آن برای عموم ۵۰ هزار تومان است.",
+    "question": "قیمت بلیت ورودی نمایشگاه خودرو برای عموم چقدر است؟",
+    "correct_answer": "۵۰ هزار تومان",
+    "foils": [
+      "۳۰ هزار تومان",
+      "۷۰ هزار تومان",
+      "۱۰۰ هزار تومان"
+    ]
+  },
+  {
+    "id": 18,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 5,
+    "paraphrase_index": 2,
+    "passage": "نمایشگاه خودرو امسال در سالن بزرگ برگزار می‌شود و ورودی آن برای عموم ۵۰ هزار تومان است.",
+    "question": "ورودی نمایشگاه خودرو امسال برای عموم چند تومان هزینه دارد؟",
+    "correct_answer": "۵۰ هزار تومان",
+    "foils": [
+      "۳۰ هزار تومان",
+      "۷۰ هزار تومان",
+      "۱۰۰ هزار تومان"
+    ]
+  },
+  {
+    "id": 19,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 5,
+    "paraphrase_index": 3,
+    "passage": "نمایشگاه خودرو امسال در سالن بزرگ برگزار می‌شود و ورودی آن برای عموم ۵۰ هزار تومان است.",
+    "question": "افراد عادی برای ورود به نمایشگاه خودرو باید چقدر بپردازند؟",
+    "correct_answer": "۵۰ هزار تومان",
+    "foils": [
+      "۳۰ هزار تومان",
+      "۷۰ هزار تومان",
+      "۱۰۰ هزار تومان"
+    ]
+  },
+  {
+    "id": 20,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 5,
+    "paraphrase_index": 4,
+    "passage": "نمایشگاه خودرو امسال در سالن بزرگ برگزار می‌شود و ورودی آن برای عموم ۵۰ هزار تومان است.",
+    "question": "هزینه‌ی بلیت عمومی نمایشگاه خودرو امسال چقدر است؟",
+    "correct_answer": "۵۰ هزار تومان",
+    "foils": [
+      "۳۰ هزار تومان",
+      "۷۰ هزار تومان",
+      "۱۰۰ هزار تومان"
+    ]
+  },
+  {
+    "id": 21,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 6,
+    "paraphrase_index": 1,
+    "passage": "مسابقه‌ی دوی ماراتن شهر هر سال در فصل بهار و با حضور حدود ۲۰۰۰ دونده برگزار می‌شود.",
+    "question": "معمولاً چند دونده در مسابقه‌ی ماراتن شهر شرکت می‌کنند؟",
+    "correct_answer": "حدود ۲۰۰۰ نفر",
+    "foils": [
+      "حدود ۵۰۰ نفر",
+      "حدود ۱۰۰۰ نفر",
+      "حدود ۳۰۰۰ نفر"
+    ]
+  },
+  {
+    "id": 22,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 6,
+    "paraphrase_index": 2,
+    "passage": "مسابقه‌ی دوی ماراتن شهر هر سال در فصل بهار و با حضور حدود ۲۰۰۰ دونده برگزار می‌شود.",
+    "question": "تعداد شرکت‌کنندگان مسابقه‌ی دوی ماراتن شهر معمولاً چقدر است؟",
+    "correct_answer": "حدود ۲۰۰۰ نفر",
+    "foils": [
+      "حدود ۵۰۰ نفر",
+      "حدود ۱۰۰۰ نفر",
+      "حدود ۳۰۰۰ نفر"
+    ]
+  },
+  {
+    "id": 23,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 6,
+    "paraphrase_index": 3,
+    "passage": "مسابقه‌ی دوی ماراتن شهر هر سال در فصل بهار و با حضور حدود ۲۰۰۰ دونده برگزار می‌شود.",
+    "question": "هر سال حدود چند نفر در ماراتن شهر می‌دوند؟",
+    "correct_answer": "حدود ۲۰۰۰ نفر",
+    "foils": [
+      "حدود ۵۰۰ نفر",
+      "حدود ۱۰۰۰ نفر",
+      "حدود ۳۰۰۰ نفر"
+    ]
+  },
+  {
+    "id": 24,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 6,
+    "paraphrase_index": 4,
+    "passage": "مسابقه‌ی دوی ماراتن شهر هر سال در فصل بهار و با حضور حدود ۲۰۰۰ دونده برگزار می‌شود.",
+    "question": "مسابقه‌ی ماراتن شهر معمولاً با حضور چند دونده برگزار می‌شود؟",
+    "correct_answer": "حدود ۲۰۰۰ نفر",
+    "foils": [
+      "حدود ۵۰۰ نفر",
+      "حدود ۱۰۰۰ نفر",
+      "حدود ۳۰۰۰ نفر"
+    ]
+  },
+  {
+    "id": 25,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 7,
+    "paraphrase_index": 1,
+    "passage": "کارخانه‌ی تولید مبلمان «چوب‌آرا» روزانه ۱۲۰ عدد صندلی تولید می‌کند.",
+    "question": "کارخانه‌ی چوب‌آرا روزانه چند صندلی تولید می‌کند؟",
+    "correct_answer": "۱۲۰ عدد",
+    "foils": [
+      "۸۰ عدد",
+      "۱۵۰ عدد",
+      "۲۰۰ عدد"
+    ]
+  },
+  {
+    "id": 26,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 7,
+    "paraphrase_index": 2,
+    "passage": "کارخانه‌ی تولید مبلمان «چوب‌آرا» روزانه ۱۲۰ عدد صندلی تولید می‌کند.",
+    "question": "تولید روزانه‌ی صندلی در کارخانه‌ی چوب‌آرا چند عدد است؟",
+    "correct_answer": "۱۲۰ عدد",
+    "foils": [
+      "۸۰ عدد",
+      "۱۵۰ عدد",
+      "۲۰۰ عدد"
+    ]
+  },
+  {
+    "id": 27,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 7,
+    "paraphrase_index": 3,
+    "passage": "کارخانه‌ی تولید مبلمان «چوب‌آرا» روزانه ۱۲۰ عدد صندلی تولید می‌کند.",
+    "question": "هر روز چند صندلی از کارخانه‌ی چوب‌آرا تولید می‌شود؟",
+    "correct_answer": "۱۲۰ عدد",
+    "foils": [
+      "۸۰ عدد",
+      "۱۵۰ عدد",
+      "۲۰۰ عدد"
+    ]
+  },
+  {
+    "id": 28,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 7,
+    "paraphrase_index": 4,
+    "passage": "کارخانه‌ی تولید مبلمان «چوب‌آرا» روزانه ۱۲۰ عدد صندلی تولید می‌کند.",
+    "question": "میزان تولید روزانه‌ی صندلی توسط کارخانه‌ی چوب‌آرا چقدر است؟",
+    "correct_answer": "۱۲۰ عدد",
+    "foils": [
+      "۸۰ عدد",
+      "۱۵۰ عدد",
+      "۲۰۰ عدد"
+    ]
+  },
+  {
+    "id": 29,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 8,
+    "paraphrase_index": 1,
+    "passage": "استادیوم ورزشی جدید شهر ظرفیت پذیرش ۳۰ هزار تماشاگر را دارد.",
+    "question": "استادیوم ورزشی جدید شهر چند تماشاگر جا می‌دهد؟",
+    "correct_answer": "۳۰ هزار نفر",
+    "foils": [
+      "۱۵ هزار نفر",
+      "۲۰ هزار نفر",
+      "۵۰ هزار نفر"
+    ]
+  },
+  {
+    "id": 30,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 8,
+    "paraphrase_index": 2,
+    "passage": "استادیوم ورزشی جدید شهر ظرفیت پذیرش ۳۰ هزار تماشاگر را دارد.",
+    "question": "ظرفیت تماشاگران استادیوم جدید شهر چقدر است؟",
+    "correct_answer": "۳۰ هزار نفر",
+    "foils": [
+      "۱۵ هزار نفر",
+      "۲۰ هزار نفر",
+      "۵۰ هزار نفر"
+    ]
+  },
+  {
+    "id": 31,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 8,
+    "paraphrase_index": 3,
+    "passage": "استادیوم ورزشی جدید شهر ظرفیت پذیرش ۳۰ هزار تماشاگر را دارد.",
+    "question": "این استادیوم جدید تا چند نفر تماشاگر می‌تواند بپذیرد؟",
+    "correct_answer": "۳۰ هزار نفر",
+    "foils": [
+      "۱۵ هزار نفر",
+      "۲۰ هزار نفر",
+      "۵۰ هزار نفر"
+    ]
+  },
+  {
+    "id": 32,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 8,
+    "paraphrase_index": 4,
+    "passage": "استادیوم ورزشی جدید شهر ظرفیت پذیرش ۳۰ هزار تماشاگر را دارد.",
+    "question": "حداکثر تعداد تماشاگرانی که استادیوم جدید شهر جای می‌دهد چقدر است؟",
+    "correct_answer": "۳۰ هزار نفر",
+    "foils": [
+      "۱۵ هزار نفر",
+      "۲۰ هزار نفر",
+      "۵۰ هزار نفر"
+    ]
+  },
+  {
+    "id": 33,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 9,
+    "paraphrase_index": 1,
+    "passage": "دوره‌ی آموزشی زبان انگلیسی در آموزشگاه «پویا» شامل ۴۰ جلسه است.",
+    "question": "دوره‌ی زبان انگلیسی آموزشگاه پویا شامل چند جلسه است؟",
+    "correct_answer": "۴۰ جلسه",
+    "foils": [
+      "۲۰ جلسه",
+      "۳۰ جلسه",
+      "۵۰ جلسه"
+    ]
+  },
+  {
+    "id": 34,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 9,
+    "paraphrase_index": 2,
+    "passage": "دوره‌ی آموزشی زبان انگلیسی در آموزشگاه «پویا» شامل ۴۰ جلسه است.",
+    "question": "تعداد جلسات دوره‌ی آموزش زبان انگلیسی در آموزشگاه پویا چقدر است؟",
+    "correct_answer": "۴۰ جلسه",
+    "foils": [
+      "۲۰ جلسه",
+      "۳۰ جلسه",
+      "۵۰ جلسه"
+    ]
+  },
+  {
+    "id": 35,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 9,
+    "paraphrase_index": 3,
+    "passage": "دوره‌ی آموزشی زبان انگلیسی در آموزشگاه «پویا» شامل ۴۰ جلسه است.",
+    "question": "این دوره‌ی زبان انگلیسی چند جلسه برگزار می‌شود؟",
+    "correct_answer": "۴۰ جلسه",
+    "foils": [
+      "۲۰ جلسه",
+      "۳۰ جلسه",
+      "۵۰ جلسه"
+    ]
+  },
+  {
+    "id": 36,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 9,
+    "paraphrase_index": 4,
+    "passage": "دوره‌ی آموزشی زبان انگلیسی در آموزشگاه «پویا» شامل ۴۰ جلسه است.",
+    "question": "آموزشگاه پویا دوره‌ی زبان انگلیسی را در چند جلسه ارائه می‌دهد؟",
+    "correct_answer": "۴۰ جلسه",
+    "foils": [
+      "۲۰ جلسه",
+      "۳۰ جلسه",
+      "۵۰ جلسه"
+    ]
+  },
+  {
+    "id": 37,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 10,
+    "paraphrase_index": 1,
+    "passage": "شهرداری برای ساخت پارک جدید محله، بودجه‌ای معادل ۸۰۰ میلیون تومان در نظر گرفته است.",
+    "question": "بودجه‌ی ساخت پارک جدید محله چقدر است؟",
+    "correct_answer": "۸۰۰ میلیون تومان",
+    "foils": [
+      "۵۰۰ میلیون تومان",
+      "۶۰۰ میلیون تومان",
+      "۱ میلیارد تومان"
+    ]
+  },
+  {
+    "id": 38,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 10,
+    "paraphrase_index": 2,
+    "passage": "شهرداری برای ساخت پارک جدید محله، بودجه‌ای معادل ۸۰۰ میلیون تومان در نظر گرفته است.",
+    "question": "شهرداری چه میزان بودجه برای ساخت پارک جدید محله در نظر گرفته؟",
+    "correct_answer": "۸۰۰ میلیون تومان",
+    "foils": [
+      "۵۰۰ میلیون تومان",
+      "۶۰۰ میلیون تومان",
+      "۱ میلیارد تومان"
+    ]
+  },
+  {
+    "id": 39,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 10,
+    "paraphrase_index": 3,
+    "passage": "شهرداری برای ساخت پارک جدید محله، بودجه‌ای معادل ۸۰۰ میلیون تومان در نظر گرفته است.",
+    "question": "هزینه‌ی در نظر گرفته‌شده برای احداث پارک جدید محله چقدر است؟",
+    "correct_answer": "۸۰۰ میلیون تومان",
+    "foils": [
+      "۵۰۰ میلیون تومان",
+      "۶۰۰ میلیون تومان",
+      "۱ میلیارد تومان"
+    ]
+  },
+  {
+    "id": 40,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 10,
+    "paraphrase_index": 4,
+    "passage": "شهرداری برای ساخت پارک جدید محله، بودجه‌ای معادل ۸۰۰ میلیون تومان در نظر گرفته است.",
+    "question": "برای ساخت پارک جدید محله چه مقدار بودجه اختصاص یافته است؟",
+    "correct_answer": "۸۰۰ میلیون تومان",
+    "foils": [
+      "۵۰۰ میلیون تومان",
+      "۶۰۰ میلیون تومان",
+      "۱ میلیارد تومان"
+    ]
+  },
+  {
+    "id": 41,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 11,
+    "paraphrase_index": 1,
+    "passage": "کتابفروشی «مرکزی» هر هفته حدود ۳۰۰ جلد کتاب می‌فروشد.",
+    "question": "کتابفروشی مرکزی هر هفته چند جلد کتاب می‌فروشد؟",
+    "correct_answer": "حدود ۳۰۰ جلد",
+    "foils": [
+      "حدود ۱۰۰ جلد",
+      "حدود ۲۰۰ جلد",
+      "حدود ۵۰۰ جلد"
+    ]
+  },
+  {
+    "id": 42,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 11,
+    "paraphrase_index": 2,
+    "passage": "کتابفروشی «مرکزی» هر هفته حدود ۳۰۰ جلد کتاب می‌فروشد.",
+    "question": "میزان فروش هفتگی کتاب در کتابفروشی مرکزی چقدر است؟",
+    "correct_answer": "حدود ۳۰۰ جلد",
+    "foils": [
+      "حدود ۱۰۰ جلد",
+      "حدود ۲۰۰ جلد",
+      "حدود ۵۰۰ جلد"
+    ]
+  },
+  {
+    "id": 43,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 11,
+    "paraphrase_index": 3,
+    "passage": "کتابفروشی «مرکزی» هر هفته حدود ۳۰۰ جلد کتاب می‌فروشد.",
+    "question": "هر هفته چند جلد کتاب از کتابفروشی مرکزی به فروش می‌رسد؟",
+    "correct_answer": "حدود ۳۰۰ جلد",
+    "foils": [
+      "حدود ۱۰۰ جلد",
+      "حدود ۲۰۰ جلد",
+      "حدود ۵۰۰ جلد"
+    ]
+  },
+  {
+    "id": 44,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 11,
+    "paraphrase_index": 4,
+    "passage": "کتابفروشی «مرکزی» هر هفته حدود ۳۰۰ جلد کتاب می‌فروشد.",
+    "question": "فروش هفتگی کتابفروشی مرکزی چند جلد کتاب است؟",
+    "correct_answer": "حدود ۳۰۰ جلد",
+    "foils": [
+      "حدود ۱۰۰ جلد",
+      "حدود ۲۰۰ جلد",
+      "حدود ۵۰۰ جلد"
+    ]
+  },
+  {
+    "id": 45,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 12,
+    "paraphrase_index": 1,
+    "passage": "شرکت هواپیمایی «سپهر» ناوگانی متشکل از ۱۸ فروند هواپیما دارد.",
+    "question": "ناوگان شرکت هواپیمایی سپهر شامل چند فروند هواپیما است؟",
+    "correct_answer": "۱۸ فروند",
+    "foils": [
+      "۱۰ فروند",
+      "۱۴ فروند",
+      "۲۵ فروند"
+    ]
+  },
+  {
+    "id": 46,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 12,
+    "paraphrase_index": 2,
+    "passage": "شرکت هواپیمایی «سپهر» ناوگانی متشکل از ۱۸ فروند هواپیما دارد.",
+    "question": "شرکت هواپیمایی سپهر چند هواپیما در اختیار دارد؟",
+    "correct_answer": "۱۸ فروند",
+    "foils": [
+      "۱۰ فروند",
+      "۱۴ فروند",
+      "۲۵ فروند"
+    ]
+  },
+  {
+    "id": 47,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 12,
+    "paraphrase_index": 3,
+    "passage": "شرکت هواپیمایی «سپهر» ناوگانی متشکل از ۱۸ فروند هواپیما دارد.",
+    "question": "تعداد هواپیماهای ناوگان شرکت سپهر چند فروند است؟",
+    "correct_answer": "۱۸ فروند",
+    "foils": [
+      "۱۰ فروند",
+      "۱۴ فروند",
+      "۲۵ فروند"
+    ]
+  },
+  {
+    "id": 48,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 12,
+    "paraphrase_index": 4,
+    "passage": "شرکت هواپیمایی «سپهر» ناوگانی متشکل از ۱۸ فروند هواپیما دارد.",
+    "question": "چند فروند هواپیما در ناوگان شرکت هواپیمایی سپهر وجود دارد؟",
+    "correct_answer": "۱۸ فروند",
+    "foils": [
+      "۱۰ فروند",
+      "۱۴ فروند",
+      "۲۵ فروند"
+    ]
+  },
+  {
+    "id": 49,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 13,
+    "paraphrase_index": 1,
+    "passage": "بیمارستان شهر یک بخش اورژانس با ظرفیت ۵۰ تخت دارد.",
+    "question": "بخش اورژانس بیمارستان شهر چند تخت دارد؟",
+    "correct_answer": "۵۰ تخت",
+    "foils": [
+      "۳۰ تخت",
+      "۴۰ تخت",
+      "۶۰ تخت"
+    ]
+  },
+  {
+    "id": 50,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 13,
+    "paraphrase_index": 2,
+    "passage": "بیمارستان شهر یک بخش اورژانس با ظرفیت ۵۰ تخت دارد.",
+    "question": "ظرفیت تخت‌های بخش اورژانس بیمارستان شهر چقدر است؟",
+    "correct_answer": "۵۰ تخت",
+    "foils": [
+      "۳۰ تخت",
+      "۴۰ تخت",
+      "۶۰ تخت"
+    ]
+  },
+  {
+    "id": 51,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 13,
+    "paraphrase_index": 3,
+    "passage": "بیمارستان شهر یک بخش اورژانس با ظرفیت ۵۰ تخت دارد.",
+    "question": "بخش اورژانس این بیمارستان چند تخت در اختیار دارد؟",
+    "correct_answer": "۵۰ تخت",
+    "foils": [
+      "۳۰ تخت",
+      "۴۰ تخت",
+      "۶۰ تخت"
+    ]
+  },
+  {
+    "id": 52,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 13,
+    "paraphrase_index": 4,
+    "passage": "بیمارستان شهر یک بخش اورژانس با ظرفیت ۵۰ تخت دارد.",
+    "question": "چند تخت در بخش اورژانس بیمارستان شهر موجود است؟",
+    "correct_answer": "۵۰ تخت",
+    "foils": [
+      "۳۰ تخت",
+      "۴۰ تخت",
+      "۶۰ تخت"
+    ]
+  },
+  {
+    "id": 53,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 14,
+    "paraphrase_index": 1,
+    "passage": "پروژه‌ی ساخت پل جدید قرار است ظرف ۱۸ ماه تکمیل شود.",
+    "question": "ساخت پل جدید چند ماه طول می‌کشد؟",
+    "correct_answer": "۱۸ ماه",
+    "foils": [
+      "۱۲ ماه",
+      "۲۴ ماه",
+      "۳۰ ماه"
+    ]
+  },
+  {
+    "id": 54,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 14,
+    "paraphrase_index": 2,
+    "passage": "پروژه‌ی ساخت پل جدید قرار است ظرف ۱۸ ماه تکمیل شود.",
+    "question": "مدت‌زمان تکمیل پروژه‌ی پل جدید چقدر است؟",
+    "correct_answer": "۱۸ ماه",
+    "foils": [
+      "۱۲ ماه",
+      "۲۴ ماه",
+      "۳۰ ماه"
+    ]
+  },
+  {
+    "id": 55,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 14,
+    "paraphrase_index": 3,
+    "passage": "پروژه‌ی ساخت پل جدید قرار است ظرف ۱۸ ماه تکمیل شود.",
+    "question": "پروژه‌ی پل جدید قرار است در چند ماه به پایان برسد؟",
+    "correct_answer": "۱۸ ماه",
+    "foils": [
+      "۱۲ ماه",
+      "۲۴ ماه",
+      "۳۰ ماه"
+    ]
+  },
+  {
+    "id": 56,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 14,
+    "paraphrase_index": 4,
+    "passage": "پروژه‌ی ساخت پل جدید قرار است ظرف ۱۸ ماه تکمیل شود.",
+    "question": "پیش‌بینی می‌شود ساخت پل جدید ظرف چند ماه تمام شود؟",
+    "correct_answer": "۱۸ ماه",
+    "foils": [
+      "۱۲ ماه",
+      "۲۴ ماه",
+      "۳۰ ماه"
+    ]
+  },
+  {
+    "id": 57,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 15,
+    "paraphrase_index": 1,
+    "passage": "دانشگاه علوم پایه هر سال حدود ۶۰۰ دانشجوی جدید می‌پذیرد.",
+    "question": "دانشگاه علوم پایه هر سال چند دانشجوی جدید می‌پذیرد؟",
+    "correct_answer": "حدود ۶۰۰ نفر",
+    "foils": [
+      "حدود ۳۰۰ نفر",
+      "حدود ۴۰۰ نفر",
+      "حدود ۸۰۰ نفر"
+    ]
+  },
+  {
+    "id": 58,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 15,
+    "paraphrase_index": 2,
+    "passage": "دانشگاه علوم پایه هر سال حدود ۶۰۰ دانشجوی جدید می‌پذیرد.",
+    "question": "تعداد دانشجویان جدیدی که سالانه در دانشگاه علوم پایه پذیرفته می‌شوند چقدر است؟",
+    "correct_answer": "حدود ۶۰۰ نفر",
+    "foils": [
+      "حدود ۳۰۰ نفر",
+      "حدود ۴۰۰ نفر",
+      "حدود ۸۰۰ نفر"
+    ]
+  },
+  {
+    "id": 59,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 15,
+    "paraphrase_index": 3,
+    "passage": "دانشگاه علوم پایه هر سال حدود ۶۰۰ دانشجوی جدید می‌پذیرد.",
+    "question": "این دانشگاه هر سال چند نفر دانشجوی جدید جذب می‌کند؟",
+    "correct_answer": "حدود ۶۰۰ نفر",
+    "foils": [
+      "حدود ۳۰۰ نفر",
+      "حدود ۴۰۰ نفر",
+      "حدود ۸۰۰ نفر"
+    ]
+  },
+  {
+    "id": 60,
+    "task_type": "paraphrase_robustness",
+    "subtype": "paraphrase_variant",
+    "family_id": 15,
+    "paraphrase_index": 4,
+    "passage": "دانشگاه علوم پایه هر سال حدود ۶۰۰ دانشجوی جدید می‌پذیرد.",
+    "question": "میزان پذیرش دانشجوی جدید در دانشگاه علوم پایه هر سال چند نفر است؟",
+    "correct_answer": "حدود ۶۰۰ نفر",
+    "foils": [
+      "حدود ۳۰۰ نفر",
+      "حدود ۴۰۰ نفر",
+      "حدود ۸۰۰ نفر"
+    ]
+  }
+]

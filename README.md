@@ -155,6 +155,90 @@ See `docs/tasks/proverbs_task.md` for full details.
 
 See `docs/tasks/ieham_task.md` for full details.
 
+### Minimal pairs task (Phase 3)
+- 64 hand-authored Persian sentence pairs across 8 grammatical phenomena
+  (subject-verb agreement, verb-final word order, the «را» definite-object
+  marker, negation-prefix placement, tense/adverb agreement, plural
+  double-marking, the comparative suffix «تر», and locative preposition
+  compatibility) — one sentence per pair is grammatical, the other a
+  minimally-edited ungrammatical variant.
+- `scripts/prepare_minimal_pairs_task.py` deterministically randomizes
+  which sentence is labeled الف vs. ب per sample, then produces a 2-option
+  `TaskSample` with `gold_answer` = the grammatical sentence's letter —
+  reusing the same exact-match scoring path as every prior closed-set task.
+  No distractor pool needed (unlike Aroozi/MMLU-lite), since the pair
+  itself is already a fixed 2-way choice.
+
+See `docs/tasks/minimal_pairs_task.md` for full details.
+
+### Contradiction & consistency task (Phase 3)
+- Standard 3-way NLI (entailment / contradiction / neutral), built from 20
+  hand-authored premises, each paired with one entailed, one contradicting,
+  and one neutral hypothesis (60 samples, perfectly balanced 20/20/20).
+- `scripts/prepare_contradiction_consistency_task.py` presents the premise,
+  hypothesis, and all three relation labels (order deterministically
+  shuffled per sample) as a `TaskSample` with `gold_answer` = the correct
+  label's letter — same exact-match scoring path as every prior closed-set
+  task; no distractor pool needed since the label set is fixed at 3.
+
+See `docs/tasks/contradiction_consistency_task.md` for full details.
+
+### Abstention task (Phase 3)
+- Tests whether a model recognizes the limits of what it can answer,
+  built from 18 hand-authored passages, each paired with an `answerable`,
+  an `insufficient_info`, and a `false_premise` question (54 samples,
+  perfectly balanced 18/18/18).
+- `scripts/prepare_abstention_task.py` shows every question — regardless
+  of subtype — the same four options (real answer, plausible-wrong foil,
+  a fixed "insufficient information" statement, a fixed "false premise"
+  statement), order deterministically shuffled per sample. Which option is
+  correct depends only on the subtype, so a model can't succeed by always
+  answering or always hedging. Produces a `TaskSample` with `gold_answer` =
+  the correct option's letter — same exact-match scoring path as every
+  prior closed-set task.
+
+See `docs/tasks/abstention_task.md` for full details.
+
+### Paraphrase robustness task (Phase 3)
+- Tests whether a model's answer stays correct and consistent when the same
+  underlying question is reworded, built from 15 hand-authored
+  `(passage, correct_answer, 3 foils)` families, each expressed as 4
+  differently-worded questions asking exactly the same thing (60 samples).
+- `scripts/prepare_paraphrase_robustness_task.py` keeps the passage, correct
+  answer, and foils identical across all 4 paraphrases of a family — only
+  the question wording changes — while still reshuffling option display
+  order per sample (keyed off the individual sample, not the shared family)
+  so a model can't look robust by memorizing a letter position instead of
+  re-reading each paraphrase. Produces a `TaskSample` with `gold_answer` =
+  the correct option's letter — same exact-match scoring path as every
+  prior closed-set task. Family-level robustness (do all 4 paraphrases
+  agree?) is left as an aggregation-time computation over `extra.family_id`.
+
+See `docs/tasks/paraphrase_robustness_task.md` for full details.
+
+### Multi-Constraint task (Phase 3)
+- 80 fully-synthetic samples (`scripts/generate_multi_constraint_data.py`,
+  same generation style as Phase 1's IFEval-lite), combining 2-3
+  simultaneous rule-checkable constraints per sample across 4 categories
+  (`length_keyword`, `length_position`, `keyword_position`, `triple_combo`)
+  — strictly harder than IFEval-lite's single-constraint version.
+- Reuses IFEval-lite's exact constraint vocabulary and rule-based checkers
+  (`src/utils/instruction_utils.py`) — no new checker logic. Constraints
+  are combined only in verified-compatible groups (at most one length
+  constraint per sample; keyword constraints never target overlapping
+  include/exclude words; start/end words always differ), confirmed by an
+  automated all-80-samples check plus a hand-verified feasibility test.
+- New `extra.rule_constraints` key (list of constraint dicts) and one
+  additive `elif` branch in `runner.py`: `correctness = 1` only if **all**
+  constraints pass. Deliberately independent from Persian Controllability's
+  similarly-named `extra.constraints`, which is judge-based and would be
+  the wrong path for this fully rule-based task. No schema changes (reuses
+  the existing generic `notes` field for per-constraint pass/fail detail).
+
+See `docs/tasks/multi_constraint_task.md` for full details.
+
+This completes all 5 planned Phase 3 tasks.
+
 ### Deep Brainstorm task (Phase 4)
 - 4 hand-authored open-ended Persian prompts across 4 categories
   (`open_problem_solving`, `creative_ideation`, `policy_or_social`,
@@ -310,6 +394,10 @@ pytest tests/ -v
 - [x] Phase 2 — Script disambiguation (done; see `docs/tasks/script_disambiguation_task.md`)
 - [x] Phase 2 — Proverbs (done; see `docs/tasks/proverbs_task.md`)
 - [x] Phase 2 — Wordplay / ieham (done; see `docs/tasks/ieham_task.md`)
-- [ ] Phase 3 — Minimal pairs, contradiction & consistency, abstention, paraphrase robustness, multi-constraint
+- [x] Phase 3 — Minimal pairs (done; see `docs/tasks/minimal_pairs_task.md`)
+- [x] Phase 3 — Contradiction & consistency (done; see `docs/tasks/contradiction_consistency_task.md`)
+- [x] Phase 3 — Abstention (done; see `docs/tasks/abstention_task.md`)
+- [x] Phase 3 — Paraphrase robustness (done; see `docs/tasks/paraphrase_robustness_task.md`)
+- [x] Phase 3 — Multi-constraint (done; see `docs/tasks/multi_constraint_task.md`) — **Phase 3 complete**
 - [x] Phase 4 — Persian controllability (done; see `docs/tasks/persian_controllability_task.md`)
 - [x] Phase 4 — Deep brainstorm (done; see `docs/tasks/deep_brainstorm_task.md`)
